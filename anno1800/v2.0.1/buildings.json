@@ -325,7 +325,21 @@
     ],
     "workforceType": "farmer",
     "workforceAmount": 20,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "grain_field_144",
+      "base_count": 144,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "cattle_farm_4",
@@ -369,7 +383,21 @@
     ],
     "workforceType": "farmer",
     "workforceAmount": 20,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "hop_field_96",
+      "base_count": 96,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "potato_farm_72",
@@ -388,7 +416,21 @@
     ],
     "workforceType": "farmer",
     "workforceAmount": 20,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "potato_field_72",
+      "base_count": 72,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "lumberjacks_hut",
@@ -438,7 +480,21 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "sheepfold_3",
+      "base_count": 3,
+      "type": "module"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "pig_farm_5",
@@ -463,7 +519,21 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "pig_sty_5",
+      "base_count": 5,
+      "type": "module"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "hunting_cabin",
@@ -1596,7 +1666,21 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "sugar_cane_crop_128",
+      "base_count": 128,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "tobacco_plantation_192",
@@ -1615,7 +1699,21 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "tobacco_field_192",
+      "base_count": 192,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "cotton_plantation_144",
@@ -1634,7 +1732,21 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "cotton_field_144",
+      "base_count": 144,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "cocoa_plantation_128",
@@ -1653,7 +1765,21 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "cocoa_grove_128",
+      "base_count": 128,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "caoutchouc_plantation_144",
@@ -1672,7 +1798,21 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "caoutchouc_grove_144",
+      "base_count": 144,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "lumberjacks_hut_101260",
@@ -1716,7 +1856,21 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "coffee_crop_168",
+      "base_count": 168,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "plantain_plantation_128",
@@ -1735,7 +1889,21 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "plantain_grove_128",
+      "base_count": 128,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "cattle_farm_6",
@@ -1779,7 +1947,21 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "cornfield_168",
+      "base_count": 168,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "alpaca_farm_4",
@@ -1804,7 +1986,21 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "alpaca_pasture_4",
+      "base_count": 4,
+      "type": "module"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "pearl_farm",
@@ -1970,7 +2166,7 @@
   },
   {
     "id": "bombin_weaver",
-    "name": "Bombín Weaver",
+    "name": "Bomb\u00edn Weaver",
     "guid": 101273,
     "region": "New World",
     "type": "factory",
@@ -2297,7 +2493,21 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "goose_pen_5",
+      "base_count": 5,
+      "type": "module"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "bear_hunting_cabin",
@@ -2349,7 +2559,21 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "husky_run_4",
+      "base_count": 4,
+      "type": "module"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "prime_hunting_cabin",
@@ -3195,7 +3419,21 @@
     ],
     "workforceType": "shepherd",
     "workforceAmount": 15,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "hibiscus_field_144",
+      "base_count": 144,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "teff_farm_168",
@@ -3216,7 +3454,21 @@
     "workforceAmount": 20,
     "dlcsRequired": [
       "land_of_lions"
-    ]
+    ],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "teff_grass_field_168",
+      "base_count": 168,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "indigo_farm_144",
@@ -3235,7 +3487,21 @@
     ],
     "workforceType": "shepherd",
     "workforceAmount": 20,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "indigo_field_144",
+      "base_count": 144,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "spice_farm_128",
@@ -3254,7 +3520,21 @@
     ],
     "workforceType": "shepherd",
     "workforceAmount": 15,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "spice_field_128",
+      "base_count": 128,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "apiary_192",
@@ -3273,7 +3553,21 @@
     ],
     "workforceType": "shepherd",
     "workforceAmount": 30,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_field",
+    "cultivation": {
+      "module_id": "apiary_field_192",
+      "base_count": 192,
+      "type": "field"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "sanga_farm_5",
@@ -3298,7 +3592,21 @@
       "requiresRoad": false,
       "radius": 9
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "sanga_field_5",
+      "base_count": 5,
+      "type": "module"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "goat_farm_4",
@@ -3323,7 +3631,21 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "goat_pen_4",
+      "base_count": 4,
+      "type": "module"
+    },
+    "modifiers": {
+      "silo": {
+        "allowed": false
+      },
+      "tractor": {
+        "allowed": false
+      }
+    }
   },
   {
     "id": "salt_works",
@@ -8761,13 +9083,14 @@
     "id": "grain_field_144",
     "name": "Grain Field - (144)",
     "guid": 1010270,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "pasture_4",
@@ -8785,49 +9108,53 @@
     "id": "hop_field_96",
     "name": "Hop Field - (96)",
     "guid": 1010272,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "potato_field_72",
     "name": "Potato Field - (72)",
     "guid": 1010273,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "sheepfold_3",
     "name": "Sheepfold - (3)",
     "guid": 1010275,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "pig_sty_5",
     "name": "Pig Sty - (5)",
     "guid": 1010277,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 2,
       "h": 3
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "vines_128",
@@ -10761,85 +11088,92 @@
     "id": "sugar_cane_crop_128",
     "name": "Sugar Cane Crop - (128)",
     "guid": 1010334,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "tobacco_field_192",
     "name": "Tobacco Field - (192)",
     "guid": 1010335,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "cotton_field_144",
     "name": "Cotton Field - (144)",
     "guid": 1010336,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "cocoa_grove_128",
     "name": "Cocoa Grove - (128)",
     "guid": 1010337,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "caoutchouc_grove_144",
     "name": "Caoutchouc Grove - (144)",
     "guid": 1010338,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "coffee_crop_168",
     "name": "Coffee Crop - (168)",
     "guid": 101253,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "plantain_grove_128",
     "name": "Plantain Grove - (128)",
     "guid": 101280,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "pasture_6",
@@ -10857,25 +11191,27 @@
     "id": "cornfield_168",
     "name": "Cornfield - (168)",
     "guid": 101282,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "alpaca_pasture_4",
     "name": "Alpaca Pasture - (4)",
     "guid": 101283,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "oil_well_100524",
@@ -11119,25 +11455,27 @@
     "id": "goose_pen_5",
     "name": "Goose Pen - (5)",
     "guid": 112677,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 2,
       "h": 3
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "husky_run_4",
     "name": "Husky Run - (4)",
     "guid": 112683,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "gas_deposit",
@@ -11524,7 +11862,7 @@
   },
   {
     "id": "restaurant_venison_en_croute",
-    "name": "Restaurant: Venison en Croûte",
+    "name": "Restaurant: Venison en Cro\u00fbte",
     "guid": 133340,
     "type": "building",
     "size": {
@@ -11544,7 +11882,7 @@
   },
   {
     "id": "restaurant_lobster_cheminee",
-    "name": "Restaurant: Lobster Cheminée",
+    "name": "Restaurant: Lobster Chemin\u00e9e",
     "guid": 133341,
     "type": "building",
     "size": {
@@ -11676,7 +12014,7 @@
   },
   {
     "id": "cafe",
-    "name": "Café",
+    "name": "Caf\u00e9",
     "guid": 132782,
     "type": "building",
     "size": {
@@ -11696,7 +12034,7 @@
   },
   {
     "id": "cafe_donut_fourre",
-    "name": "Cafe: Donut Fourré",
+    "name": "Cafe: Donut Fourr\u00e9",
     "guid": 132753,
     "type": "building",
     "size": {
@@ -13352,13 +13690,14 @@
     "id": "hibiscus_field_144",
     "name": "Hibiscus Field - (144)",
     "guid": 114488,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "flax_field_96",
@@ -13376,7 +13715,7 @@
     "id": "teff_grass_field_168",
     "name": "Teff Grass Field - (168)",
     "guid": 114492,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
@@ -13384,67 +13723,73 @@
     "icon": "A7_farmfield_module.png",
     "dlcsRequired": [
       "land_of_lions"
-    ]
+    ],
+    "category": "module"
   },
   {
     "id": "indigo_field_144",
     "name": "Indigo Field - (144)",
     "guid": 114494,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "spice_field_128",
     "name": "Spice Field - (128)",
     "guid": 114495,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "apiary_field_192",
     "name": "Apiary Field - (192)",
     "guid": 114496,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "sanga_field_5",
     "name": "Sanga Field - (5)",
     "guid": 114499,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 4
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "goat_pen_4",
     "name": "Goat Pen - (4)",
     "guid": 114498,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "marketplace_114518",
