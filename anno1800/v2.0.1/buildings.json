@@ -313,7 +313,7 @@
     "name": "Grain Farm - (144)",
     "guid": 1010262,
     "region": "Old World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 3
@@ -325,14 +325,15 @@
     ],
     "workforceType": "farmer",
     "workforceAmount": 20,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "cattle_farm_4",
     "name": "Cattle Farm - (4)",
     "guid": 1010263,
     "region": "Old World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 5
@@ -350,14 +351,15 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "hop_farm_96",
     "name": "Hop Farm - (96)",
     "guid": 1010264,
     "region": "Old World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
@@ -369,14 +371,15 @@
     ],
     "workforceType": "farmer",
     "workforceAmount": 20,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "potato_farm_72",
     "name": "Potato Farm - (72)",
     "guid": 1010265,
     "region": "Old World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -388,7 +391,8 @@
     ],
     "workforceType": "farmer",
     "workforceAmount": 20,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "lumberjacks_hut",
@@ -420,7 +424,7 @@
     "name": "Sheep Farm - (3)",
     "guid": 1010267,
     "region": "Old World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -438,14 +442,15 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "pig_farm_5",
     "name": "Pig Farm - (5)",
     "guid": 1010269,
     "region": "Old World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 3
@@ -463,7 +468,8 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "hunting_cabin",
@@ -495,7 +501,7 @@
     "name": "Red Pepper Farm - (108)",
     "guid": 100654,
     "region": "Old World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -507,14 +513,15 @@
     ],
     "workforceType": "farmer",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "vineyard_128",
     "name": "Vineyard - (128)",
     "guid": 100655,
     "region": "Old World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 3
@@ -526,7 +533,8 @@
     ],
     "workforceType": "farmer",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "fishery",
@@ -1584,7 +1592,7 @@
     "name": "Sugar Cane Plantation - (128)",
     "guid": 1010329,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
@@ -1596,14 +1604,15 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "tobacco_plantation_192",
     "name": "Tobacco Plantation - (192)",
     "guid": 1010330,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 3
@@ -1615,14 +1624,15 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "cotton_plantation_144",
     "name": "Cotton Plantation - (144)",
     "guid": 1010331,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 4
@@ -1634,14 +1644,15 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "cocoa_plantation_128",
     "name": "Cocoa Plantation - (128)",
     "guid": 1010332,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 5,
       "h": 4
@@ -1653,14 +1664,15 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "caoutchouc_plantation_144",
     "name": "Caoutchouc Plantation - (144)",
     "guid": 1010333,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -1672,7 +1684,8 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "lumberjacks_hut_101260",
@@ -1704,7 +1717,7 @@
     "name": "Coffee Plantation - (168)",
     "guid": 101251,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
@@ -1716,14 +1729,15 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "plantain_plantation_128",
     "name": "Plantain Plantation - (128)",
     "guid": 101263,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -1735,14 +1749,15 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "cattle_farm_6",
     "name": "Cattle Farm - (6)",
     "guid": 101269,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 5
@@ -1760,14 +1775,15 @@
       "requiresRoad": false,
       "radius": 10
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "corn_farm_168",
     "name": "Corn Farm - (168)",
     "guid": 101270,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -1779,14 +1795,15 @@
     ],
     "workforceType": "jornalero",
     "workforceAmount": 10,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "alpaca_farm_4",
     "name": "Alpaca Farm - (4)",
     "guid": 101272,
     "region": "New World",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -1804,7 +1821,8 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "pearl_farm",
@@ -1970,7 +1988,7 @@
   },
   {
     "id": "bombin_weaver",
-    "name": "Bombín Weaver",
+    "name": "Bomb\u00edn Weaver",
     "guid": 101273,
     "region": "New World",
     "type": "factory",
@@ -2279,7 +2297,7 @@
     "name": "Goose Farm - (5)",
     "guid": 112676,
     "region": "Arctic",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -2297,7 +2315,8 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "bear_hunting_cabin",
@@ -2331,7 +2350,7 @@
     "name": "Husky Farm - (4)",
     "guid": 112682,
     "region": "Arctic",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
@@ -2349,7 +2368,8 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "prime_hunting_cabin",
@@ -2663,7 +2683,13 @@
     ],
     "workforceType": "worker",
     "workforceAmount": 75,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "fuel_station_3",
+      "base_count": 3,
+      "type": "module"
+    }
   },
   {
     "id": "fuel_station_269840",
@@ -2684,7 +2710,13 @@
     ],
     "workforceType": "obrero",
     "workforceAmount": 75,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "fuel_station_3",
+      "base_count": 3,
+      "type": "module"
+    }
   },
   {
     "id": "fuel_station_119028",
@@ -2705,7 +2737,13 @@
     ],
     "workforceType": "elder",
     "workforceAmount": 75,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "sub_category": "cultivation_module",
+    "cultivation": {
+      "module_id": "fuel_station_3",
+      "base_count": 3,
+      "type": "module"
+    }
   },
   {
     "id": "orchard_coconut_oil",
@@ -3164,7 +3202,7 @@
     "name": "Linseed Farm - (96)",
     "guid": 114448,
     "region": "Enbesa",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -3176,14 +3214,15 @@
     ],
     "workforceType": "shepherd",
     "workforceAmount": 5,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "hibiscus_farm_144",
     "name": "Hibiscus Farm - (144)",
     "guid": 114447,
     "region": "Enbesa",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 3
@@ -3195,14 +3234,15 @@
     ],
     "workforceType": "shepherd",
     "workforceAmount": 15,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "teff_farm_168",
     "name": "Teff Farm - (168)",
     "guid": 114450,
     "region": "Enbesa",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 3
@@ -3216,14 +3256,15 @@
     "workforceAmount": 20,
     "dlcsRequired": [
       "land_of_lions"
-    ]
+    ],
+    "category": "module"
   },
   {
     "id": "indigo_farm_144",
     "name": "Indigo Farm - (144)",
     "guid": 114451,
     "region": "Enbesa",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 4
@@ -3235,14 +3276,15 @@
     ],
     "workforceType": "shepherd",
     "workforceAmount": 20,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "spice_farm_128",
     "name": "Spice Farm - (128)",
     "guid": 114452,
     "region": "Enbesa",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 4
@@ -3254,14 +3296,15 @@
     ],
     "workforceType": "shepherd",
     "workforceAmount": 15,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "apiary_192",
     "name": "Apiary - (192)",
     "guid": 114453,
     "region": "Enbesa",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -3273,14 +3316,15 @@
     ],
     "workforceType": "shepherd",
     "workforceAmount": 30,
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "sanga_farm_5",
     "name": "Sanga Farm - (5)",
     "guid": 114439,
     "region": "Enbesa",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
@@ -3298,14 +3342,15 @@
       "requiresRoad": false,
       "radius": 9
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "goat_farm_4",
     "name": "Goat Farm - (4)",
     "guid": 114456,
     "region": "Enbesa",
-    "type": "factory",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 3
@@ -3323,7 +3368,8 @@
       "requiresRoad": false,
       "radius": 7
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "salt_works",
@@ -8718,13 +8764,14 @@
     "id": "aquafarm_5",
     "name": "Aquafarm - (5)",
     "guid": 24134,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 4
     },
     "icon": "A7_fish_ggj_1.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "water_pump",
@@ -8761,97 +8808,105 @@
     "id": "grain_field_144",
     "name": "Grain Field - (144)",
     "guid": 1010270,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "pasture_4",
     "name": "Pasture - (4)",
     "guid": 1010271,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "hop_field_96",
     "name": "Hop Field - (96)",
     "guid": 1010272,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "potato_field_72",
     "name": "Potato Field - (72)",
     "guid": 1010273,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "sheepfold_3",
     "name": "Sheepfold - (3)",
     "guid": 1010275,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "pig_sty_5",
     "name": "Pig Sty - (5)",
     "guid": 1010277,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 2,
       "h": 3
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "vines_128",
     "name": "Vines - (128)",
     "guid": 100657,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "pepper_crop_108",
     "name": "Pepper Crop - (108)",
     "guid": 100656,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "clay_deposit",
@@ -10761,121 +10816,131 @@
     "id": "sugar_cane_crop_128",
     "name": "Sugar Cane Crop - (128)",
     "guid": 1010334,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "tobacco_field_192",
     "name": "Tobacco Field - (192)",
     "guid": 1010335,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "cotton_field_144",
     "name": "Cotton Field - (144)",
     "guid": 1010336,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "cocoa_grove_128",
     "name": "Cocoa Grove - (128)",
     "guid": 1010337,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "caoutchouc_grove_144",
     "name": "Caoutchouc Grove - (144)",
     "guid": 1010338,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "coffee_crop_168",
     "name": "Coffee Crop - (168)",
     "guid": 101253,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "plantain_grove_128",
     "name": "Plantain Grove - (128)",
     "guid": 101280,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "pasture_6",
     "name": "Pasture - (6)",
     "guid": 101281,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "cornfield_168",
     "name": "Cornfield - (168)",
     "guid": 101282,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "alpaca_pasture_4",
     "name": "Alpaca Pasture - (4)",
     "guid": 101283,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 3
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "oil_well_100524",
@@ -11119,25 +11184,27 @@
     "id": "goose_pen_5",
     "name": "Goose Pen - (5)",
     "guid": 112677,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 2,
       "h": 3
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "husky_run_4",
     "name": "Husky Run - (4)",
     "guid": 112683,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "gas_deposit",
@@ -11524,7 +11591,7 @@
   },
   {
     "id": "restaurant_venison_en_croute",
-    "name": "Restaurant: Venison en Croûte",
+    "name": "Restaurant: Venison en Cro\u00fbte",
     "guid": 133340,
     "type": "building",
     "size": {
@@ -11544,7 +11611,7 @@
   },
   {
     "id": "restaurant_lobster_cheminee",
-    "name": "Restaurant: Lobster Cheminée",
+    "name": "Restaurant: Lobster Chemin\u00e9e",
     "guid": 133341,
     "type": "building",
     "size": {
@@ -11676,7 +11743,7 @@
   },
   {
     "id": "cafe",
-    "name": "Café",
+    "name": "Caf\u00e9",
     "guid": 132782,
     "type": "building",
     "size": {
@@ -11696,7 +11763,7 @@
   },
   {
     "id": "cafe_donut_fourre",
-    "name": "Cafe: Donut Fourré",
+    "name": "Cafe: Donut Fourr\u00e9",
     "guid": 132753,
     "type": "building",
     "size": {
@@ -13352,31 +13419,33 @@
     "id": "hibiscus_field_144",
     "name": "Hibiscus Field - (144)",
     "guid": 114488,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "flax_field_96",
     "name": "Flax Field - (96)",
     "guid": 114490,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "teff_grass_field_168",
     "name": "Teff Grass Field - (168)",
     "guid": 114492,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
@@ -13384,67 +13453,73 @@
     "icon": "A7_farmfield_module.png",
     "dlcsRequired": [
       "land_of_lions"
-    ]
+    ],
+    "category": "module"
   },
   {
     "id": "indigo_field_144",
     "name": "Indigo Field - (144)",
     "guid": 114494,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "spice_field_128",
     "name": "Spice Field - (128)",
     "guid": 114495,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "apiary_field_192",
     "name": "Apiary Field - (192)",
     "guid": 114496,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 1,
       "h": 1
     },
     "icon": "A7_farmfield_module.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "sanga_field_5",
     "name": "Sanga Field - (5)",
     "guid": 114499,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 4,
       "h": 4
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "goat_pen_4",
     "name": "Goat Pen - (4)",
     "guid": 114498,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 3,
       "h": 4
     },
     "icon": "A7_general_module_01.png",
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "marketplace_114518",
@@ -13742,7 +13817,7 @@
     "id": "fuel_station_3",
     "name": "Fuel Station - (3)",
     "guid": 24836,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 5,
       "h": 5
@@ -13754,7 +13829,8 @@
       "requiresRoad": false,
       "radius": 12
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "coal_coking_furnace",
@@ -13772,7 +13848,7 @@
     "id": "cyanide_leacher_8",
     "name": "Cyanide Leacher - (8)",
     "guid": 24844,
-    "type": "building",
+    "type": "module",
     "size": {
       "w": 9,
       "h": 6
@@ -13784,7 +13860,8 @@
       "requiresRoad": false,
       "radius": 12
     },
-    "dlcsRequired": []
+    "dlcsRequired": [],
+    "category": "module"
   },
   {
     "id": "oxidation_pool",
