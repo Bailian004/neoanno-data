@@ -10,11 +10,11 @@ via static hosting (GitHub Pages). The app pins to a data version and loads JSON
 Primary (recommended): GitHub Pages
 
 Base URL:
-- https://<USER>.github.io/neoanno-data/
+- https://bailian004.github.io/neoanno-data/
 
 Examples:
-- https://<USER>.github.io/neoanno-data/versions/latest.json
-- https://<USER>.github.io/neoanno-data/anno1800/v2.0.1/buildings.json
+- https://bailian004.github.io/neoanno-data/versions/latest.json
+- https://bailian004.github.io/neoanno-data/anno1800/v2.0.1/buildings.json
 
 Optional fallback:
 - https://raw.githubusercontent.com/<USER>/neoanno-data/main/...
