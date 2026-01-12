@@ -1,5 +1,5 @@
 {
-  "id": "v2.0.1",
+  "id": "v2.0.4",
   "game": "anno1800",
   "files": [
     "meta.json",
@@ -17,3 +17,4 @@
     "build-report.json"
   ]
 }
+
