@@ -1,0 +1,1127 @@
+{
+  "dlcsRequired": [
+    "docklands"
+  ],
+  "loading": {
+    "loadingSpeedFactor": 3,
+    "minimumLoadingTime": 15,
+    "traderTransferMinutes": 20
+  },
+  "piers": [
+    {
+      "guid": 601470,
+      "id": "docklands_main_wharf",
+      "name": "Docklands Main Wharf",
+      "loadingSpeed": 120,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_docklands_main.png"
+    },
+    {
+      "guid": 1010517,
+      "id": "small_trading_post",
+      "name": "Small Trading Post",
+      "loadingSpeed": 120,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_kontor_main.png"
+    },
+    {
+      "guid": 100510,
+      "id": "medium_trading_post",
+      "name": "Medium Trading Post",
+      "loadingSpeed": 180,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_kontor_main.png"
+    },
+    {
+      "guid": 100511,
+      "id": "large_trading_post",
+      "name": "Large Trading Post",
+      "loadingSpeed": 300,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_kontor_main.png"
+    },
+    {
+      "guid": 269867,
+      "id": "grand_trading_post",
+      "name": "Grand Trading Post",
+      "loadingSpeed": 300,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_kontor_main.png"
+    },
+    {
+      "guid": 1010540,
+      "id": "small_trading_post",
+      "name": "Small Trading Post",
+      "loadingSpeed": 120,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_kontor_main.png"
+    },
+    {
+      "guid": 100514,
+      "id": "medium_trading_post",
+      "name": "Medium Trading Post",
+      "loadingSpeed": 180,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_kontor_main.png"
+    },
+    {
+      "guid": 100515,
+      "id": "large_trading_post",
+      "name": "Large Trading Post",
+      "loadingSpeed": 300,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_kontor_main.png"
+    },
+    {
+      "guid": 269879,
+      "id": "grand_trading_post",
+      "name": "Grand Trading Post",
+      "loadingSpeed": 300,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_kontor_main.png"
+    },
+    {
+      "guid": 100519,
+      "id": "pier",
+      "name": "Pier",
+      "loadingSpeed": 120,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_pier.png"
+    },
+    {
+      "guid": 601460,
+      "id": "pier",
+      "name": "Pier",
+      "loadingSpeed": 180,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_docklands_module_pier.png"
+    },
+    {
+      "guid": 125028,
+      "id": "advanced_pier",
+      "name": "Advanced Pier",
+      "loadingSpeed": 240,
+      "minLoadingTime": 5,
+      "iconPath": "data/ui/2kimages/main/3dicons/icon_pier.png"
+    }
+  ],
+  "pierUpgrades": [
+    {
+      "rarity": "Common",
+      "factor": 1,
+      "maximumAllowedGoods": -1
+    },
+    {
+      "rarity": "Uncommon",
+      "factor": 1.2,
+      "maximumAllowedGoods": 4
+    },
+    {
+      "rarity": "Rare",
+      "factor": 1.4,
+      "maximumAllowedGoods": 3
+    },
+    {
+      "rarity": "Epic",
+      "factor": 1.6,
+      "maximumAllowedGoods": 2
+    },
+    {
+      "rarity": "Legendary",
+      "factor": 2,
+      "maximumAllowedGoods": 1
+    }
+  ],
+  "goods": [
+    {
+      "goodId": "grain",
+      "guid": 1010192,
+      "name": "Grain",
+      "canImport": true,
+      "exchangeWeight": 177.34376,
+      "agio": 1,
+      "importCostWeight": 177.34376,
+      "mainFactoryGuid": 1010262,
+      "producerFactoryGuids": [
+        25128,
+        1010262
+      ]
+    },
+    {
+      "goodId": "beef",
+      "guid": 1010193,
+      "name": "Beef",
+      "canImport": true,
+      "exchangeWeight": 157.34376,
+      "agio": 1,
+      "importCostWeight": 157.34376,
+      "mainFactoryGuid": 1010263,
+      "producerFactoryGuids": [
+        1010263,
+        101269
+      ]
+    },
+    {
+      "goodId": "hops",
+      "guid": 1010194,
+      "name": "Hops",
+      "canImport": true,
+      "exchangeWeight": 183.34376,
+      "agio": 1.2,
+      "importCostWeight": 220.012512,
+      "mainFactoryGuid": 1010264,
+      "producerFactoryGuids": [
+        1010264
+      ]
+    },
+    {
+      "goodId": "potatoes",
+      "guid": 1010195,
+      "name": "Potatoes",
+      "canImport": true,
+      "exchangeWeight": 61.84376,
+      "agio": 1,
+      "importCostWeight": 61.84376,
+      "mainFactoryGuid": 1010265,
+      "producerFactoryGuids": [
+        25019,
+        1010265
+      ]
+    },
+    {
+      "goodId": "wood",
+      "guid": 120008,
+      "name": "Wood",
+      "canImport": true,
+      "exchangeWeight": 69.33594,
+      "agio": 1,
+      "importCostWeight": 69.33594,
+      "mainFactoryGuid": 1010266,
+      "producerFactoryGuids": [
+        1010266,
+        101260,
+        114703
+      ]
+    },
+    {
+      "goodId": "wool",
+      "guid": 1010197,
+      "name": "Wool",
+      "canImport": true,
+      "exchangeWeight": 28.67188,
+      "agio": 1,
+      "importCostWeight": 28.67188,
+      "mainFactoryGuid": 1010267,
+      "producerFactoryGuids": [
+        1010267
+      ]
+    },
+    {
+      "goodId": "pigs",
+      "guid": 1010199,
+      "name": "Pigs",
+      "canImport": true,
+      "exchangeWeight": 74.01563999999999,
+      "agio": 1,
+      "importCostWeight": 74.01563999999999,
+      "mainFactoryGuid": 1010269,
+      "producerFactoryGuids": [
+        1010269
+      ]
+    },
+    {
+      "goodId": "furs",
+      "guid": 1010209,
+      "name": "Furs",
+      "canImport": true,
+      "exchangeWeight": 387.67188,
+      "agio": 1.2,
+      "importCostWeight": 465.20625599999994,
+      "mainFactoryGuid": 1010558,
+      "producerFactoryGuids": [
+        1010558,
+        116034
+      ]
+    },
+    {
+      "goodId": "red_peppers",
+      "guid": 1010198,
+      "name": "Red Peppers",
+      "canImport": true,
+      "exchangeWeight": 244.67188,
+      "agio": 1,
+      "importCostWeight": 244.67188,
+      "mainFactoryGuid": 100654,
+      "producerFactoryGuids": [
+        100654
+      ]
+    },
+    {
+      "goodId": "fish",
+      "guid": 1010200,
+      "name": "Fish",
+      "canImport": true,
+      "exchangeWeight": 70.43361,
+      "agio": 1,
+      "importCostWeight": 70.43361,
+      "mainFactoryGuid": 1010278,
+      "producerFactoryGuids": [
+        1010278
+      ]
+    },
+    {
+      "goodId": "saltpeter",
+      "guid": 1010232,
+      "name": "Saltpetre",
+      "canImport": true,
+      "exchangeWeight": 197.30454250000003,
+      "agio": 1,
+      "importCostWeight": 197.30454250000003,
+      "mainFactoryGuid": 1010310,
+      "producerFactoryGuids": [
+        1010310,
+        8027
+      ]
+    },
+    {
+      "goodId": "quartz_sand",
+      "guid": 1010228,
+      "name": "Quartz Sand",
+      "canImport": true,
+      "exchangeWeight": 80.30454250000001,
+      "agio": 1,
+      "importCostWeight": 80.30454250000001,
+      "mainFactoryGuid": 1010560,
+      "producerFactoryGuids": [
+        1010560
+      ]
+    },
+    {
+      "goodId": "soap",
+      "guid": 1010203,
+      "name": "Soap",
+      "canImport": true,
+      "exchangeWeight": 205.39745,
+      "agio": 1,
+      "importCostWeight": 205.39745,
+      "mainFactoryGuid": 1010281,
+      "producerFactoryGuids": [
+        1010281
+      ]
+    },
+    {
+      "goodId": "timber",
+      "guid": 1010196,
+      "name": "Timber",
+      "canImport": true,
+      "exchangeWeight": 83.00782,
+      "agio": 1,
+      "importCostWeight": 83.00782,
+      "mainFactoryGuid": 100451,
+      "producerFactoryGuids": [
+        100451,
+        101261,
+        114704
+      ]
+    },
+    {
+      "goodId": "fur_coats",
+      "guid": 1010247,
+      "name": "Fur Coats",
+      "canImport": true,
+      "exchangeWeight": 1162.7446759999998,
+      "agio": 1.2,
+      "importCostWeight": 1395.2936111999998,
+      "mainFactoryGuid": 1010325,
+      "producerFactoryGuids": [
+        1010325
+      ]
+    },
+    {
+      "goodId": "light_bulbs",
+      "guid": 1010208,
+      "name": "Light Bulbs",
+      "canImport": true,
+      "exchangeWeight": 1780.6027725,
+      "agio": 1.4,
+      "importCostWeight": 2492.8438814999995,
+      "mainFactoryGuid": 1010286,
+      "producerFactoryGuids": [
+        1010286
+      ]
+    },
+    {
+      "goodId": "clay",
+      "guid": 1010201,
+      "name": "Clay",
+      "canImport": true,
+      "exchangeWeight": 106.46363,
+      "agio": 1,
+      "importCostWeight": 106.46363,
+      "mainFactoryGuid": 100416,
+      "producerFactoryGuids": [
+        100416,
+        101267,
+        117743
+      ]
+    },
+    {
+      "goodId": "sewing_machines",
+      "guid": 1010206,
+      "name": "Sewing Machines",
+      "canImport": true,
+      "exchangeWeight": 812.7386999999999,
+      "agio": 1.4,
+      "importCostWeight": 1137.8341799999998,
+      "mainFactoryGuid": 1010284,
+      "producerFactoryGuids": [
+        1010284,
+        6083
+      ]
+    },
+    {
+      "goodId": "bread",
+      "guid": 1010213,
+      "name": "Bread",
+      "canImport": true,
+      "exchangeWeight": 269.56109000000004,
+      "agio": 1.2,
+      "importCostWeight": 323.47330800000003,
+      "mainFactoryGuid": 1010291,
+      "producerFactoryGuids": [
+        1010291
+      ]
+    },
+    {
+      "goodId": "beer",
+      "guid": 1010214,
+      "name": "Beer",
+      "canImport": true,
+      "exchangeWeight": 517.77842,
+      "agio": 1.4,
+      "importCostWeight": 724.889788,
+      "mainFactoryGuid": 1010292,
+      "producerFactoryGuids": [
+        25064,
+        1010292
+      ]
+    },
+    {
+      "goodId": "goulash",
+      "guid": 1010215,
+      "name": "Goulash",
+      "canImport": true,
+      "exchangeWeight": 636.70794,
+      "agio": 1.2,
+      "importCostWeight": 764.049528,
+      "mainFactoryGuid": 1010293,
+      "producerFactoryGuids": [
+        1010293
+      ]
+    },
+    {
+      "goodId": "canned_food",
+      "guid": 1010217,
+      "name": "Canned Food",
+      "canImport": true,
+      "exchangeWeight": 987.3638699999999,
+      "agio": 1.4,
+      "importCostWeight": 1382.3094179999998,
+      "mainFactoryGuid": 1010295,
+      "producerFactoryGuids": [
+        1010295
+      ]
+    },
+    {
+      "goodId": "schnapps",
+      "guid": 1010216,
+      "name": "Schnapps",
+      "canImport": true,
+      "exchangeWeight": 121.20316,
+      "agio": 1,
+      "importCostWeight": 121.20316,
+      "mainFactoryGuid": 1010294,
+      "producerFactoryGuids": [
+        25350,
+        1010294
+      ]
+    },
+    {
+      "goodId": "sausages",
+      "guid": 1010238,
+      "name": "Sausages",
+      "canImport": true,
+      "exchangeWeight": 149.56108999999998,
+      "agio": 1,
+      "importCostWeight": 149.56108999999998,
+      "mainFactoryGuid": 1010316,
+      "producerFactoryGuids": [
+        1010316
+      ]
+    },
+    {
+      "goodId": "champagne",
+      "guid": 120016,
+      "name": "Champagne",
+      "canImport": true,
+      "exchangeWeight": 1013.6174225,
+      "agio": 1.6,
+      "importCostWeight": 1621.787876,
+      "mainFactoryGuid": 100659,
+      "producerFactoryGuids": [
+        100659
+      ]
+    },
+    {
+      "goodId": "steel",
+      "guid": 1010219,
+      "name": "Steel",
+      "canImport": true,
+      "exchangeWeight": 347.01815999999997,
+      "agio": 1.2,
+      "importCostWeight": 416.4217919999999,
+      "mainFactoryGuid": 1010297,
+      "producerFactoryGuids": [
+        1010297,
+        6080
+      ]
+    },
+    {
+      "goodId": "dynamite",
+      "guid": 1010222,
+      "name": "Dynamite",
+      "canImport": true,
+      "exchangeWeight": 1412.0550425000001,
+      "agio": 1,
+      "importCostWeight": 1412.0550425000001,
+      "mainFactoryGuid": 1010300,
+      "producerFactoryGuids": [
+        1010300
+      ]
+    },
+    {
+      "goodId": "steam_carriages",
+      "guid": 1010225,
+      "name": "Steam Carriages",
+      "canImport": true,
+      "exchangeWeight": 7914.931003,
+      "agio": 1.6,
+      "importCostWeight": 12663.8896048,
+      "mainFactoryGuid": 1010303,
+      "producerFactoryGuids": [
+        1010303
+      ]
+    },
+    {
+      "goodId": "brass",
+      "guid": 1010204,
+      "name": "Brass",
+      "canImport": true,
+      "exchangeWeight": 201.736355,
+      "agio": 1.4,
+      "importCostWeight": 282.43089699999996,
+      "mainFactoryGuid": 1010282,
+      "producerFactoryGuids": [
+        1010282
+      ]
+    },
+    {
+      "goodId": "coal_1010226",
+      "guid": 1010226,
+      "name": "Coal",
+      "canImport": true,
+      "exchangeWeight": 102.96363,
+      "agio": 1,
+      "importCostWeight": 102.96363,
+      "mainFactoryGuid": 1010304,
+      "producerFactoryGuids": [
+        1010298,
+        1010304,
+        114705,
+        1345
+      ]
+    },
+    {
+      "goodId": "iron",
+      "guid": 1010227,
+      "name": "Iron",
+      "canImport": true,
+      "exchangeWeight": 102.96363,
+      "agio": 1,
+      "importCostWeight": 102.96363,
+      "mainFactoryGuid": 1010305,
+      "producerFactoryGuids": [
+        1010305,
+        1388
+      ]
+    },
+    {
+      "goodId": "zinc",
+      "guid": 1010229,
+      "name": "Zinc",
+      "canImport": true,
+      "exchangeWeight": 72.481815,
+      "agio": 1.2,
+      "importCostWeight": 86.978178,
+      "mainFactoryGuid": 1010307,
+      "producerFactoryGuids": [
+        1010307
+      ]
+    },
+    {
+      "goodId": "copper",
+      "guid": 1010230,
+      "name": "Copper",
+      "canImport": true,
+      "exchangeWeight": 72.481815,
+      "agio": 1.2,
+      "importCostWeight": 86.978178,
+      "mainFactoryGuid": 1010308,
+      "producerFactoryGuids": [
+        1010308
+      ]
+    },
+    {
+      "goodId": "cement",
+      "guid": 1010231,
+      "name": "Cement",
+      "canImport": true,
+      "exchangeWeight": 72.481815,
+      "agio": 1.2,
+      "importCostWeight": 86.978178,
+      "mainFactoryGuid": 1010309,
+      "producerFactoryGuids": [
+        1010309
+      ]
+    },
+    {
+      "goodId": "gold_ore",
+      "guid": 1010233,
+      "name": "Gold Ore",
+      "canImport": true,
+      "exchangeWeight": 784.23912,
+      "agio": 1.2,
+      "importCostWeight": 941.0869439999999,
+      "mainFactoryGuid": 101311,
+      "producerFactoryGuids": [
+        101311,
+        116029
+      ]
+    },
+    {
+      "goodId": "tallow",
+      "guid": 1010234,
+      "name": "Tallow",
+      "canImport": true,
+      "exchangeWeight": 133.85199999999998,
+      "agio": 1,
+      "importCostWeight": 133.85199999999998,
+      "mainFactoryGuid": 1010312,
+      "producerFactoryGuids": [
+        1010312
+      ]
+    },
+    {
+      "goodId": "malt",
+      "guid": 1010236,
+      "name": "Malt",
+      "canImport": true,
+      "exchangeWeight": 219.116485,
+      "agio": 1.4,
+      "importCostWeight": 306.763079,
+      "mainFactoryGuid": 1010314,
+      "producerFactoryGuids": [
+        1010314
+      ]
+    },
+    {
+      "goodId": "work_clothes",
+      "guid": 1010237,
+      "name": "Work Clothes",
+      "canImport": true,
+      "exchangeWeight": 90.03128000000001,
+      "agio": 1,
+      "importCostWeight": 90.03128000000001,
+      "mainFactoryGuid": 1010315,
+      "producerFactoryGuids": [
+        1010315
+      ]
+    },
+    {
+      "goodId": "glass",
+      "guid": 1010241,
+      "name": "Glass",
+      "canImport": true,
+      "exchangeWeight": 338.5609425,
+      "agio": 1,
+      "importCostWeight": 338.5609425,
+      "mainFactoryGuid": 1010319,
+      "producerFactoryGuids": [
+        1010319
+      ]
+    },
+    {
+      "goodId": "wood_veneers",
+      "guid": 1010242,
+      "name": "Wood Veneers",
+      "canImport": true,
+      "exchangeWeight": 724.8750399999999,
+      "agio": 1.4,
+      "importCostWeight": 1014.8250559999998,
+      "mainFactoryGuid": 1010320,
+      "producerFactoryGuids": [
+        1010320,
+        101296
+      ]
+    },
+    {
+      "goodId": "filaments",
+      "guid": 1010243,
+      "name": "Filaments",
+      "canImport": true,
+      "exchangeWeight": 775.5027299999999,
+      "agio": 1.2,
+      "importCostWeight": 930.6032759999998,
+      "mainFactoryGuid": 1010321,
+      "producerFactoryGuids": [
+        1010321
+      ]
+    },
+    {
+      "goodId": "penny_farthings",
+      "guid": 1010245,
+      "name": "Penny Farthings",
+      "canImport": true,
+      "exchangeWeight": 1811.1224479999998,
+      "agio": 1,
+      "importCostWeight": 1811.1224479999998,
+      "mainFactoryGuid": 1010323,
+      "producerFactoryGuids": [
+        1010323
+      ]
+    },
+    {
+      "goodId": "pocket_watches",
+      "guid": 1010246,
+      "name": "Pocket Watches",
+      "canImport": true,
+      "exchangeWeight": 3068.9872324999997,
+      "agio": 1.4,
+      "importCostWeight": 4296.582125499999,
+      "mainFactoryGuid": 1010324,
+      "producerFactoryGuids": [
+        1010324
+      ]
+    },
+    {
+      "goodId": "spectacles",
+      "guid": 120030,
+      "name": "Spectacles",
+      "canImport": true,
+      "exchangeWeight": 996.6566975000001,
+      "agio": 1.4,
+      "importCostWeight": 1395.3193765,
+      "mainFactoryGuid": 101250,
+      "producerFactoryGuids": [
+        101250
+      ]
+    },
+    {
+      "goodId": "gramophones",
+      "guid": 1010248,
+      "name": "Gramophones",
+      "canImport": true,
+      "exchangeWeight": 2310.835685,
+      "agio": 1.4,
+      "importCostWeight": 3235.169959,
+      "mainFactoryGuid": 1010326,
+      "producerFactoryGuids": [
+        1010326
+      ]
+    },
+    {
+      "goodId": "gold",
+      "guid": 1010249,
+      "name": "Gold",
+      "canImport": true,
+      "exchangeWeight": 1432.652,
+      "agio": 1.6,
+      "importCostWeight": 2292.2432000000003,
+      "mainFactoryGuid": 1010327,
+      "producerFactoryGuids": [
+        1010327
+      ]
+    },
+    {
+      "goodId": "jewelry",
+      "guid": 1010250,
+      "name": "Jewellery",
+      "canImport": true,
+      "exchangeWeight": 2158.776587,
+      "agio": 1.6,
+      "importCostWeight": 3454.0425391999997,
+      "mainFactoryGuid": 1010328,
+      "producerFactoryGuids": [
+        1010328
+      ]
+    },
+    {
+      "goodId": "tobacco",
+      "guid": 1010252,
+      "name": "Tobacco",
+      "canImport": true,
+      "exchangeWeight": 588.879998,
+      "agio": 1.2,
+      "importCostWeight": 706.6559976,
+      "mainFactoryGuid": 1010330,
+      "producerFactoryGuids": [
+        1010330
+      ]
+    },
+    {
+      "goodId": "caoutchouc",
+      "guid": 1010255,
+      "name": "Caoutchouc",
+      "canImport": true,
+      "exchangeWeight": 231.87999799999997,
+      "agio": 1.4,
+      "importCostWeight": 324.63199719999994,
+      "mainFactoryGuid": 1010333,
+      "producerFactoryGuids": [
+        25006,
+        1010333
+      ]
+    },
+    {
+      "goodId": "corn",
+      "guid": 120034,
+      "name": "Corn",
+      "canImport": true,
+      "exchangeWeight": 265.47999799999997,
+      "agio": 1,
+      "importCostWeight": 265.47999799999997,
+      "mainFactoryGuid": 101270,
+      "producerFactoryGuids": [
+        25003,
+        101270
+      ]
+    },
+    {
+      "goodId": "plantains",
+      "guid": 120041,
+      "name": "Plantains",
+      "canImport": true,
+      "exchangeWeight": 113.57999799999999,
+      "agio": 1,
+      "importCostWeight": 113.57999799999999,
+      "mainFactoryGuid": 101263,
+      "producerFactoryGuids": [
+        101263
+      ]
+    },
+    {
+      "goodId": "pearls",
+      "guid": 1010256,
+      "name": "Pearls",
+      "canImport": true,
+      "exchangeWeight": 344.239987,
+      "agio": 1.4,
+      "importCostWeight": 481.9359817999999,
+      "mainFactoryGuid": 1010339,
+      "producerFactoryGuids": [
+        1010339
+      ]
+    },
+    {
+      "goodId": "felt",
+      "guid": 120044,
+      "name": "Felt",
+      "canImport": true,
+      "exchangeWeight": 78.05999599999998,
+      "agio": 1.2,
+      "importCostWeight": 93.67199519999998,
+      "mainFactoryGuid": 101415,
+      "producerFactoryGuids": [
+        101415
+      ]
+    },
+    {
+      "goodId": "bombins",
+      "guid": 120037,
+      "name": "Bombins",
+      "canImport": true,
+      "exchangeWeight": 449.4541519999999,
+      "agio": 1.4,
+      "importCostWeight": 629.2358127999998,
+      "mainFactoryGuid": 101273,
+      "producerFactoryGuids": [
+        101273
+      ]
+    },
+    {
+      "goodId": "rum",
+      "guid": 1010257,
+      "name": "Rum",
+      "canImport": true,
+      "exchangeWeight": 267.45593199999996,
+      "agio": 1.4,
+      "importCostWeight": 374.4383047999999,
+      "mainFactoryGuid": 1010340,
+      "producerFactoryGuids": [
+        24801,
+        1010340,
+        124737
+      ]
+    },
+    {
+      "goodId": "chocolate",
+      "guid": 1010258,
+      "name": "Chocolate",
+      "canImport": true,
+      "exchangeWeight": 1012.116196,
+      "agio": 1.2,
+      "importCostWeight": 1214.5394351999998,
+      "mainFactoryGuid": 1010341,
+      "producerFactoryGuids": [
+        1010341
+      ]
+    },
+    {
+      "goodId": "coffee",
+      "guid": 120032,
+      "name": "Coffee",
+      "canImport": true,
+      "exchangeWeight": 920.9361979999999,
+      "agio": 1.4,
+      "importCostWeight": 1289.3106771999996,
+      "mainFactoryGuid": 101252,
+      "producerFactoryGuids": [
+        101252,
+        124738
+      ]
+    },
+    {
+      "goodId": "fried_plantains",
+      "guid": 120033,
+      "name": "Fried Plantains",
+      "canImport": true,
+      "exchangeWeight": 250.70598909999995,
+      "agio": 1,
+      "importCostWeight": 250.70598909999995,
+      "mainFactoryGuid": 101264,
+      "producerFactoryGuids": [
+        101264
+      ]
+    },
+    {
+      "goodId": "tortillas",
+      "guid": 120035,
+      "name": "Tortillas",
+      "canImport": true,
+      "exchangeWeight": 853.494558,
+      "agio": 1,
+      "importCostWeight": 853.494558,
+      "mainFactoryGuid": 101271,
+      "producerFactoryGuids": [
+        101271
+      ]
+    },
+    {
+      "goodId": "cotton_fabric",
+      "guid": 1010240,
+      "name": "Cotton Fabric",
+      "canImport": true,
+      "exchangeWeight": 270.55999599999996,
+      "agio": 1.4,
+      "importCostWeight": 378.7839943999999,
+      "mainFactoryGuid": 1010318,
+      "producerFactoryGuids": [
+        1010318,
+        124739
+      ]
+    },
+    {
+      "goodId": "cigars",
+      "guid": 1010259,
+      "name": "Cigars",
+      "canImport": true,
+      "exchangeWeight": 2083.3539379999997,
+      "agio": 1.6,
+      "importCostWeight": 3333.3663008,
+      "mainFactoryGuid": 1010342,
+      "producerFactoryGuids": [
+        1010342
+      ]
+    },
+    {
+      "goodId": "caribou_meat",
+      "guid": 112694,
+      "name": "Caribou Meat",
+      "canImport": true,
+      "exchangeWeight": 645.70604,
+      "agio": 1,
+      "importCostWeight": 645.70604,
+      "mainFactoryGuid": 112667,
+      "producerFactoryGuids": [
+        112667
+      ]
+    },
+    {
+      "goodId": "goose_feathers",
+      "guid": 112697,
+      "name": "Goose Feathers",
+      "canImport": true,
+      "exchangeWeight": 184.308456,
+      "agio": 1.4,
+      "importCostWeight": 258.03183839999997,
+      "mainFactoryGuid": 112676,
+      "producerFactoryGuids": [
+        112676
+      ]
+    },
+    {
+      "goodId": "spices",
+      "guid": 114369,
+      "name": "Spices",
+      "canImport": true,
+      "exchangeWeight": 203.0659098,
+      "agio": 1.4,
+      "importCostWeight": 284.29227371999997,
+      "mainFactoryGuid": 114452,
+      "producerFactoryGuids": [
+        25020,
+        114452
+      ]
+    },
+    {
+      "goodId": "beeswax",
+      "guid": 114370,
+      "name": "Beeswax",
+      "canImport": true,
+      "exchangeWeight": 162.3818196,
+      "agio": 1,
+      "importCostWeight": 162.3818196,
+      "mainFactoryGuid": 114453,
+      "producerFactoryGuids": [
+        114453
+      ]
+    },
+    {
+      "goodId": "sanga_cow",
+      "guid": 114357,
+      "name": "Sanga Cow",
+      "canImport": true,
+      "exchangeWeight": 136.8545464,
+      "agio": 1,
+      "importCostWeight": 136.8545464,
+      "mainFactoryGuid": 114439,
+      "producerFactoryGuids": [
+        114439
+      ]
+    },
+    {
+      "goodId": "linen",
+      "guid": 114391,
+      "name": "Linen",
+      "canImport": true,
+      "exchangeWeight": 178.63181960000003,
+      "agio": 1.2,
+      "importCostWeight": 214.35818352000004,
+      "mainFactoryGuid": 114441,
+      "producerFactoryGuids": [
+        114441
+      ]
+    },
+    {
+      "goodId": "hibiscus_tea",
+      "guid": 114390,
+      "name": "Hibiscus Tea",
+      "canImport": true,
+      "exchangeWeight": 279.086366,
+      "agio": 1.2,
+      "importCostWeight": 334.9036392,
+      "mainFactoryGuid": 114468,
+      "producerFactoryGuids": [
+        114468
+      ]
+    },
+    {
+      "goodId": "tapestries",
+      "guid": 114404,
+      "name": "Tapestries",
+      "canImport": true,
+      "exchangeWeight": 914.1698670000001,
+      "agio": 1.2,
+      "importCostWeight": 1097.0038404,
+      "mainFactoryGuid": 114469,
+      "producerFactoryGuids": [
+        114469
+      ]
+    },
+    {
+      "goodId": "seafood_stew",
+      "guid": 114410,
+      "name": "Seafood Stew",
+      "canImport": true,
+      "exchangeWeight": 1353.99171726,
+      "agio": 1.4,
+      "importCostWeight": 1895.588404164,
+      "mainFactoryGuid": 114471,
+      "producerFactoryGuids": [
+        114471
+      ]
+    },
+    {
+      "goodId": "clay_pipe",
+      "guid": 114414,
+      "name": "Clay Pipes",
+      "canImport": true,
+      "exchangeWeight": 1161.0965455,
+      "agio": 1.4,
+      "importCostWeight": 1625.5351636999999,
+      "mainFactoryGuid": 114472,
+      "producerFactoryGuids": [
+        114472
+      ]
+    },
+    {
+      "goodId": "leather_boots",
+      "guid": 114428,
+      "name": "Leather Boots",
+      "canImport": true,
+      "exchangeWeight": 554.2391464,
+      "agio": 1.4,
+      "importCostWeight": 775.93480496,
+      "mainFactoryGuid": 118733,
+      "producerFactoryGuids": [
+        118733
+      ]
+    },
+    {
+      "goodId": "tailored_suits",
+      "guid": 114430,
+      "name": "Tailored Suits",
+      "canImport": true,
+      "exchangeWeight": 983.7046155999999,
+      "agio": 1.2,
+      "importCostWeight": 1180.4455387199998,
+      "mainFactoryGuid": 118734,
+      "producerFactoryGuids": [
+        118734
+      ]
+    },
+    {
+      "goodId": "telephones",
+      "guid": 114431,
+      "name": "Telephones",
+      "canImport": true,
+      "exchangeWeight": 2926.4020599999994,
+      "agio": 1.6,
+      "importCostWeight": 4682.243296,
+      "mainFactoryGuid": 118735,
+      "producerFactoryGuids": [
+        118735
+      ]
+    }
+  ]
+}

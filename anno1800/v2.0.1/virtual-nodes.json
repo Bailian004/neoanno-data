@@ -1,0 +1,50 @@
+[
+  {
+    "id": "powered_pasture",
+    "name": "Powered Pasture",
+    "guid": 8027,
+    "region": "New World",
+    "type": "factory",
+    "icon": "icon_niter.png",
+    "outputGoods": [
+      "saltpeter"
+    ],
+    "inputGoods": []
+  },
+  {
+    "id": "all_animal_farms",
+    "name": "All Animal Farms",
+    "guid": 190872,
+    "region": "New World",
+    "type": "factory",
+    "icon": "icon_dung.png",
+    "outputGoods": [
+      "dung"
+    ],
+    "inputGoods": []
+  },
+  {
+    "id": "powered_pasture_8002",
+    "name": "Powered Pasture",
+    "guid": 8002,
+    "region": "New World",
+    "type": "factory",
+    "icon": "icon_sheep_milk.png",
+    "outputGoods": [
+      "milk"
+    ],
+    "inputGoods": []
+  },
+  {
+    "id": "powered_pasture_8026",
+    "name": "Powered Pasture",
+    "guid": 8026,
+    "region": "New World",
+    "type": "factory",
+    "icon": "icon_nandu_feathers.png",
+    "outputGoods": [
+      "nandu_feathers"
+    ],
+    "inputGoods": []
+  }
+]

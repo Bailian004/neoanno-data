@@ -1,0 +1,106 @@
+{
+  "gameId": "anno1800",
+  "version": "2.0.1",
+  "regions": [
+    "Old World",
+    "New World",
+    "Arctic",
+    "Enbesa"
+  ],
+  "source": {
+    "annoDesignerPresetVersion": "5.1",
+    "calculatorParams": "params.js",
+    "canonicalCompiler": "neoanno-canonical-anno1800 v0.5",
+    "generatedAtUTC": "2026-01-11T22:49:38.191454Z"
+  },
+  "generatedAt": "2026-01-12T09:58:32.424785Z",
+  "notes": [
+    "v0.8: Added influence object with mode 'radius' vs 'road_distance'. Wiki overrides applied for Marketplace, Fire Station, Police Station, Radio Tower; Town Hall set to radius requiresRoad=false.",
+    "v0.9: Completed road-distance influence breakdown (full/max where available, road-type specific). Added irrigation mode for Water Pump. Updated power plant ranges to include max-with-buffs per wiki.",
+    "v1.0: Verified and normalized all road-distance influence values using individual Anno 1800 Wiki pages; removed remaining assumptions and generic fallbacks.",
+    "v1.2: Added Old World resident tiers (Artisans/Engineers/Investors) and Scholars (Land of Lions), with needs split into services/core/luxury and impacts sourced from the Wiki Needs tables.",
+    "Added New World residents: Jornaleros, Obreros, Artistas with wiki-sourced needs and impacts; wiki is authoritative.",
+    "v1.5: System pass (heuristic DLC tagging, need satisfaction rules, explicit service need links via providesNeeds)."
+  ],
+  "dlcs": [
+    {
+      "id": "vanilla",
+      "name": "Base Game"
+    },
+    {
+      "id": "sunken_treasures",
+      "name": "Sunken Treasures"
+    },
+    {
+      "id": "the_passage",
+      "name": "The Passage"
+    },
+    {
+      "id": "land_of_lions",
+      "name": "Land of Lions"
+    },
+    {
+      "id": "seat_of_power",
+      "name": "Seat of Power"
+    },
+    {
+      "id": "tourist_season",
+      "name": "Tourist Season"
+    },
+    {
+      "id": "high_life",
+      "name": "High Life"
+    },
+    {
+      "id": "seeds_of_change",
+      "name": "Seeds of Change"
+    },
+    {
+      "id": "empire_of_the_skies",
+      "name": "Empire of the Skies"
+    },
+    {
+      "id": "new_world_rising",
+      "name": "New World Rising"
+    },
+    {
+      "id": "docklands",
+      "name": "Docklands"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.4",
+      "changes": [
+        "Added Hacienda Jornalero/Obrera/Artista Quarters residents variants from calculator params residenceBuildings",
+        "Needs derived from calculator params; categories inherited from base tiers where possible"
+      ]
+    },
+    {
+      "version": "1.4.1",
+      "changes": [
+        "Wiki-impact pass for Hacienda quarters (Jornalero/Obrera/Artista): consumptionPer1000 + influx/happiness/incomePerMin sourced from Wiki Needs tables.",
+        "Normalized Hacienda-specific needs to use wiki values (incl. mail, Beach/Cinema/Samba School, Hot Sauce, Atole, Glasses, Electricity)."
+      ]
+    },
+    "v1.4.2: recategorised lifestyle goods (e.g., jewelry, scooter) from coreGoods to lifestyleGoods for consistency.",
+    {
+      "version": "1.7",
+      "date": "2026-01-11",
+      "changes": [
+        "Added guildhouse/town hall/harbourmaster items & specialists core from Anno Toolkit assets (guildhouseitem/townhallitem/harborofficeitem).",
+        "Added item effect vocabulary and explicit item targets mapped to canonical building ids via effect target pools."
+      ]
+    },
+    {
+      "version": "1.7.1",
+      "date": "2026-01-12",
+      "notes": [
+        "Mapped items.dlcDependency numeric IDs to canonical dlcsRequired ids using modding community DLC ID mapping."
+      ]
+    }
+  ],
+  "generatedAtUTC": "2026-01-11T23:49:53Z",
+  "generatedFrom": {},
+  "files": []
+}

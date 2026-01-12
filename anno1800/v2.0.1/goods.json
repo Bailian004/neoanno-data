@@ -1,0 +1,3299 @@
+[
+  {
+    "id": "coins",
+    "name": "Coins",
+    "guid": 1010017,
+    "icon": "data/ui/2kimages/main/icons/icon_resource_money_4.png",
+    "iconSource": "calculator",
+    "dlcsRequired": []
+  },
+  {
+    "id": "influence",
+    "name": "Influence",
+    "guid": 1010190,
+    "icon": "data/ui/2kimages/main/icons/icon_influence.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "atole",
+    "name": "Atole",
+    "guid": 25131,
+    "icon": "A7_atole.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 462.19998999999996
+    }
+  },
+  {
+    "id": "dung",
+    "name": "Dung",
+    "guid": 24807,
+    "icon": "A7_dung.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 160
+    }
+  },
+  {
+    "id": "fertiliser",
+    "name": "Fertiliser",
+    "guid": 24808,
+    "icon": "data/ui/2kimages/main/3dicons/scenario/goods/icon_fertilizer_good.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 221.43999399999998
+    }
+  },
+  {
+    "id": "hot_sauce",
+    "name": "Hot Sauce",
+    "guid": 25506,
+    "icon": "A7_tabasco_sauce.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "seeds_of_change"
+    ],
+    "docklands": {
+      "exchangeWeight": 312.10590379999996
+    }
+  },
+  {
+    "id": "hacienda",
+    "name": "Hacienda",
+    "guid": 25546,
+    "icon": "A7_hacienda_cart.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "seeds_of_change"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "bundle_of_letters",
+    "name": "Bundle of Letters",
+    "guid": 103866,
+    "icon": "A7_pile_of_letters.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "coal",
+    "name": "Coal",
+    "guid": 120021,
+    "icon": "A7_coal.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": "coal_1010226",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "oil",
+    "name": "Oil",
+    "guid": 1010566,
+    "icon": "A7_Oil.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "electricity",
+    "name": "Electricity",
+    "guid": 120022,
+    "icon": "A7_electricity.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": null,
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "research_points",
+    "name": "Research Points",
+    "guid": 119392,
+    "icon": "data/ui/2kimages/main/icons/icon_research_resource.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [
+      "land_of_lions"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "mineral_resource",
+    "name": "Mineral Resource",
+    "guid": 1591,
+    "icon": "A7_mineral_desposits.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "cultivation_area",
+    "name": "Cultivation Area",
+    "guid": 1955,
+    "icon": "A7_fertile_lands.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "bauxite",
+    "name": "Bauxite ",
+    "guid": 836,
+    "icon": "A7_bauxit.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 547.4839383999998
+    }
+  },
+  {
+    "id": "aluminium_profiles",
+    "name": "Aluminium Profiles",
+    "guid": 838,
+    "icon": "A7_aluminium.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 892.0158883999998
+    }
+  },
+  {
+    "id": "helium",
+    "name": "Helium",
+    "guid": 840,
+    "icon": "A7_helium.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1478.1110995999998
+    }
+  },
+  {
+    "id": "industrial_lubricant",
+    "name": "Industrial Lubricant",
+    "guid": 1414,
+    "icon": "A7_industrial_lubricant_a.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": null,
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 661.3505255999999
+    }
+  },
+  {
+    "id": "bombs",
+    "name": "Bombs",
+    "guid": 846,
+    "icon": "A7_dropgood_bomb_b.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2570.777685
+    }
+  },
+  {
+    "id": "sea_mines",
+    "name": "Sea Mines",
+    "guid": 847,
+    "icon": "A7_seamine.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2445.9549575
+    }
+  },
+  {
+    "id": "pamphlets",
+    "name": "Pamphlets",
+    "guid": 848,
+    "icon": "A7_dropgood_pamphlets.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 925.4158779999999
+    }
+  },
+  {
+    "id": "care_packages",
+    "name": "Care Packages",
+    "guid": 849,
+    "icon": "A7_dropgood_care_packages.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2735.0831659999994
+    }
+  },
+  {
+    "id": "water_drop",
+    "name": "Water Drop",
+    "guid": 850,
+    "icon": "A7_dropgood_water.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 614.3999399999999
+    }
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "guid": 917,
+    "icon": "A7_dropgood_water.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "local_mail",
+    "name": "Local Mail",
+    "guid": 535,
+    "icon": "A7_letter_normal.png",
+    "iconSource": "annoDesigner",
+    "sourceType": "mail",
+    "notes": "No production chain in calculator; provided via special mechanics.",
+    "dlcsRequired": [
+      "empire_of_the_skies"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "regional_mail",
+    "name": "Regional Mail",
+    "guid": 536,
+    "icon": "A7_letter_delivered.png",
+    "iconSource": "annoDesigner",
+    "sourceType": "mail",
+    "notes": "No production chain in calculator; provided via special mechanics.",
+    "dlcsRequired": [
+      "empire_of_the_skies"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "overseas_mail",
+    "name": "Overseas Mail",
+    "guid": 2524,
+    "icon": "A7_letter_oversea.png",
+    "iconSource": "annoDesigner",
+    "sourceType": "mail",
+    "notes": "No production chain in calculator; provided via special mechanics.",
+    "dlcsRequired": [
+      "empire_of_the_skies"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "new_world_reports",
+    "name": "New World Reports",
+    "guid": 4267,
+    "icon": "A7_herbarium.png",
+    "iconSource": "annoDesigner",
+    "sourceType": "expedition_report",
+    "notes": "No production chain in calculator; provided via special mechanics.",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "arctic_reports",
+    "name": "Arctic Reports",
+    "guid": 4268,
+    "icon": "A7_valuable_sketches_b.png",
+    "iconSource": "annoDesigner",
+    "sourceType": "expedition_report",
+    "notes": "No production chain in calculator; provided via special mechanics.",
+    "dlcsRequired": [
+      "the_passage"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "market",
+    "name": "Market",
+    "guid": 120020,
+    "icon": "A7_market.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "pub",
+    "name": "Pub",
+    "guid": 1010349,
+    "icon": "A7_Pub.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "church",
+    "name": "Church",
+    "guid": 1010350,
+    "icon": "A7_Church.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "school",
+    "name": "School",
+    "guid": 1010351,
+    "icon": "A7_School.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "variety_theatre",
+    "name": "Variety Theatre",
+    "guid": 1010352,
+    "icon": "A7_cabaret.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": "variety_theatre_133573",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "university",
+    "name": "University",
+    "guid": 1010353,
+    "icon": "A7_University.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "electricity_1010354",
+    "name": "Electricity",
+    "guid": 1010354,
+    "icon": "A7_electricity.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": "electricity",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "members_club",
+    "name": "Members Club",
+    "guid": 1010355,
+    "icon": "A7_club_house.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "bank",
+    "name": "Bank",
+    "guid": 1010356,
+    "icon": "A7_Bank.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "chapel",
+    "name": "Chapel",
+    "guid": 120050,
+    "icon": "A7_Church.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "boxing_arena",
+    "name": "Boxing Arena",
+    "guid": 1010348,
+    "icon": "A7_box_arena.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "heat",
+    "name": "Heat",
+    "guid": 112708,
+    "icon": "A7_heating_center.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "post_office",
+    "name": "Post Office",
+    "guid": 112693,
+    "icon": "A7_post_office.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "empire_of_the_skies"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "canteen",
+    "name": "Canteen",
+    "guid": 114890,
+    "icon": "A7_canteen.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "fuel",
+    "name": "Fuel",
+    "guid": 269751,
+    "icon": "data/ui/2kimages/main/icons/icon_gasoline_3d_outline.png",
+    "iconSource": "calculator",
+    "duplicateOf": "fuel_270042",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "fuel_270042",
+    "name": "Fuel",
+    "guid": 270042,
+    "icon": "A7_gasoline.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": null,
+    "dlcsRequired": []
+  },
+  {
+    "id": "tourist_mooring",
+    "name": "Tourist Mooring",
+    "guid": 133891,
+    "icon": "A7_visitor_harbour.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "restaurant",
+    "name": "Restaurant",
+    "guid": 132751,
+    "icon": "A7_restaurant.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "bar",
+    "name": "Bar",
+    "guid": 132754,
+    "icon": "A7_bar.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "cafe",
+    "name": "Café",
+    "guid": 132755,
+    "icon": "A7_caffee.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "variety_theatre_133573",
+    "name": "Variety Theatre",
+    "guid": 133573,
+    "icon": "A7_cabaret.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": null,
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "zoo",
+    "name": "Zoo",
+    "guid": 601485,
+    "icon": "A7_Zoo.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "museum",
+    "name": "Museum",
+    "guid": 133535,
+    "icon": "A7_Museum.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "botanical_garden",
+    "name": "Botanical Garden",
+    "guid": 355,
+    "icon": "A7_botanic_garden.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "palace",
+    "name": "Palace",
+    "guid": 134257,
+    "icon": "A7_palace.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "seat_of_power"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "the_iron_tower",
+    "name": "The Iron Tower",
+    "guid": 132761,
+    "icon": "A7_eiffel_tower.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "worlds_fair",
+    "name": "World's Fair",
+    "guid": 133536,
+    "icon": "A7_world_fair_2.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "docklands",
+    "name": "Docklands",
+    "guid": 134781,
+    "icon": "A7_docklands_main.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "skyline_tower",
+    "name": "Skyline Tower",
+    "guid": 137757,
+    "icon": "A7_highlife_skyliner_monument.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "department_store",
+    "name": "Department Store",
+    "guid": 135108,
+    "icon": "A7_mall.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "high_life"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "furniture_store",
+    "name": "Furniture Store",
+    "guid": 135107,
+    "icon": "A7_furnitures.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "high_life"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "drug_store",
+    "name": "Drug Store",
+    "guid": 135109,
+    "icon": "A7_drugstore.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "high_life"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "island_charter",
+    "name": "Island Charter",
+    "guid": 2038,
+    "icon": "data/ui/2kimages/main/3dicons/icon_settlement_rights_1.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "samba_school",
+    "name": "Samba School",
+    "guid": 5831,
+    "icon": "A7_School.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "cinema",
+    "name": "Cinema",
+    "guid": 5830,
+    "icon": "data/ui/2kimages/main/3dicons/public_building/icon_cinema.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "automated_riot_control",
+    "name": "Automated Riot Control",
+    "guid": 6261,
+    "icon": "data/ui/2kimages/main/3dicons/city_institution/icon_police_advanced.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "automated_fire_protection",
+    "name": "Automated Fire Protection",
+    "guid": 6262,
+    "icon": "data/ui/2kimages/main/3dicons/city_institution/icon_fire_brigade_advanced.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "automated_healthcare",
+    "name": "Automated Healthcare",
+    "guid": 6263,
+    "icon": "data/ui/2kimages/main/3dicons/city_institution/icon_hospital_advanced.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "beach",
+    "name": "Beach",
+    "guid": 6265,
+    "icon": "data/ui/2kimages/main/3dicons/public_building/icon_beach.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "grain",
+    "name": "Grain",
+    "guid": 1010192,
+    "icon": "A7_cereals_2.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 177.34376,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 177.34376,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "beef",
+    "name": "Beef",
+    "guid": 1010193,
+    "icon": "A7_beef.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 157.34376,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 157.34376,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "hops",
+    "name": "Hops",
+    "guid": 1010194,
+    "icon": "A7_Hops.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 183.34376,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 220.012512,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "potatoes",
+    "name": "Potatoes",
+    "guid": 1010195,
+    "icon": "A7_Potatoes.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 61.84376,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 61.84376,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "wood",
+    "name": "Wood",
+    "guid": 120008,
+    "icon": "A7_cherry_wood.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 69.33594,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 69.33594,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "wool",
+    "name": "Wool",
+    "guid": 1010197,
+    "icon": "A7_Wool.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 28.67188,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 28.67188,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "pigs",
+    "name": "Pigs",
+    "guid": 1010199,
+    "icon": "A7_Pigs.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 74.01563999999999,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 74.01563999999999,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "furs",
+    "name": "Furs",
+    "guid": 1010209,
+    "icon": "A7_fur.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 387.67188,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 465.20625599999994,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "grapes",
+    "name": "Grapes",
+    "guid": 120014,
+    "icon": "A7_Grapes.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 290.67188
+    }
+  },
+  {
+    "id": "red_peppers",
+    "name": "Red Peppers",
+    "guid": 1010198,
+    "icon": "A7_pepper.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 244.67188,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 244.67188,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "fish",
+    "name": "Fish",
+    "guid": 1010200,
+    "icon": "A7_Fish.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 70.43361,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 70.43361,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "saltpeter",
+    "name": "Saltpeter",
+    "guid": 1010232,
+    "icon": "A7_niter.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 197.30454250000003,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 197.30454250000003,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "quartz_sand",
+    "name": "Quartz Sand",
+    "guid": 1010228,
+    "icon": "A7_quartz_sand.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 80.30454250000001,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 80.30454250000001,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "reinforced_concrete",
+    "name": "Reinforced Concrete",
+    "guid": 1010202,
+    "icon": "A7_reinforced_concrete.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 764.7695249999999
+    }
+  },
+  {
+    "id": "soap",
+    "name": "Soap",
+    "guid": 1010203,
+    "icon": "A7_soap_2.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 205.39745,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 205.39745,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "timber",
+    "name": "Timber",
+    "guid": 1010196,
+    "icon": "A7_wooden_planks.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 83.00782,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 83.00782,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "bricks",
+    "name": "Bricks",
+    "guid": 1010205,
+    "icon": "A7_Bricks.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 163.236355
+    }
+  },
+  {
+    "id": "fur_coats",
+    "name": "Fur Coats",
+    "guid": 1010247,
+    "icon": "A7_fur_coats.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1162.7446759999998,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 1395.2936111999998,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "windows",
+    "name": "Windows",
+    "guid": 1010207,
+    "icon": "A7_glass_window_3.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 679.1532824999999
+    }
+  },
+  {
+    "id": "light_bulbs",
+    "name": "Light Bulbs",
+    "guid": 1010208,
+    "icon": "A7_light_bulb.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1780.6027725,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 2492.8438814999995,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "sails",
+    "name": "Sails",
+    "guid": 1010210,
+    "icon": "A7_sail.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 104.71733
+    }
+  },
+  {
+    "id": "chassis",
+    "name": "Chassis",
+    "guid": 1010211,
+    "icon": "A7_Chassis.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1039.7550379999998
+    }
+  },
+  {
+    "id": "clay",
+    "name": "Clay",
+    "guid": 1010201,
+    "icon": "A7_Clay.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 106.46363,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 106.46363,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "sewing_machines",
+    "name": "Sewing Machines",
+    "guid": 1010206,
+    "icon": "A7_sewing_machine.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 812.7386999999999,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 1137.8341799999998,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "bread",
+    "name": "Bread",
+    "guid": 1010213,
+    "icon": "A7_Bread.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 269.56109000000004,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 323.47330800000003,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "beer",
+    "name": "Beer",
+    "guid": 1010214,
+    "icon": "A7_Beer.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 517.77842,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 724.889788,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "goulash",
+    "name": "Goulash",
+    "guid": 1010215,
+    "icon": "A7_goulash.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 636.70794,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 764.049528,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "canned_food",
+    "name": "Canned Food",
+    "guid": 1010217,
+    "icon": "A7_canned_food.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 987.3638699999999,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 1382.3094179999998,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "schnapps",
+    "name": "Schnapps",
+    "guid": 1010216,
+    "icon": "A7_schnapps_3.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 121.20316,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 121.20316,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "sausages",
+    "name": "Sausages",
+    "guid": 1010238,
+    "icon": "A7_meat_sausage.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 149.56108999999998,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 149.56108999999998,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "champagne",
+    "name": "Champagne",
+    "guid": 120016,
+    "icon": "A7_Champagne.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1013.6174225,
+      "agio": 1.6,
+      "canImport": true,
+      "importCostWeight": 1621.787876,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "steel_beams",
+    "name": "Steel Beams",
+    "guid": 1010218,
+    "icon": "A7_Steel.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 638.6999599999999
+    }
+  },
+  {
+    "id": "steel",
+    "name": "Steel",
+    "guid": 1010219,
+    "icon": "A7_Steel.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 347.01815999999997,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 416.4217919999999,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "weapons",
+    "name": "Weapons",
+    "guid": 1010221,
+    "icon": "A7_Weapons.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 463.06361
+    }
+  },
+  {
+    "id": "dynamite",
+    "name": "Dynamite",
+    "guid": 1010222,
+    "icon": "A7_Dynamite.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1412.0550425000001,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 1412.0550425000001,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "advanced_weapons",
+    "name": "Advanced Weapons",
+    "guid": 1010223,
+    "icon": "A7_Weapons.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 4097.7803525
+    }
+  },
+  {
+    "id": "steam_motors",
+    "name": "Steam Motors",
+    "guid": 1010224,
+    "icon": "A7_steam_machine.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2699.361665
+    }
+  },
+  {
+    "id": "steam_carriages",
+    "name": "Steam Carriages",
+    "guid": 1010225,
+    "icon": "A7_steam_carriage.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 7914.931003,
+      "agio": 1.6,
+      "canImport": true,
+      "importCostWeight": 12663.8896048,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "brass",
+    "name": "Brass",
+    "guid": 1010204,
+    "icon": "A7_Brass.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 201.736355,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 282.43089699999996,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "coal_1010226",
+    "name": "Coal",
+    "guid": 1010226,
+    "icon": "A7_coal.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": null,
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 102.96363,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 102.96363,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "guid": 1010227,
+    "icon": "A7_Iron.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 102.96363,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 102.96363,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "guid": 1010229,
+    "icon": "A7_tin_ore.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 72.481815,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 86.978178,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "copper",
+    "name": "Copper",
+    "guid": 1010230,
+    "icon": "A7_Copper.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 72.481815,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 86.978178,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "cement",
+    "name": "Cement",
+    "guid": 1010231,
+    "icon": "A7_Cement.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 72.481815,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 86.978178,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "gold_ore",
+    "name": "Gold Ore",
+    "guid": 1010233,
+    "icon": "A7_gold_ore.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 784.23912,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 941.0869439999999,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "tallow",
+    "name": "Tallow",
+    "guid": 1010234,
+    "icon": "A7_Tallow.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 133.85199999999998,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 133.85199999999998,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "flour",
+    "name": "Flour",
+    "guid": 1010235,
+    "icon": "A7_Flour.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 194.01564000000002
+    }
+  },
+  {
+    "id": "malt",
+    "name": "Malt",
+    "guid": 1010236,
+    "icon": "A7_Malt.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 219.116485,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 306.763079,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "work_clothes",
+    "name": "Work Clothes",
+    "guid": 1010237,
+    "icon": "A7_working_cloth.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 90.03128000000001,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 90.03128000000001,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "glass",
+    "name": "Glass",
+    "guid": 1010241,
+    "icon": "A7_Glass.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 338.5609425,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 338.5609425,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "wood_veneers",
+    "name": "Wood Veneers",
+    "guid": 1010242,
+    "icon": "A7_inlay.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 724.8750399999999,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 1014.8250559999998,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "filaments",
+    "name": "Filaments",
+    "guid": 1010243,
+    "icon": "A7_carbon_filament.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 775.5027299999999,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 930.6032759999998,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "penny_farthings",
+    "name": "Penny Farthings",
+    "guid": 1010245,
+    "icon": "A7_high_wheeler.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1811.1224479999998,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 1811.1224479999998,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "pocket_watches",
+    "name": "Pocket Watches",
+    "guid": 1010246,
+    "icon": "A7_pocket_watch.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 3068.9872324999997,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 4296.582125499999,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "spectacles",
+    "name": "Spectacles",
+    "guid": 120030,
+    "icon": "A7_Glass.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 996.6566975000001,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 1395.3193765,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "gramophones",
+    "name": "Gramophones",
+    "guid": 1010248,
+    "icon": "A7_phonographs.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2310.835685,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 3235.169959,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "gold",
+    "name": "Gold",
+    "guid": 1010249,
+    "icon": "A7_Gold.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1432.652,
+      "agio": 1.6,
+      "canImport": true,
+      "importCostWeight": 2292.2432000000003,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "jewelry",
+    "name": "Jewelry",
+    "guid": 1010250,
+    "icon": "A7_jewelry.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2158.776587,
+      "agio": 1.6,
+      "canImport": true,
+      "importCostWeight": 3454.0425391999997,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "sugar_cane",
+    "name": "Sugar Cane",
+    "guid": 1010251,
+    "icon": "A7_cane_sugar_1.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 115.67999799999998
+    }
+  },
+  {
+    "id": "tobacco",
+    "name": "Tobacco",
+    "guid": 1010252,
+    "icon": "A7_Tobacco.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 588.879998,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 706.6559976,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "cotton",
+    "name": "Cotton",
+    "guid": 1010253,
+    "icon": "A7_Cotton.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 241.67999799999998
+    }
+  },
+  {
+    "id": "cocoa",
+    "name": "Cocoa",
+    "guid": 1010254,
+    "icon": "A7_Cocoa.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 224.87999799999997
+    }
+  },
+  {
+    "id": "caoutchouc",
+    "name": "Caoutchouc",
+    "guid": 1010255,
+    "icon": "A7_Caoutchouc.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 231.87999799999997,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 324.63199719999994,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "coffee_beans",
+    "name": "Coffee Beans",
+    "guid": 120031,
+    "icon": "A7_coffee_beans.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 269.67999799999996
+    }
+  },
+  {
+    "id": "corn",
+    "name": "Corn",
+    "guid": 120034,
+    "icon": "A7_Corn.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 265.47999799999997,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 265.47999799999997,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "alpaca_wool",
+    "name": "Alpaca Wool",
+    "guid": 120036,
+    "icon": "A7_alpaca_wool.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 49.17999799999999
+    }
+  },
+  {
+    "id": "plantains",
+    "name": "Plantains",
+    "guid": 120041,
+    "icon": "A7_banana.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 113.57999799999999,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 113.57999799999999,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "pearls",
+    "name": "Pearls",
+    "guid": 1010256,
+    "icon": "A7_Pearls.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 344.239987,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 481.9359817999999,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "fish_oil",
+    "name": "Fish Oil",
+    "guid": 120042,
+    "icon": "A7_fishoil.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 84.52599609999999
+    }
+  },
+  {
+    "id": "ponchos",
+    "name": "Ponchos",
+    "guid": 120043,
+    "icon": "A7_poncho.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 116.21999199999999
+    }
+  },
+  {
+    "id": "felt",
+    "name": "Felt",
+    "guid": 120044,
+    "icon": "A7_Felt.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 78.05999599999998,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 93.67199519999998,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "bombins",
+    "name": "Bombins",
+    "guid": 120037,
+    "icon": "A7_bowler_hat.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 449.4541519999999,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 629.2358127999998,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "rum",
+    "name": "Rum",
+    "guid": 1010257,
+    "icon": "A7_rum.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 267.45593199999996,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 374.4383047999999,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "chocolate",
+    "name": "Chocolate",
+    "guid": 1010258,
+    "icon": "A7_Chocolate.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1012.116196,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 1214.5394351999998,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee",
+    "guid": 120032,
+    "icon": "A7_coffee_beans.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 920.9361979999999,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 1289.3106771999996,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "fried_plantains",
+    "name": "Fried Plantains",
+    "guid": 120033,
+    "icon": "A7_fried_bananas.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 250.70598909999995,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 250.70598909999995,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "tortillas",
+    "name": "Tortillas",
+    "guid": 120035,
+    "icon": "A7_tortilla.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 853.494558,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 853.494558,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "guid": 1010239,
+    "icon": "A7_Sugar.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 342.56539799999996
+    }
+  },
+  {
+    "id": "cotton_fabric",
+    "name": "Cotton Fabric",
+    "guid": 1010240,
+    "icon": "A7_Cotton.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 270.55999599999996,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 378.7839943999999,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "cigars",
+    "name": "Cigars",
+    "guid": 1010259,
+    "icon": "A7_Cigars.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2083.3539379999997,
+      "agio": 1.6,
+      "canImport": true,
+      "importCostWeight": 3333.3663008,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "caribou_meat",
+    "name": "Caribou Meat",
+    "guid": 112694,
+    "icon": "A7_reindeer_meat.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 645.70604,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 645.70604,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "goose_feathers",
+    "name": "Goose Feathers",
+    "guid": 112697,
+    "icon": "A7_goose_feathers.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 184.308456,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 258.03183839999997,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "bear_fur",
+    "name": "Bear Fur",
+    "guid": 112695,
+    "icon": "A7_bear_fur.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1337.609664
+    }
+  },
+  {
+    "id": "huskies",
+    "name": "Huskies",
+    "guid": 112698,
+    "icon": "A7_husky.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 901.029888
+    }
+  },
+  {
+    "id": "whale_oil",
+    "name": "Whale Oil",
+    "guid": 112699,
+    "icon": "A7_whale_oil_2.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 278.4694224
+    }
+  },
+  {
+    "id": "seal_skin",
+    "name": "Seal Skin",
+    "guid": 112696,
+    "icon": "A7_seal_skin.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 80.6062816
+    }
+  },
+  {
+    "id": "pemmican",
+    "name": "Pemmican",
+    "guid": 112705,
+    "icon": "A7_pemmican.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "the_passage"
+    ],
+    "docklands": {
+      "exchangeWeight": 1007.1827104
+    }
+  },
+  {
+    "id": "oil_lamps",
+    "name": "Oil Lamps",
+    "guid": 112702,
+    "icon": "A7_oil_lamps.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 624.8226894
+    }
+  },
+  {
+    "id": "sleeping_bags",
+    "name": "Sleeping Bags",
+    "guid": 112701,
+    "icon": "A7_sleeping_bags.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 375.5268176000001
+    }
+  },
+  {
+    "id": "parkas",
+    "name": "Parkas",
+    "guid": 112700,
+    "icon": "A7_fur_parka.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2165.6458336000005
+    }
+  },
+  {
+    "id": "sleds",
+    "name": "Sleds",
+    "guid": 112704,
+    "icon": "A7_sled.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 878.1721096000001
+    }
+  },
+  {
+    "id": "husky_sleds",
+    "name": "Husky Sleds",
+    "guid": 112703,
+    "icon": "A7_husky.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2703.8893576
+    }
+  },
+  {
+    "id": "arctic_gas",
+    "name": "Arctic Gas",
+    "guid": 112706,
+    "icon": "A7_gas_red.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "the_passage"
+    ],
+    "docklands": {
+      "exchangeWeight": 2330.9184
+    }
+  },
+  {
+    "id": "lost_expedition_scrap",
+    "name": "Lost Expedition Scrap",
+    "guid": 115980,
+    "icon": "A7_passage_junk.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "marketplace",
+    "name": "Marketplace",
+    "guid": 114355,
+    "icon": "A7_Marketplace.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "musicians_court",
+    "name": "Musicians' Court",
+    "guid": 114361,
+    "icon": "A7_music_plaza.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "monastery",
+    "name": "Monastery",
+    "guid": 114362,
+    "icon": "A7_monastery.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "radio_tower",
+    "name": "Radio Tower",
+    "guid": 114425,
+    "icon": "A7_radio_station.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "coke",
+    "name": "Coke",
+    "guid": 24821,
+    "icon": "A7_fertilizer_1.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "chewing_gum",
+    "name": "Chewing Gum",
+    "guid": 24824,
+    "icon": "A7_bubble_gum.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": "chewing_gum_135186",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "fuel_24837",
+    "name": "Fuel",
+    "guid": 24837,
+    "icon": "A7_gasoline.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": "fuel_270042",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "silver_amalgam",
+    "name": "Silver Amalgam",
+    "guid": 24846,
+    "icon": "A7_cyanide_leacher.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "silver_bars",
+    "name": "Silver Bars",
+    "guid": 24850,
+    "icon": "A7_silver_smelter.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "silver_coins",
+    "name": "Silver Coins",
+    "guid": 24851,
+    "icon": "data/ui/2kimages/main/3dicons/scenario/goods/icon_silver_coin_good.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "cyanide",
+    "name": "Cyanide",
+    "guid": 24852,
+    "icon": "A7_cyanide_leacher.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "industrial_lubricant_24863",
+    "name": "Industrial lubricant ",
+    "guid": 24863,
+    "icon": "A7_industrial_lubricant_a.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": "industrial_lubricant",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "waste_water",
+    "name": "Waste Water",
+    "guid": 25073,
+    "icon": "data/ui/2kimages/main/3dicons/icon_rich_sea_2.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "wanza_timber",
+    "name": "Wanza Timber",
+    "guid": 114356,
+    "icon": "A7_wansa_wood.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 99.0659098
+    }
+  },
+  {
+    "id": "hibiscus_petals",
+    "name": "Hibiscus Petals",
+    "guid": 114364,
+    "icon": "A7_hibiscus_farm.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "land_of_lions"
+    ],
+    "docklands": {
+      "exchangeWeight": 218.6659098
+    }
+  },
+  {
+    "id": "linseed",
+    "name": "Linseed",
+    "guid": 114365,
+    "icon": "A7_linen_farm.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 141.78863660000002
+    }
+  },
+  {
+    "id": "teff",
+    "name": "Teff",
+    "guid": 114367,
+    "icon": "A7_teff_flour.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "land_of_lions"
+    ],
+    "docklands": {
+      "exchangeWeight": 255.15454640000002
+    }
+  },
+  {
+    "id": "indigo_dye",
+    "name": "Indigo Dye",
+    "guid": 114368,
+    "icon": "A7_indigo.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 229.15454640000002
+    }
+  },
+  {
+    "id": "spices",
+    "name": "Spices",
+    "guid": 114369,
+    "icon": "A7_spices.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 203.0659098,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 284.29227371999997,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "beeswax",
+    "name": "Beeswax",
+    "guid": 114370,
+    "icon": "A7_beeswax.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 162.3818196,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 162.3818196,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "sanga_cow",
+    "name": "Sanga Cow",
+    "guid": 114357,
+    "icon": "A7_watusi.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 136.8545464,
+      "agio": 1,
+      "canImport": true,
+      "importCostWeight": 136.8545464,
+      "costBracket": "cheap"
+    }
+  },
+  {
+    "id": "goat_milk",
+    "name": "Goat Milk",
+    "guid": 114371,
+    "icon": "A7_goat_milk.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 109.73181960000001
+    }
+  },
+  {
+    "id": "salt",
+    "name": "Salt",
+    "guid": 114358,
+    "icon": "A7_salt.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 86.53568274000001
+    }
+  },
+  {
+    "id": "paper",
+    "name": "Paper",
+    "guid": 117702,
+    "icon": "A7_paper.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 730.7985690999999
+    }
+  },
+  {
+    "id": "lobster",
+    "name": "Lobster",
+    "guid": 118728,
+    "icon": "A7_lobster_fume.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 183.32659306000002
+    }
+  },
+  {
+    "id": "linen",
+    "name": "Linen",
+    "guid": 114391,
+    "icon": "A7_linen_fabric.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 178.63181960000003,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 214.35818352000004,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "spiced_flour",
+    "name": "Spiced Flour",
+    "guid": 114408,
+    "icon": "A7_Flour.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 740.1224012
+    }
+  },
+  {
+    "id": "ornate_candles",
+    "name": "Ornate Candles",
+    "guid": 117701,
+    "icon": "A7_candles.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 581.5229846
+    }
+  },
+  {
+    "id": "ammunition",
+    "name": "Ammunition",
+    "guid": 114429,
+    "icon": null,
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "essential_oil",
+    "name": "Essential Oil",
+    "guid": 114433,
+    "icon": "A7_Oil.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "decorative_cloth",
+    "name": "Decorative Cloth",
+    "guid": 114427,
+    "icon": "A7_cloth.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "dried_meat",
+    "name": "Dried Meat",
+    "guid": 114359,
+    "icon": "A7_dried_meat.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 286.67659514
+    }
+  },
+  {
+    "id": "finery",
+    "name": "Finery",
+    "guid": 114401,
+    "icon": "A7_traditional_clothing.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 259.9409124
+    }
+  },
+  {
+    "id": "hibiscus_tea",
+    "name": "Hibiscus Tea",
+    "guid": 114390,
+    "icon": "A7_hibiscus_tea.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 279.086366,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 334.9036392,
+      "costBracket": "standard"
+    }
+  },
+  {
+    "id": "mud_bricks",
+    "name": "Mud Bricks",
+    "guid": 114402,
+    "icon": "A7_mud_bricks.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 942.3220664000002
+    }
+  },
+  {
+    "id": "ceramics",
+    "name": "Ceramics",
+    "guid": 118724,
+    "icon": "A7_ceramics.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 900.0720664000002
+    }
+  },
+  {
+    "id": "tapestries",
+    "name": "Tapestries",
+    "guid": 114404,
+    "icon": "A7_tapestries.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 914.1698670000001,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 1097.0038404,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "seafood_stew",
+    "name": "Seafood Stew",
+    "guid": 114410,
+    "icon": "A7_seafood.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1353.99171726,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 1895.588404164,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "clay_pipe",
+    "name": "Clay Pipe",
+    "guid": 114414,
+    "icon": "A7_Clay.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1161.0965455,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 1625.5351636999999,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "illuminated_script",
+    "name": "Illuminated Script",
+    "guid": 117698,
+    "icon": "A7_scriptures.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1547.1570055000002
+    }
+  },
+  {
+    "id": "lanterns",
+    "name": "Lanterns",
+    "guid": 117699,
+    "icon": "A7_lanterns.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1370.2368446
+    }
+  },
+  {
+    "id": "leather_boots",
+    "name": "Leather Boots",
+    "guid": 114428,
+    "icon": "A7_leather_shoes.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 554.2391464,
+      "agio": 1.4,
+      "canImport": true,
+      "importCostWeight": 775.93480496,
+      "costBracket": "expensive"
+    }
+  },
+  {
+    "id": "tailored_suits",
+    "name": "Tailored Suits",
+    "guid": 114430,
+    "icon": "A7_suits.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 983.7046155999999,
+      "agio": 1.2,
+      "canImport": true,
+      "importCostWeight": 1180.4455387199998,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "telephones",
+    "name": "Telephones",
+    "guid": 114431,
+    "icon": "A7_telephones.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2926.4020599999994,
+      "agio": 1.6,
+      "canImport": true,
+      "importCostWeight": 4682.243296,
+      "costBracket": "premium"
+    }
+  },
+  {
+    "id": "jam",
+    "name": "Jam",
+    "guid": 133183,
+    "icon": "A7_jam.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ],
+    "docklands": {
+      "exchangeWeight": 165.35158
+    }
+  },
+  {
+    "id": "shampoo",
+    "name": "Shampoo",
+    "guid": 133181,
+    "icon": "A7_shampoo.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1139.9168359999999
+    }
+  },
+  {
+    "id": "lemonade",
+    "name": "Lemonade",
+    "guid": 133185,
+    "icon": "A7_lemonade.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1233.3093334999999
+    }
+  },
+  {
+    "id": "souvenirs",
+    "name": "Souvenirs",
+    "guid": 133532,
+    "icon": "A7_souvenir.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ],
+    "docklands": {
+      "exchangeWeight": 1273.6803335
+    }
+  },
+  {
+    "id": "cinnamon",
+    "name": "Cinnamon",
+    "guid": 133093,
+    "icon": "A7_cinamon.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 241.07999299999997
+    }
+  },
+  {
+    "id": "coconut_oil",
+    "name": "Coconut Oil",
+    "guid": 133095,
+    "icon": "A7_Oil.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 241.07999299999997
+    }
+  },
+  {
+    "id": "citrus",
+    "name": "Citrus",
+    "guid": 133097,
+    "icon": "A7_citrus.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 241.07999299999997
+    }
+  },
+  {
+    "id": "camphor_wax",
+    "name": "Camphor Wax",
+    "guid": 134616,
+    "icon": "A7_cellulose.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 241.07999299999997
+    }
+  },
+  {
+    "id": "elevators",
+    "name": "Elevators",
+    "guid": 134623,
+    "icon": "A7_elevator.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "high_life"
+    ],
+    "docklands": {
+      "exchangeWeight": 5029.918415
+    }
+  },
+  {
+    "id": "biscuits",
+    "name": "Biscuits",
+    "guid": 135229,
+    "icon": "A7_cookie.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1827.611183
+    }
+  },
+  {
+    "id": "typewriters",
+    "name": "Typewriters",
+    "guid": 135230,
+    "icon": "A7_typewriter.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 3399.0630254999996
+    }
+  },
+  {
+    "id": "resin",
+    "name": "Resin",
+    "guid": 135086,
+    "icon": "A7_wood_resin.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 165.35158
+    }
+  },
+  {
+    "id": "cherry_wood",
+    "name": "Cherry Wood",
+    "guid": 135087,
+    "icon": "A7_cherry_wood.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 165.35158
+    }
+  },
+  {
+    "id": "lacquer",
+    "name": "Lacquer",
+    "guid": 135129,
+    "icon": "A7_lacquer.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1591.6449605
+    }
+  },
+  {
+    "id": "cognac",
+    "name": "Cognac",
+    "guid": 135234,
+    "icon": "A7_cognac.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1700.486258
+    }
+  },
+  {
+    "id": "violins",
+    "name": "Violins",
+    "guid": 135233,
+    "icon": "A7_violin.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 3005.9121004999997
+    }
+  },
+  {
+    "id": "billiard_tables",
+    "name": "Billiard Tables",
+    "guid": 135232,
+    "icon": "A7_billard.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 3080.511905
+    }
+  },
+  {
+    "id": "toys",
+    "name": "Toys",
+    "guid": 135231,
+    "icon": "A7_toys.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 4506.8052855
+    }
+  },
+  {
+    "id": "chewing_gum_135186",
+    "name": "Chewing Gum",
+    "guid": 135186,
+    "icon": "A7_bubble_gum.png",
+    "iconSource": "annoDesigner",
+    "duplicateOf": null,
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1374.3388889999999
+    }
+  },
+  {
+    "id": "ethanol",
+    "name": "Ethanol",
+    "guid": 135130,
+    "icon": "A7_ethanol.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 893.6294379999999
+    }
+  },
+  {
+    "id": "celluloid",
+    "name": "Celluloid",
+    "guid": 135150,
+    "icon": "A7_celluloid.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1935.2029289999998
+    }
+  },
+  {
+    "id": "toaster_supply",
+    "name": "Toaster Supply",
+    "guid": 135816,
+    "icon": "A7_toaster.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "crockery_supply",
+    "name": "Crockery Supply",
+    "guid": 135876,
+    "icon": "A7_dishes.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "vaccum_cleaner_supply",
+    "name": "Vaccum Cleaner Supply",
+    "guid": 135877,
+    "icon": "A7_vacuumcleaner.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "refrigerator_supply",
+    "name": "Refrigerator Supply",
+    "guid": 135878,
+    "icon": "A7_refrigerator.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "briefcase_supply",
+    "name": "Briefcase Supply",
+    "guid": 135879,
+    "icon": "A7_suitcase.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "bankers_lamp_supply",
+    "name": "Banker's Lamp Supply",
+    "guid": 135880,
+    "icon": "A7_bankerlamp.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "vanity_screen_supply",
+    "name": "Vanity Screen Supply",
+    "guid": 135881,
+    "icon": "A7_paravent.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "writing_desk_supply",
+    "name": "Writing Desk Supply",
+    "guid": 135882,
+    "icon": "A7_secretary.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "four_poster_bed_supply",
+    "name": "Four-Poster Bed Supply",
+    "guid": 135883,
+    "icon": "A7_canopy.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "empire_of_the_skies"
+    ],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "lounge_seating_supply",
+    "name": "Lounge Seating Supply",
+    "guid": 135884,
+    "icon": "A7_chesterfield.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "toothpaste_supply",
+    "name": "Toothpaste Supply",
+    "guid": 135885,
+    "icon": "A7_toothpaste.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "detergent_supply",
+    "name": "Detergent Supply",
+    "guid": 135886,
+    "icon": "A7_detergent.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "lipstick_supply",
+    "name": "Lipstick Supply",
+    "guid": 135887,
+    "icon": "A7_lipstick.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "face_cream_supply",
+    "name": "Face Cream Supply",
+    "guid": 135888,
+    "icon": "A7_facecreme.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "pomade_supply",
+    "name": "Pomade Supply",
+    "guid": 135889,
+    "icon": "A7_pomade.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "herbs",
+    "name": "Herbs",
+    "guid": 5383,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_herbs_with_flower.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [
+      "new_world_rising"
+    ],
+    "docklands": {
+      "exchangeWeight": 118.47999799999998
+    }
+  },
+  {
+    "id": "nandu_leather",
+    "name": "Nandu Leather",
+    "guid": 5384,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_nandu_leather.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 72.979998
+    }
+  },
+  {
+    "id": "nandu_feathers",
+    "name": "Nandu Feathers",
+    "guid": 5401,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_nandu_feathers.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 18
+    }
+  },
+  {
+    "id": "milk",
+    "name": "Milk",
+    "guid": 5385,
+    "icon": "A7_goat_milk.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 22
+    }
+  },
+  {
+    "id": "orchid",
+    "name": "Orchid",
+    "guid": 5386,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_orchid.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 115.67999799999998
+    }
+  },
+  {
+    "id": "calamari",
+    "name": "Calamari",
+    "guid": 5380,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_squid.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 157.5599935
+    }
+  },
+  {
+    "id": "ice_cube",
+    "name": "Ice Cube",
+    "guid": 5387,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_plusgood_bauxit.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "fire_extinguishers",
+    "name": "Fire Extinguishers",
+    "guid": 5393,
+    "icon": "data/ui/2kimages/main/3dicons/recipes/icon_extinguisher.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1860.4105579999998
+    }
+  },
+  {
+    "id": "police_equipment",
+    "name": "Police Equipment",
+    "guid": 5394,
+    "icon": "A7_police.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1301.3140359999998
+    }
+  },
+  {
+    "id": "fans",
+    "name": "Fans",
+    "guid": 5395,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_ventilator.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 7297.7357764
+    }
+  },
+  {
+    "id": "medicine",
+    "name": "Medicine",
+    "guid": 5397,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_medicine.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2914.2989139999995
+    }
+  },
+  {
+    "id": "electric_cables",
+    "name": "Electric Cables",
+    "guid": 6280,
+    "icon": "A7_electric_cable_3.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 993.418013
+    }
+  },
+  {
+    "id": "jalea",
+    "name": "Jalea",
+    "guid": 5381,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_jalea.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 705.4457795
+    }
+  },
+  {
+    "id": "ice_cream",
+    "name": "Ice Cream",
+    "guid": 5382,
+    "icon": "A7_ice_cream.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1869.699349
+    }
+  },
+  {
+    "id": "mezcal",
+    "name": "Mezcal",
+    "guid": 6600,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_mezcal.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 866.0511789999999
+    }
+  },
+  {
+    "id": "soccer_balls",
+    "name": "Soccer Balls",
+    "guid": 5803,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_ballsports.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [
+      "new_world_rising"
+    ],
+    "docklands": {
+      "exchangeWeight": 366.29999
+    }
+  },
+  {
+    "id": "costumes",
+    "name": "Costumes",
+    "guid": 5389,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_costumes.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2404.167802
+    }
+  },
+  {
+    "id": "perfumes",
+    "name": "Perfumes",
+    "guid": 5388,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_perfume.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2161.1441689999997
+    }
+  },
+  {
+    "id": "pigments",
+    "name": "Pigments",
+    "guid": 5400,
+    "icon": "data/ui/2kimages/main/3dicons/recipes/icon_pigments.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 1811.3562264999996
+    }
+  },
+  {
+    "id": "motor",
+    "name": "Motor",
+    "guid": 5390,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_motor.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 4632.725882
+    }
+  },
+  {
+    "id": "scooter",
+    "name": "Scooter",
+    "guid": 5391,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_scooter.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 9135.714114499999
+    }
+  },
+  {
+    "id": "film_reel",
+    "name": "Film Reel",
+    "guid": 5392,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_film_role.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 2691.3209715000003
+    }
+  },
+  {
+    "id": "ammonia",
+    "name": "Ammonia",
+    "guid": 5399,
+    "icon": "A7_ammonia.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  },
+  {
+    "id": "minerals",
+    "name": "Minerals",
+    "guid": 5398,
+    "icon": "data/ui/2kimages/main/3dicons/production_goods/icon_minerals.png",
+    "iconSource": "calculator",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 710.2969439999998
+    }
+  },
+  {
+    "id": "silver_ore",
+    "name": "Silver Ore",
+    "guid": 6360,
+    "icon": "A7_ironore.png",
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [],
+    "docklands": {
+      "exchangeWeight": 0
+    }
+  }
+]

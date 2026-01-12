@@ -1,0 +1,76 @@
+{
+  "version": "2.0.1",
+  "dlcTagging": "heuristic (rule-based on ids/names). Next: wiki DLC icon sweep for authoritative mapping.",
+  "counts": {
+    "buildings": 940,
+    "goods": 267,
+    "services": 59,
+    "residents": 12,
+    "items_total": 887,
+    "items_by_slot": {
+      "trade_union": 488,
+      "town_hall": 311,
+      "harbourmasters_office": 88
+    },
+    "items_with_effects": 525,
+    "items_with_targets_buildings": 421,
+    "items_with_dlcDependency": 145
+  },
+  "serviceNeedLinks": {
+    "buildingsWithProvidesNeeds": 14,
+    "uniqueNeedIdsLinked": 14
+  },
+  "needRules": {
+    "coreGoodsBlocksUpgrade": true,
+    "servicesBlockUpgrade": true,
+    "luxuryAndLifestyleDoNotBlockUpgrade": true
+  },
+  "items": {
+    "dlcCounts": {
+      "sunken_treasures": 36,
+      "the_passage": 16,
+      "land_of_lions": 70,
+      "tourist_season": 6,
+      "high_life": 6,
+      "empire_of_the_skies": 4,
+      "seeds_of_change": 1,
+      "new_world_rising": 6
+    },
+    "dlcDependencyMapped": 145,
+    "total": 887
+  },
+  "generatedAtUTC": "2026-01-12T07:37:07.628470Z",
+  "residents": {
+    "count": 16,
+    "notes": "Arctic/Enbesa residents added from Calculator params.js; luxury/lifestyle breakdown pending wiki pass."
+  },
+  "v19": {
+    "touristsAdded": true,
+    "tourismRecipeLists": {
+      "Restaurant": 6,
+      "Cafe": 6,
+      "Bar": 6,
+      "The Iron Tower": 5
+    },
+    "notes": "Tourists resident + tourism menu recipes sourced from Anno1800Calculator params.js (populationLevels, residenceBuildings, recipeLists, publicRecipeBuildings)."
+  },
+  "docklands": {
+    "importableGoodsCount": 74,
+    "piersCount": 12,
+    "pierUpgradesCount": 5,
+    "goodsWithExchangeWeightInGoodsJson": 264,
+    "importCostBrackets": {
+      "cheap_max": 140.0311823,
+      "standard_max": 336.73229085,
+      "expensive_max": 1169.79269904
+    },
+    "agioGroupsCounts": {
+      "1": 29,
+      "1.2": 18,
+      "1.4": 21,
+      "1.6": 6
+    },
+    "cheapestImportablesCount": 20,
+    "priciestImportablesCount": 20
+  }
+}

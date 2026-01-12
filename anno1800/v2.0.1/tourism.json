@@ -1,0 +1,1141 @@
+{
+  "recipeLists": [
+    {
+      "guid": 132780,
+      "id": "restaurant",
+      "name": "Restaurant",
+      "recipeListType": "Diner",
+      "dlcsRequired": [
+        "tourist_season"
+      ],
+      "recipes": [
+        {
+          "guid": 132747,
+          "name": "Restaurant: Archduke's Schnitzel",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 132745,
+          "inputs": [
+            {
+              "guid": 1010199,
+              "id": "pigs",
+              "name": "Pigs",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010195,
+              "id": "potatoes",
+              "name": "Potatoes",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010234,
+              "id": "tallow",
+              "name": "Tallow",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 132750,
+          "name": "Restaurant: Stroggof Goulash",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 132749,
+          "inputs": [
+            {
+              "guid": 1010193,
+              "id": "beef",
+              "name": "Beef",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010198,
+              "id": "red_peppers",
+              "name": "Red Peppers",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 120034,
+              "id": "corn",
+              "name": "Corn",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133339,
+          "name": "Restaurant: Fish and Frites",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133352,
+          "inputs": [
+            {
+              "guid": 1010200,
+              "id": "fish",
+              "name": "Fish",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010195,
+              "id": "potatoes",
+              "name": "Potatoes",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133097,
+              "id": "citrus",
+              "name": "Citrus",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133340,
+          "name": "Restaurant: Venison en Cro\u00fbte",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133353,
+          "inputs": [
+            {
+              "guid": 1010235,
+              "id": "flour",
+              "name": "Flour",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010195,
+              "id": "potatoes",
+              "name": "Potatoes",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 112694,
+              "id": "caribou_meat",
+              "name": "Caribou Meat",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133341,
+          "name": "Restaurant: Lobster Chemin\u00e9e",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133354,
+          "inputs": [
+            {
+              "guid": 118728,
+              "id": "lobster",
+              "name": "Lobster",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133097,
+              "id": "citrus",
+              "name": "Citrus",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010252,
+              "id": "tobacco",
+              "name": "Tobacco",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 6136,
+          "name": "Restaurant: Empanadas",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 6148,
+          "inputs": [
+            {
+              "guid": 1010193,
+              "id": "beef",
+              "name": "Beef",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 5383,
+              "id": "herbs",
+              "name": "Herbs",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010235,
+              "id": "flour",
+              "name": "Flour",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": 132782,
+      "id": "cafe",
+      "name": "Cafe",
+      "recipeListType": "Cafe",
+      "dlcsRequired": [
+        "tourist_season"
+      ],
+      "recipes": [
+        {
+          "guid": 132753,
+          "name": "Cafe: Donut Fourr\u00e9",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 132759,
+          "inputs": [
+            {
+              "guid": 1010235,
+              "id": "flour",
+              "name": "Flour",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010234,
+              "id": "tallow",
+              "name": "Tallow",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133183,
+              "id": "jam",
+              "name": "Jam",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133347,
+          "name": "Cafe: Eclair",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133357,
+          "inputs": [
+            {
+              "guid": 1010235,
+              "id": "flour",
+              "name": "Flour",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010239,
+              "id": "sugar",
+              "name": "Sugar",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010258,
+              "id": "chocolate",
+              "name": "Chocolate",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133348,
+          "name": "Cafe: Palmier Biscuit",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133358,
+          "inputs": [
+            {
+              "guid": 1010235,
+              "id": "flour",
+              "name": "Flour",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010234,
+              "id": "tallow",
+              "name": "Tallow",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133093,
+              "id": "cinnamon",
+              "name": "Cinnamon",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133349,
+          "name": "Cafe: Venison Tartare",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133359,
+          "inputs": [
+            {
+              "guid": 120014,
+              "id": "grapes",
+              "name": "Grapes",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 112694,
+              "id": "caribou_meat",
+              "name": "Caribou Meat",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133097,
+              "id": "citrus",
+              "name": "Citrus",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133350,
+          "name": "Cafe: Banana Surprise",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133360,
+          "inputs": [
+            {
+              "guid": 114371,
+              "id": "goat_milk",
+              "name": "Goat Milk",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 120041,
+              "id": "plantains",
+              "name": "Plantains",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133093,
+              "id": "cinnamon",
+              "name": "Cinnamon",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 6138,
+          "name": "Cafe: Cone O'Copia ",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 6157,
+          "inputs": [
+            {
+              "guid": 5385,
+              "id": "milk",
+              "name": "Milk",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 5386,
+              "id": "orchid",
+              "name": "Orchid",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133183,
+              "id": "jam",
+              "name": "Jam",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": 132781,
+      "id": "bar",
+      "name": "Bar",
+      "recipeListType": "Bar",
+      "dlcsRequired": [
+        "tourist_season"
+      ],
+      "recipes": [
+        {
+          "guid": 132752,
+          "name": "Bar: Daiquiri Tropic",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 132758,
+          "inputs": [
+            {
+              "guid": 1010251,
+              "id": "sugar_cane",
+              "name": "Sugar Cane",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010257,
+              "id": "rum",
+              "name": "Rum",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 120041,
+              "id": "plantains",
+              "name": "Plantains",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133342,
+          "name": "Bar: Black Muscovy",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133361,
+          "inputs": [
+            {
+              "guid": 120032,
+              "id": "coffee",
+              "name": "Coffee",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010257,
+              "id": "rum",
+              "name": "Rum",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010216,
+              "id": "schnapps",
+              "name": "Schnapps",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133343,
+          "name": "Bar: Montmartre '75'",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133362,
+          "inputs": [
+            {
+              "guid": 1010239,
+              "id": "sugar",
+              "name": "Sugar",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 120016,
+              "id": "champagne",
+              "name": "Champagne",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133097,
+              "id": "citrus",
+              "name": "Citrus",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133345,
+          "name": "Bar: Arctic Glogg",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133363,
+          "inputs": [
+            {
+              "guid": 112699,
+              "id": "whale_oil",
+              "name": "Whale Oil",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 120014,
+              "id": "grapes",
+              "name": "Grapes",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133093,
+              "id": "cinnamon",
+              "name": "Cinnamon",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133346,
+          "name": "Bar: Enbesa Sunrise",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133364,
+          "inputs": [
+            {
+              "guid": 114364,
+              "id": "hibiscus_petals",
+              "name": "Hibiscus Petals",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010257,
+              "id": "rum",
+              "name": "Rum",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 114369,
+              "id": "spices",
+              "name": "Spices",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 6137,
+          "name": "Bar: Absynthe",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 6154,
+          "inputs": [
+            {
+              "guid": 5383,
+              "id": "herbs",
+              "name": "Herbs",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010239,
+              "id": "sugar",
+              "name": "Sugar",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010216,
+              "id": "schnapps",
+              "name": "Schnapps",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 120,
+              "storageAmount": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": 132770,
+      "id": "the_iron_tower",
+      "name": "The Iron Tower",
+      "recipeListType": "LuxuryDiner",
+      "dlcsRequired": [
+        "tourist_season"
+      ],
+      "recipes": [
+        {
+          "guid": 133928,
+          "name": "The Iron Tower: Brioche Royale ",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133929,
+          "inputs": [
+            {
+              "guid": 1010238,
+              "id": "sausages",
+              "name": "Sausages",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010213,
+              "id": "bread",
+              "name": "Bread",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010193,
+              "id": "beef",
+              "name": "Beef",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010249,
+              "id": "gold",
+              "name": "Gold",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 200,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133930,
+          "name": "The Iron Tower: Trifle Tower",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133934,
+          "inputs": [
+            {
+              "guid": 1010257,
+              "id": "rum",
+              "name": "Rum",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010213,
+              "id": "bread",
+              "name": "Bread",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 120014,
+              "id": "grapes",
+              "name": "Grapes",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010239,
+              "id": "sugar",
+              "name": "Sugar",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 200,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133931,
+          "name": "The Iron Tower: Lady Marmelade",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133935,
+          "inputs": [
+            {
+              "guid": 1010257,
+              "id": "rum",
+              "name": "Rum",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 120016,
+              "id": "champagne",
+              "name": "Champagne",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133097,
+              "id": "citrus",
+              "name": "Citrus",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 133183,
+              "id": "jam",
+              "name": "Jam",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 200,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133932,
+          "name": "The Iron Tower: Age of Exploration",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133936,
+          "inputs": [
+            {
+              "guid": 112706,
+              "id": "arctic_gas",
+              "name": "Arctic Gas",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010195,
+              "id": "potatoes",
+              "name": "Potatoes",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010198,
+              "id": "red_peppers",
+              "name": "Red Peppers",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010193,
+              "id": "beef",
+              "name": "Beef",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 200,
+              "storageAmount": null
+            }
+          ]
+        },
+        {
+          "guid": 133933,
+          "name": "The Iron Tower: Homard sur Lit de Terroir",
+          "eateryType": "eatery",
+          "tpmin": 1,
+          "goodConsumptionUpgradeGuid": 133937,
+          "inputs": [
+            {
+              "guid": 118728,
+              "id": "lobster",
+              "name": "Lobster",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 114357,
+              "id": "sanga_cow",
+              "name": "Sanga Cow",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 1010195,
+              "id": "potatoes",
+              "name": "Potatoes",
+              "amount": 1,
+              "storageAmount": 10
+            },
+            {
+              "guid": 114369,
+              "id": "spices",
+              "name": "Spices",
+              "amount": 1,
+              "storageAmount": 10
+            }
+          ],
+          "maintenances": [
+            {
+              "guid": 1010017,
+              "id": "coins",
+              "name": "Coins",
+              "amount": 500,
+              "storageAmount": null
+            },
+            {
+              "guid": 132723,
+              "id": "guid_132723",
+              "name": "132723",
+              "amount": 200,
+              "storageAmount": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

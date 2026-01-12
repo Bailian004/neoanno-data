@@ -1,0 +1,57 @@
+[
+  {
+    "type": "productivity_pct",
+    "appliesTo": "production_building",
+    "description": "Adds/subtracts productivity percentage."
+  },
+  {
+    "type": "workforce_needed_pct",
+    "appliesTo": "production_building",
+    "description": "Changes required workforce amount by percentage."
+  },
+  {
+    "type": "maintenance_coins_pct",
+    "appliesTo": "building",
+    "description": "Changes maintenance cost in coins by percentage."
+  },
+  {
+    "type": "inputs_replace",
+    "appliesTo": "production_recipe",
+    "description": "Replaces one input good with another for the affected recipe."
+  },
+  {
+    "type": "extra_output",
+    "appliesTo": "production_recipe",
+    "description": "Adds extra output good every N production cycles."
+  },
+  {
+    "type": "output_amount_factor",
+    "appliesTo": "production_recipe",
+    "description": "Multiplies output amount factor (engine internal)."
+  },
+  {
+    "type": "chance_of_fire_pct",
+    "appliesTo": "building",
+    "description": "Changes chance of fire by percentage points."
+  },
+  {
+    "type": "chance_of_illness_pct",
+    "appliesTo": "building",
+    "description": "Changes chance of illness by percentage points."
+  },
+  {
+    "type": "chance_of_riots_pct",
+    "appliesTo": "building",
+    "description": "Changes chance of riots by percentage points."
+  },
+  {
+    "type": "chance_of_explosion_pct",
+    "appliesTo": "building",
+    "description": "Changes chance of explosion by percentage points."
+  },
+  {
+    "type": "workforce_replace",
+    "appliesTo": "building",
+    "description": "Replaces workforce type requirement (rare)."
+  }
+]

@@ -1,0 +1,7027 @@
+[
+  {
+    "id": "farmers",
+    "name": "Farmers",
+    "region": "Old World",
+    "baseOccupancy": 10,
+    "dlcsRequired": [
+      "vanilla"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "market",
+          "service": "marketplace",
+          "needType": "basic",
+          "impact": {
+            "influx": 5
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "marketplace",
+          "providerBuildings": [
+            "marketplace",
+            "marketplace_101257",
+            "marketplace_114518"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "fish",
+          "needType": "basic",
+          "consumptionPer1000": 2.5000002,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 1.25,
+              "medium": 1.125,
+              "low": 1.0
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "work_clothes",
+          "needType": "basic",
+          "consumptionPer1000": 3.076926,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 3.75,
+              "medium": 3.375,
+              "low": 3.0
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "schnapps",
+          "needType": "luxury",
+          "consumptionPer1000": 3.333336,
+          "impact": {
+            "happiness": 8,
+            "incomePerMin": {
+              "high": 3.75,
+              "medium": 3.375,
+              "low": 3.0
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "pub",
+          "service": "pub",
+          "needType": "luxury",
+          "impact": {
+            "supply": 12,
+            "incomePerMin": {
+              "high": 1.5,
+              "medium": 1.35,
+              "low": 1.2
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "pub",
+          "providerBuildings": [
+            "pub",
+            "public_mooring",
+            "public_timepiece"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "consumptionPer1000": 1.6000020000000001,
+          "impact": {
+            "influx": 1,
+            "incomePerMin": {
+              "high": 1.25,
+              "medium": 1.25,
+              "low": 1.0
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "consumptionPer1000": 0.799998,
+          "impact": {
+            "influx": 1,
+            "incomePerMin": {
+              "high": 3.75,
+              "medium": 3.375,
+              "low": 3.0
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "consumptionPer1000": 0.30000000000000004,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "flour",
+          "needType": "lifestyle",
+          "consumptionPer1000": 2.4000000000000004,
+          "impact": {
+            "influx": 1,
+            "incomePerMin": {
+              "high": 0.75,
+              "medium": 0.675,
+              "low": 0.6
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "sugar",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.2000000000000002,
+          "impact": {
+            "influx": 1,
+            "incomePerMin": {
+              "high": 2.375,
+              "medium": 2.1375,
+              "low": 1.9
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "jam",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "tourist_season"
+          ],
+          "consumptionPer1000": 1.9999997999999999,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 1.5,
+              "medium": 1.35,
+              "low": 1.2
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "soap",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.34999998000000004,
+          "impact": {
+            "influx": 1,
+            "incomePerMin": {
+              "high": 1.875,
+              "medium": 1.6875,
+              "low": 1.5
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "herbs",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "consumptionPer1000": 1.6999998000000003,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 5.625,
+              "medium": 5.0625,
+              "low": 4.5
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "hibiscus_petals",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "land_of_lions"
+          ],
+          "consumptionPer1000": 1.0000002,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 1.5,
+              "medium": 1.35,
+              "low": 1.2
+            }
+          },
+          "source": "wiki:Farmer_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "workers",
+    "name": "Workers",
+    "region": "Old World",
+    "baseOccupancy": 20,
+    "dlcsRequired": [
+      "vanilla"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "market",
+          "service": "marketplace",
+          "needType": "basic",
+          "impact": {
+            "influx": 5
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "marketplace",
+          "providerBuildings": [
+            "marketplace",
+            "marketplace_101257",
+            "marketplace_114518"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "school",
+          "service": "school",
+          "needType": "basic",
+          "impact": {
+            "influx": 2
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "school",
+          "providerBuildings": [
+            "samba_school",
+            "school"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "fish",
+          "needType": "basic",
+          "consumptionPer1000": 2.5000002,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 2.5,
+              "medium": 2.25,
+              "low": 2.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "work_clothes",
+          "needType": "basic",
+          "consumptionPer1000": 3.076926,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "sausages",
+          "needType": "basic",
+          "consumptionPer1000": 1.000002,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "bread",
+          "needType": "basic",
+          "consumptionPer1000": 0.9090899999999998,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "soap",
+          "needType": "basic",
+          "consumptionPer1000": 0.416667,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "schnapps",
+          "needType": "luxury",
+          "consumptionPer1000": 3.333336,
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "beer",
+          "needType": "luxury",
+          "consumptionPer1000": 0.76923,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 12.5,
+              "medium": 11.25,
+              "low": 10.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "pub",
+          "service": "pub",
+          "needType": "luxury",
+          "impact": {
+            "supply": 6,
+            "incomePerMin": {
+              "high": 3.0,
+              "medium": 2.7,
+              "low": 2.4
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "pub",
+          "providerBuildings": [
+            "pub",
+            "public_mooring",
+            "public_timepiece"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "church",
+          "service": "church",
+          "needType": "luxury",
+          "impact": {
+            "supply": 7
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "church",
+          "providerBuildings": [
+            "church"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "consumptionPer1000": 1.6250010000000004,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "consumptionPer1000": 0.399999,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "consumptionPer1000": 0.375,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "rum",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.9999998999999999,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 3.0,
+              "medium": 2.7,
+              "low": 2.4
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "penny_farthings",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.3999999,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 4.0,
+              "medium": 3.6,
+              "low": 3.2
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "hot_sauce",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "seeds_of_change"
+          ],
+          "consumptionPer1000": 0.5000001,
+          "impact": {
+            "influx": 1
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "beef",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.6249998999999999,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "soccer_balls",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "consumptionPer1000": 0.5000001,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 4.5,
+              "medium": 4.05,
+              "low": 3.6
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "clay_pipes",
+          "needType": "lifestyle",
+          "dlcsRequired": [
+            "land_of_lions"
+          ],
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 2.0,
+              "medium": 1.8,
+              "low": 1.6
+            }
+          },
+          "source": "wiki:Worker_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "artisans",
+    "name": "Artisans",
+    "region": "Old World",
+    "baseOccupancy": 30,
+    "dlcsRequired": [
+      "vanilla"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "school",
+          "service": "school",
+          "needType": "basic",
+          "impact": {
+            "influx": 4
+          },
+          "source": "wiki:Needs",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "school",
+          "providerBuildings": [
+            "samba_school",
+            "school"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "university",
+          "service": "university",
+          "needType": "basic",
+          "impact": {
+            "supply": 2
+          },
+          "source": "wiki:Needs",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "university",
+          "providerBuildings": [
+            "university"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "sausages",
+          "needType": "basic",
+          "consumptionPer1000": 1.333334,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "bread",
+          "needType": "basic",
+          "consumptionPer1000": 1.212122,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "soap",
+          "needType": "basic",
+          "consumptionPer1000": 0.555556,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "canned_food",
+          "needType": "basic",
+          "consumptionPer1000": 0.34188,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "sewing_machines",
+          "needType": "basic",
+          "consumptionPer1000": 0.95238,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "fur_coats",
+          "needType": "basic",
+          "consumptionPer1000": 0.888888,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 22.5,
+              "medium": 20.25,
+              "low": 18.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "church",
+          "service": "church",
+          "needType": "luxury",
+          "impact": {
+            "supply": 7
+          },
+          "source": "wiki:Needs",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "church",
+          "providerBuildings": [
+            "church"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "variety_theatre",
+          "service": "variety_theatre",
+          "needType": "luxury",
+          "impact": {
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            },
+            "supply": 6
+          },
+          "source": "wiki:Needs",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "variety_theatre",
+          "providerBuildings": [
+            "variety_theatre"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "beer",
+          "needType": "luxury",
+          "consumptionPer1000": 1.025642,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 37.5,
+              "medium": 33.75,
+              "low": 30.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "rum",
+          "needType": "luxury",
+          "consumptionPer1000": 1.904762,
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 18.75,
+              "medium": 16.875,
+              "low": 15.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.533334,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.366666,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.333334,
+          "impact": {
+            "influx": 14,
+            "incomePerMin": {
+              "high": 22.5,
+              "medium": 20.25,
+              "low": 18.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "wool",
+          "needType": "lifestyle",
+          "consumptionPer1000": 2.0,
+          "impact": {
+            "influx": 1
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "clay",
+          "needType": "lifestyle",
+          "consumptionPer1000": 2.666666,
+          "impact": {
+            "influx": 1,
+            "incomePerMin": {
+              "high": 9.375,
+              "medium": 8.4375,
+              "low": 7.5
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "paper",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.0,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 2.25,
+              "medium": 2.025,
+              "low": 1.8
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "soccer_balls",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.6666666,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 6.375,
+              "medium": 5.7375,
+              "low": 5.1
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "new_world_rising"
+          ]
+        },
+        {
+          "good": "perfumes",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.25,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 12.0,
+              "medium": 10.8,
+              "low": 9.6
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "scooter",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.2166666,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 16.875,
+              "medium": 15.1875,
+              "low": 13.5
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "engineers",
+    "name": "Engineers",
+    "region": "Old World",
+    "baseOccupancy": 40,
+    "dlcsRequired": [
+      "vanilla"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "university",
+          "service": "university",
+          "needType": "basic",
+          "impact": {
+            "supply": 6
+          },
+          "source": "wiki:Needs",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "university",
+          "providerBuildings": [
+            "university"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "electricity",
+          "service": "electricity",
+          "needType": "basic",
+          "impact": {
+            "supply": 2
+          },
+          "source": "wiki:Needs",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": [
+            "gas_fired_power_plant",
+            "oil_power_plant"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "canned_food",
+          "needType": "basic",
+          "consumptionPer1000": 0.51282,
+          "impact": {
+            "influx": 12,
+            "incomePerMin": {
+              "high": 20.0,
+              "medium": 18.0,
+              "low": 16.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "sewing_machines",
+          "needType": "basic",
+          "consumptionPer1000": 1.4285715,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 40.0,
+              "medium": 36.0,
+              "low": 32.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "fur_coats",
+          "needType": "basic",
+          "consumptionPer1000": 1.3333335,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 60.0,
+              "medium": 54.0,
+              "low": 48.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "glasses",
+          "needType": "basic",
+          "consumptionPer1000": 0.222222,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 25.0,
+              "medium": 22.5,
+              "low": 20.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "coffee",
+          "needType": "basic",
+          "consumptionPer1000": 1.176471,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 20.0,
+              "medium": 18.0,
+              "low": 16.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "light_bulbs",
+          "needType": "basic",
+          "consumptionPer1000": 0.3124995,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 35.0,
+              "medium": 31.5,
+              "low": 28.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "variety_theatre",
+          "service": "variety_theatre",
+          "needType": "luxury",
+          "impact": {
+            "incomePerMin": {
+              "high": 10.0,
+              "medium": 9.0,
+              "low": 8.0
+            },
+            "supply": 6
+          },
+          "source": "wiki:Needs",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "variety_theatre",
+          "providerBuildings": [
+            "variety_theatre"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "bank",
+          "service": "bank",
+          "needType": "luxury",
+          "impact": {
+            "incomePerMin": {
+              "high": 50.0,
+              "medium": 45.0,
+              "low": 40.0
+            },
+            "supply": 2
+          },
+          "source": "wiki:Needs",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "bank",
+          "providerBuildings": [
+            "bank",
+            "furniture_store_bankers_lamps"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "rum",
+          "needType": "luxury",
+          "consumptionPer1000": 2.857143,
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 50.0,
+              "medium": 45.0,
+              "low": 40.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "penny_farthings",
+          "needType": "luxury",
+          "consumptionPer1000": 0.6250005,
+          "impact": {
+            "happiness": 5,
+            "incomePerMin": {
+              "high": 35.0,
+              "medium": 31.5,
+              "low": 28.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "pocket_watches",
+          "needType": "luxury",
+          "consumptionPer1000": 0.1960785,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 45.0,
+              "medium": 40.5,
+              "low": 36.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.5625005,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 20.0,
+              "medium": 18.0,
+              "low": 16.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.375,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 60.0,
+              "medium": 54.0,
+              "low": 48.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.3,
+          "impact": {
+            "influx": 15,
+            "incomePerMin": {
+              "high": 120.0,
+              "medium": 108.0,
+              "low": 96.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "soap",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.7812501,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "chocolate",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.375,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 18.0,
+              "medium": 16.2,
+              "low": 14.4
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "shampoo",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.45,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 8.5,
+              "medium": 7.65,
+              "low": 6.8
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "mezcal",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.375,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 11.0,
+              "medium": 9.9,
+              "low": 8.8
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "ice_cream",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.4999999,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 10.0,
+              "medium": 9.0,
+              "low": 8.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "medicine",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.4166667,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 8.0,
+              "medium": 7.2,
+              "low": 6.4
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "investors",
+    "name": "Investors",
+    "region": "Old World",
+    "baseOccupancy": 50,
+    "dlcsRequired": [
+      "vanilla"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "electricity",
+          "service": "electricity",
+          "needType": "basic",
+          "impact": {
+            "supply": 8
+          },
+          "source": "wiki:Needs",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": [
+            "gas_fired_power_plant",
+            "oil_power_plant"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "glasses",
+          "needType": "basic",
+          "consumptionPer1000": 0.3555552,
+          "impact": {
+            "influx": 16,
+            "incomePerMin": {
+              "high": 62.5,
+              "medium": 56.25,
+              "low": 50.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "coffee",
+          "needType": "basic",
+          "consumptionPer1000": 1.8823524,
+          "impact": {
+            "influx": 8,
+            "incomePerMin": {
+              "high": 50.0,
+              "medium": 45.0,
+              "low": 40.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "light_bulbs",
+          "needType": "basic",
+          "consumptionPer1000": 0.5000004,
+          "impact": {
+            "influx": 8,
+            "incomePerMin": {
+              "high": 87.5,
+              "medium": 78.75,
+              "low": 70.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "champagne",
+          "needType": "basic",
+          "consumptionPer1000": 0.4704,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 31.25,
+              "medium": 28.125,
+              "low": 25.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "cigars",
+          "needType": "basic",
+          "consumptionPer1000": 0.444444,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 31.25,
+              "medium": 28.125,
+              "low": 25.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "chocolate",
+          "needType": "basic",
+          "consumptionPer1000": 1.0666668,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 31.25,
+              "medium": 28.125,
+              "low": 25.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "steam_carriages",
+          "needType": "basic",
+          "consumptionPer1000": 0.1333332,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 187.5,
+              "medium": 168.75,
+              "low": 150.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "bank",
+          "service": "bank",
+          "needType": "luxury",
+          "impact": {
+            "incomePerMin": {
+              "high": 125.0,
+              "medium": 112.5,
+              "low": 100.0
+            },
+            "supply": 2
+          },
+          "source": "wiki:Needs",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "bank",
+          "providerBuildings": [
+            "bank",
+            "furniture_store_bankers_lamps"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "members_club",
+          "service": "members_club",
+          "needType": "luxury",
+          "impact": {
+            "incomePerMin": {
+              "high": 31.25,
+              "medium": 28.125,
+              "low": 25.0
+            },
+            "supply": 5
+          },
+          "source": "wiki:Needs",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "members_club",
+          "providerBuildings": [
+            "members_club"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "penny_farthings",
+          "needType": "luxury",
+          "consumptionPer1000": 0.9999996,
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 87.5,
+              "medium": 78.75,
+              "low": 70.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "pocket_watches",
+          "needType": "luxury",
+          "consumptionPer1000": 0.3137256,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 112.5,
+              "medium": 101.25,
+              "low": 90.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "jewellery",
+          "needType": "luxury",
+          "consumptionPer1000": 0.4210524,
+          "impact": {
+            "happiness": 2,
+            "incomePerMin": {
+              "high": 156.25,
+              "medium": 140.625,
+              "low": 125.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "gramophones",
+          "needType": "luxury",
+          "consumptionPer1000": 0.10524,
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 93.75,
+              "medium": 84.375,
+              "low": 75.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.5500004,
+          "impact": {
+            "influx": 8,
+            "incomePerMin": {
+              "high": 31.25,
+              "medium": 28.125,
+              "low": 25.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.3800004,
+          "impact": {
+            "influx": 12,
+            "incomePerMin": {
+              "high": 87.5,
+              "medium": 78.75,
+              "low": 70.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.3,
+          "impact": {
+            "influx": 25,
+            "incomePerMin": {
+              "high": 156.25,
+              "medium": 140.625,
+              "low": 125.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "furs",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.32,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 3.75,
+              "medium": 3.375,
+              "low": 3.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "bear_fur",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.13,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 13.75,
+              "medium": 12.375,
+              "low": 11.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "tapestries",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.32,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 13.75,
+              "medium": 12.375,
+              "low": 11.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "perfumes",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.25,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 11.25,
+              "medium": 10.125,
+              "low": 9.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "fans",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.3,
+          "impact": {
+            "influx": 10,
+            "incomePerMin": {
+              "high": 12.5,
+              "medium": 11.25,
+              "low": 10.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "film_reel",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.225,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 10.625,
+              "medium": 9.5625,
+              "low": 8.5
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "scholars",
+    "name": "Scholars",
+    "region": "Old World",
+    "baseOccupancy": 120,
+    "dlcsRequired": [
+      "land_of_lions"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "university",
+          "service": "university",
+          "needType": "basic",
+          "impact": {
+            "supply": 12,
+            "researchPointsPerMin": 1.2
+          },
+          "source": "wiki:Needs",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "university",
+          "providerBuildings": [
+            "university"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "electricity",
+          "service": "electricity",
+          "needType": "basic",
+          "impact": {
+            "supply": 12,
+            "researchPointsPerMin": 1.2
+          },
+          "source": "wiki:Needs",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": [
+            "gas_fired_power_plant",
+            "oil_power_plant"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "radio_tower",
+          "service": "radio_tower",
+          "needType": "basic",
+          "impact": {
+            "supply": 12,
+            "researchPointsPerMin": 1.2
+          },
+          "source": "wiki:Needs",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "radio_tower",
+          "providerBuildings": [
+            "radio_tower"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "canned_food",
+          "needType": "basic",
+          "consumptionPer1000": 0.5,
+          "impact": {
+            "influx": 19,
+            "researchPointsPerMin": 1.2
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "tailored_suits",
+          "needType": "basic",
+          "consumptionPer1000": 1.375,
+          "impact": {
+            "influx": 23,
+            "researchPointsPerMin": 4.8
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "seafood_stew",
+          "needType": "basic",
+          "consumptionPer1000": 0.75,
+          "impact": {
+            "influx": 22,
+            "researchPointsPerMin": 4.8
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "telephones",
+          "needType": "basic",
+          "consumptionPer1000": 0.75,
+          "impact": {
+            "influx": 20,
+            "researchPointsPerMin": 2.4
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "leather_boots",
+          "needType": "luxury",
+          "consumptionPer1000": 1.0,
+          "impact": {
+            "happiness": 3,
+            "researchPointsPerMin": 3.6
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "rum",
+          "needType": "luxury",
+          "consumptionPer1000": 0.4,
+          "impact": {
+            "happiness": 2,
+            "researchPointsPerMin": 2.4
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "bowler_hats",
+          "needType": "luxury",
+          "consumptionPer1000": 0.4,
+          "impact": {
+            "happiness": 3,
+            "researchPointsPerMin": 2.4
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "hibiscus_tea",
+          "needType": "luxury",
+          "consumptionPer1000": 0.875,
+          "impact": {
+            "happiness": 3,
+            "researchPointsPerMin": 3.6
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "tapestries",
+          "needType": "luxury",
+          "consumptionPer1000": 0.625,
+          "impact": {
+            "happiness": 3,
+            "researchPointsPerMin": 3.6
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "clay_pipes",
+          "needType": "luxury",
+          "consumptionPer1000": 0.375,
+          "impact": {
+            "happiness": 3,
+            "researchPointsPerMin": 4.8
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "gramophones",
+          "needType": "luxury",
+          "consumptionPer1000": 0.35,
+          "impact": {
+            "happiness": 3,
+            "researchPointsPerMin": 2.4
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 10
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.75,
+          "impact": {
+            "influx": 15
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.75,
+          "impact": {
+            "influx": 25
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "good": "saltpetre",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.0916667,
+          "impact": {
+            "influx": 4,
+            "researchPointsPerMin": 1.2
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "new_world_reports",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.3333335,
+          "impact": {
+            "influx": 5,
+            "researchPointsPerMin": 4.8
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "jornaleros",
+    "name": "Jornaleros",
+    "region": "New World",
+    "baseOccupancy": 10,
+    "dlcsRequired": [
+      "vanilla"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "market",
+          "service": "marketplace",
+          "needType": "basic",
+          "impact": {
+            "influx": 5
+          },
+          "source": "wiki:Jornalero_Residence",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "marketplace",
+          "providerBuildings": [
+            "marketplace",
+            "marketplace_101257",
+            "marketplace_114518"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "beach",
+          "service": "beach",
+          "needType": "lifestyle",
+          "impact": {
+            "happiness": 2
+          },
+          "source": "wiki:Jornalero_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": []
+        },
+        {
+          "id": "cinema",
+          "service": "cinema",
+          "needType": "lifestyle",
+          "impact": {
+            "happiness": 2,
+            "incomePerMin": {
+              "high": 2.0,
+              "medium": 1.8,
+              "low": 1.6
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "cinema",
+          "providerBuildings": [
+            "cinema"
+          ]
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "fried_plantains",
+          "needType": "basic",
+          "consumptionPer1000": 2.8571400000000002,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 3.125,
+              "medium": 2.8125,
+              "low": 2.5
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "ponchos",
+          "needType": "basic",
+          "consumptionPer1000": 2.5000020000000003,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 3.125,
+              "medium": 2.8125,
+              "low": 2.5
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "rum",
+          "needType": "luxury",
+          "consumptionPer1000": 1.4285700000000001,
+          "impact": {
+            "happiness": 6,
+            "incomePerMin": {
+              "high": 3.125,
+              "medium": 2.8125,
+              "low": 2.5
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "chapel",
+          "service": "chapel",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 14
+          },
+          "source": "wiki:Jornalero_Residence",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "chapel",
+          "providerBuildings": [
+            "chapel"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.600002,
+          "impact": {
+            "influx": 1,
+            "incomePerMin": {
+              "high": 2.5,
+              "medium": 2.25,
+              "low": 2.0
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.34999998,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 3.125,
+              "medium": 2.8125,
+              "low": 2.5
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.3,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "work_clothes",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 1.375,
+              "medium": 1.2375,
+              "low": 1.1
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "felt",
+          "needType": "lifestyle",
+          "consumptionPer1000": 2.25,
+          "impact": {
+            "influx": 1,
+            "incomePerMin": {
+              "high": 1.75,
+              "medium": 1.575,
+              "low": 1.4
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "teff",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.6999998000000003,
+          "impact": {
+            "influx": 2
+          },
+          "source": "wiki:Jornalero_Residence",
+          "dlcsRequired": [
+            "land_of_lions"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "soccer_balls",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.9999997999999999,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 1.5,
+              "medium": 1.35,
+              "low": 1.2
+            }
+          },
+          "source": "wiki:Jornalero_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "obreros",
+    "name": "Obreros",
+    "region": "New World",
+    "baseOccupancy": 20,
+    "dlcsRequired": [
+      "vanilla"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "market",
+          "service": "marketplace",
+          "needType": "basic",
+          "impact": {
+            "influx": 5
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "marketplace",
+          "providerBuildings": [
+            "marketplace",
+            "marketplace_101257",
+            "marketplace_114518"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "beach",
+          "service": "beach",
+          "needType": "lifestyle",
+          "impact": {
+            "happiness": 2
+          },
+          "source": "wiki:Obrero_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": []
+        },
+        {
+          "id": "samba_school",
+          "service": "samba_school",
+          "needType": "lifestyle",
+          "impact": {
+            "happiness": 2,
+            "incomePerMin": {
+              "high": 3.5,
+              "medium": 3.15,
+              "low": 2.8
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "samba_school",
+          "providerBuildings": [
+            "samba_school"
+          ]
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "fried_plantains",
+          "needType": "basic",
+          "consumptionPer1000": 2.8571429999999998,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "ponchos",
+          "needType": "basic",
+          "consumptionPer1000": 2.499999,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "tortillas",
+          "needType": "basic",
+          "consumptionPer1000": 1.4285700000000001,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 2.5,
+              "medium": 2.25,
+              "low": 2.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "coffee",
+          "needType": "basic",
+          "consumptionPer1000": 0.588237,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 2.5,
+              "medium": 2.25,
+              "low": 2.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "bowler_hats",
+          "needType": "basic",
+          "consumptionPer1000": 1.333332,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 2.5,
+              "medium": 2.25,
+              "low": 2.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "sewing_machines",
+          "needType": "basic",
+          "consumptionPer1000": 1.2500010000000001,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "rum",
+          "needType": "luxury",
+          "consumptionPer1000": 1.428573,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "beer",
+          "needType": "luxury",
+          "consumptionPer1000": 1.333332,
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "cigars",
+          "needType": "luxury",
+          "consumptionPer1000": 0.555555,
+          "impact": {
+            "happiness": 2,
+            "incomePerMin": {
+              "high": 8.75,
+              "medium": 7.875,
+              "low": 7.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "chapel",
+          "service": "chapel",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 7
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "chapel",
+          "providerBuildings": [
+            "chapel"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "boxing_arena",
+          "service": "boxing_arena",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 2.5,
+              "medium": 2.25,
+              "low": 2.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "boxing_arena",
+          "providerBuildings": [
+            "boxing_arena"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 2.300001,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 2.5,
+              "medium": 2.25,
+              "low": 2.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.549999,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.500001,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 10.0,
+              "medium": 9.0,
+              "low": 8.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "glasses",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.3999999000000001,
+          "impact": {
+            "influx": 1,
+            "incomePerMin": {
+              "high": 1.25,
+              "medium": 1.125,
+              "low": 1.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "typewriters",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.3999999000000001,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 8.75,
+              "medium": 7.875,
+              "low": 7.0
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "dlcsRequired": [
+            "high_life"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "illuminated_script",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.375,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 6.5,
+              "medium": 5.85,
+              "low": 5.2
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "dlcsRequired": [
+            "land_of_lions"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "scooters",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.24999999,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 14.5,
+              "medium": 13.05,
+              "low": 11.6
+            }
+          },
+          "source": "wiki:Obrero_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "artistas",
+    "name": "Artistas",
+    "region": "New World",
+    "baseOccupancy": 40,
+    "dlcsRequired": [
+      "new_world_rising"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "beach",
+          "service": "beach",
+          "needType": "basic",
+          "impact": {
+            "happiness": 2,
+            "incomePerMin": {
+              "high": 20.0,
+              "medium": 18.0,
+              "low": 16.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "tortillas",
+          "needType": "basic",
+          "consumptionPer1000": 0.7142850000000001,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 10.0,
+              "medium": 9.0,
+              "low": 8.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "coffee",
+          "needType": "basic",
+          "consumptionPer1000": 0.2941185,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 10.0,
+              "medium": 9.0,
+              "low": 8.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "bowler_hats",
+          "needType": "basic",
+          "consumptionPer1000": 0.666666,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "sewing_machines",
+          "needType": "basic",
+          "consumptionPer1000": 0.6250005000000001,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 20.0,
+              "medium": 18.0,
+              "low": 16.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "soccer_balls",
+          "needType": "basic",
+          "consumptionPer1000": 0.6250005000000001,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 10.0,
+              "medium": 9.0,
+              "low": 8.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "mezcal",
+          "needType": "basic",
+          "consumptionPer1000": 1.4285714999999999,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "jalea",
+          "needType": "basic",
+          "consumptionPer1000": 0.8250000000000001,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "perfumes",
+          "needType": "basic",
+          "consumptionPer1000": 1.2499995,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 35.0,
+              "medium": 31.5,
+              "low": 28.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "fans",
+          "needType": "basic",
+          "consumptionPer1000": 0.078,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 40.0,
+              "medium": 36.0,
+              "low": 32.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "scooters",
+          "needType": "basic",
+          "consumptionPer1000": 0.04347,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 45.0,
+              "medium": 40.5,
+              "low": 36.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "beer",
+          "needType": "luxury",
+          "consumptionPer1000": 1.333332,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 30.0,
+              "medium": 27.0,
+              "low": 24.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "cigars",
+          "needType": "luxury",
+          "consumptionPer1000": 0.2777775,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 17.5,
+              "medium": 15.75,
+              "low": 14.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "ice_cream",
+          "needType": "luxury",
+          "consumptionPer1000": 0.13485,
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 30.0,
+              "medium": 27.0,
+              "low": 24.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "boxing_arena",
+          "service": "boxing_arena",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 10.0,
+              "medium": 9.0,
+              "low": 8.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "boxing_arena",
+          "providerBuildings": [
+            "boxing_arena"
+          ]
+        },
+        {
+          "id": "samba_school",
+          "service": "samba_school",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "samba_school",
+          "providerBuildings": [
+            "samba_school"
+          ]
+        },
+        {
+          "id": "cinema",
+          "service": "cinema",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 6,
+            "incomePerMin": {
+              "high": 20.0,
+              "medium": 18.0,
+              "low": 16.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "cinema",
+          "providerBuildings": [
+            "cinema"
+          ]
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.875,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 7.5,
+              "medium": 6.75,
+              "low": 6.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "empire_of_the_skies",
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.47500050000000005,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "empire_of_the_skies",
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.375,
+          "impact": {
+            "influx": 12,
+            "incomePerMin": {
+              "high": 27.5,
+              "medium": 24.75,
+              "low": 22.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "empire_of_the_skies",
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "light_bulbs",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.49999994999999997,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 6.0,
+              "medium": 5.4,
+              "low": 4.8
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "champagne",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.44999999999999996,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 13.5,
+              "medium": 12.15,
+              "low": 10.8
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "billiard_tables",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.1875,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 16.0,
+              "medium": 14.4,
+              "low": 12.8
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "high_life",
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "lanterns",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.44999999999999996,
+          "impact": {
+            "influx": 4
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "land_of_lions",
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "jewellery",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.49999994999999997,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 22.5,
+              "medium": 20.25,
+              "low": 18.0
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "souvenirs",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.49999994999999997,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 12.0,
+              "medium": 10.8,
+              "low": 9.6
+            }
+          },
+          "source": "wiki:Artista_Residence",
+          "dlcsRequired": [
+            "tourist_season",
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "hacienda_jornalero_quarters",
+    "name": "Hacienda Jornalero Quarters",
+    "region": "New World",
+    "baseOccupancy": 10,
+    "dlcsRequired": [
+      "seeds_of_change"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "beach",
+          "service": "beach",
+          "needType": "lifestyle",
+          "impact": {
+            "happiness": 2,
+            "influx": 2
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": []
+        },
+        {
+          "id": "cinema",
+          "service": "cinema",
+          "needType": "lifestyle",
+          "impact": {
+            "happiness": 2,
+            "incomePerMin": {
+              "high": 4.0,
+              "medium": 3.6,
+              "low": 3.2
+            },
+            "influx": 2
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "cinema",
+          "providerBuildings": [
+            "cinema"
+          ]
+        },
+        {
+          "id": "hacienda",
+          "service": "hacienda",
+          "needType": "basic",
+          "impact": {
+            "influx": 7
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "hacienda",
+          "providerBuildings": [
+            "hacienda",
+            "hacienda_artista_quarters",
+            "hacienda_atole_maker",
+            "hacienda_beer_brewery",
+            "hacienda_brewery",
+            "hacienda_caoutchouc_plantation",
+            "hacienda_cart",
+            "hacienda_cocoa_farm",
+            "hacienda_coffee_farm",
+            "hacienda_colonnade",
+            "hacienda_corn_farm",
+            "hacienda_crate_stack",
+            "hacienda_farm",
+            "hacienda_fertiliser_works",
+            "hacienda_flowerbed",
+            "hacienda_grain_farm",
+            "hacienda_haystacks",
+            "hacienda_hot_sauce_factory",
+            "hacienda_jornalero_quarters",
+            "hacienda_obrera_quarters",
+            "hacienda_palm_tree",
+            "hacienda_pathway",
+            "hacienda_paving",
+            "hacienda_pool",
+            "hacienda_potato_farm",
+            "hacienda_rum_distillery",
+            "hacienda_schnapps_distillery",
+            "hacienda_shed",
+            "hacienda_spice_farm",
+            "hacienda_storeroom",
+            "hacienda_sugar_cane_farm",
+            "hacienda_wall",
+            "large_hacienda_gateway",
+            "small_hacienda_gateway"
+          ]
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "fried_plantains",
+          "needType": "basic",
+          "consumptionPer1000": 5.71428,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "ponchos",
+          "needType": "basic",
+          "consumptionPer1000": 5.000004000000001,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "schnapps",
+          "needType": "basic",
+          "consumptionPer1000": 6.666672,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "rum",
+          "needType": "luxury",
+          "consumptionPer1000": 2.85714,
+          "impact": {
+            "happiness": 6,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "chapel",
+          "service": "chapel",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 14
+          },
+          "source": "wiki:Needs",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "chapel",
+          "providerBuildings": [
+            "chapel"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "felt",
+          "needType": "lifestyle",
+          "consumptionPer1000": 4.5,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 3.5,
+              "medium": 3.15,
+              "low": 2.8
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "hot_sauce",
+          "needType": "basic",
+          "consumptionPer1000": 5.00004,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 2.5,
+              "medium": 2.25,
+              "low": 2.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "seeds_of_change"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 3.200004,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.6,
+          "impact": {
+            "influx": 10,
+            "incomePerMin": {
+              "high": 12.5,
+              "medium": 11.25,
+              "low": 10.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.69999996,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 6.25,
+              "medium": 5.625,
+              "low": 5.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "soccer_balls",
+          "needType": "lifestyle",
+          "consumptionPer1000": 3.9999995999999998,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 3.0,
+              "medium": 2.7,
+              "low": 2.4
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "teff",
+          "needType": "lifestyle",
+          "consumptionPer1000": 3.3999996,
+          "impact": {
+            "influx": 4
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "land_of_lions"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "work_clothes",
+          "needType": "lifestyle",
+          "consumptionPer1000": 3.0,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 2.75,
+              "medium": 2.475,
+              "low": 2.2
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ]
+    },
+    "variantOf": "jornaleros",
+    "residenceBuildingGuid": 24792,
+    "residentMax": 20
+  },
+  {
+    "id": "hacienda_obrera_quarters",
+    "name": "Hacienda Obrera Quarters",
+    "region": "New World",
+    "baseOccupancy": 20,
+    "dlcsRequired": [
+      "seeds_of_change"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "beach",
+          "service": "beach",
+          "needType": "lifestyle",
+          "impact": {
+            "happiness": 2,
+            "influx": 2
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": []
+        },
+        {
+          "id": "hacienda",
+          "service": "hacienda",
+          "needType": "basic",
+          "impact": {
+            "influx": 7
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "hacienda",
+          "providerBuildings": [
+            "hacienda",
+            "hacienda_artista_quarters",
+            "hacienda_atole_maker",
+            "hacienda_beer_brewery",
+            "hacienda_brewery",
+            "hacienda_caoutchouc_plantation",
+            "hacienda_cart",
+            "hacienda_cocoa_farm",
+            "hacienda_coffee_farm",
+            "hacienda_colonnade",
+            "hacienda_corn_farm",
+            "hacienda_crate_stack",
+            "hacienda_farm",
+            "hacienda_fertiliser_works",
+            "hacienda_flowerbed",
+            "hacienda_grain_farm",
+            "hacienda_haystacks",
+            "hacienda_hot_sauce_factory",
+            "hacienda_jornalero_quarters",
+            "hacienda_obrera_quarters",
+            "hacienda_palm_tree",
+            "hacienda_pathway",
+            "hacienda_paving",
+            "hacienda_pool",
+            "hacienda_potato_farm",
+            "hacienda_rum_distillery",
+            "hacienda_schnapps_distillery",
+            "hacienda_shed",
+            "hacienda_spice_farm",
+            "hacienda_storeroom",
+            "hacienda_sugar_cane_farm",
+            "hacienda_wall",
+            "large_hacienda_gateway",
+            "small_hacienda_gateway"
+          ]
+        },
+        {
+          "id": "samba_school",
+          "service": "samba_school",
+          "needType": "lifestyle",
+          "impact": {
+            "happiness": 2,
+            "incomePerMin": {
+              "high": 7.0,
+              "medium": 6.3,
+              "low": 5.6
+            },
+            "influx": 2
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "samba_school",
+          "providerBuildings": [
+            "samba_school"
+          ]
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "atole",
+          "needType": "basic",
+          "consumptionPer1000": 11.428571999999999,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 20.0,
+              "medium": 18.0,
+              "low": 16.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "seeds_of_change"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "billiard_tables",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 3
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "bombins",
+          "needType": "basic",
+          "consumptionPer1000": 1.333332,
+          "impact": {
+            "influx": 4
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "canned_food",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 5
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "champagne",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 1
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "coffee",
+          "needType": "basic",
+          "consumptionPer1000": 2.352948,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "fried_plantains",
+          "needType": "basic",
+          "consumptionPer1000": 11.428571999999999,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 12.5,
+              "medium": 11.25,
+              "low": 10.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "jewelry",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 2
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "lanterns",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 3
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "light_bulbs",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 2
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "ponchos",
+          "needType": "basic",
+          "consumptionPer1000": 9.999996,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 12.5,
+              "medium": 11.25,
+              "low": 10.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "sewing_machines",
+          "needType": "basic",
+          "consumptionPer1000": 5.000004000000001,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 12.5,
+              "medium": 11.25,
+              "low": 10.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "souvenirs",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 2
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "spectacles",
+          "needType": "basic",
+          "consumptionPer1000": 0.3999999,
+          "impact": {
+            "influx": 3
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "tortillas",
+          "needType": "basic",
+          "consumptionPer1000": 5.71428,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "beer",
+          "needType": "luxury",
+          "consumptionPer1000": 5.333328,
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 15.0,
+              "medium": 13.5,
+              "low": 12.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "cigars",
+          "needType": "luxury",
+          "consumptionPer1000": 2.22222,
+          "impact": {
+            "happiness": 2,
+            "incomePerMin": {
+              "high": 17.5,
+              "medium": 15.75,
+              "low": 14.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        },
+        {
+          "good": "rum",
+          "needType": "luxury",
+          "consumptionPer1000": 5.714292,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 12.5,
+              "medium": 11.25,
+              "low": 10.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "boxing_arena",
+          "service": "boxing_arena",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Needs",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "boxing_arena",
+          "providerBuildings": [
+            "boxing_arena"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "chapel",
+          "service": "chapel",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 7
+          },
+          "source": "wiki:Needs",
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "chapel",
+          "providerBuildings": [
+            "chapel"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "hot_sauce",
+          "needType": "basic",
+          "consumptionPer1000": 5.714292,
+          "impact": {
+            "influx": 4,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "seeds_of_change"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "illuminated_script",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 13.0,
+              "medium": 11.7,
+              "low": 10.4
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "land_of_lions"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 9.200004,
+          "impact": {
+            "influx": 8,
+            "incomePerMin": {
+              "high": 5.0,
+              "medium": 4.5,
+              "low": 4.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 2.000004,
+          "impact": {
+            "influx": 15,
+            "incomePerMin": {
+              "high": 20.0,
+              "medium": 18.0,
+              "low": 16.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 2.199996,
+          "impact": {
+            "influx": 10,
+            "incomePerMin": {
+              "high": 10.0,
+              "medium": 9.0,
+              "low": 8.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "typewriters",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.5999996,
+          "impact": {
+            "influx": 12,
+            "incomePerMin": {
+              "high": 17.5,
+              "medium": 15.75,
+              "low": 14.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "high_life"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "scooter",
+          "needType": "lifestyle",
+          "consumptionPer1000": 0.99999996,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 29.0,
+              "medium": 26.1,
+              "low": 23.2
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        }
+      ]
+    },
+    "variantOf": "obreros",
+    "residenceBuildingGuid": 24793,
+    "residentMax": 40,
+    "notes": [
+      "v1.4.2: moved lifestyle goods out of coreGoods"
+    ]
+  },
+  {
+    "id": "hacienda_artista_quarters",
+    "name": "Hacienda Artista Quarters",
+    "region": "New World",
+    "baseOccupancy": 40,
+    "dlcsRequired": [
+      "new_world_rising"
+    ],
+    "needs": {
+      "services": [
+        {
+          "id": "beach",
+          "service": "beach",
+          "needType": "basic",
+          "impact": {
+            "happiness": 2,
+            "incomePerMin": {
+              "high": 45.0,
+              "medium": 40.5,
+              "low": 36.0
+            },
+            "influx": 2
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": []
+        },
+        {
+          "id": "electricity_1010354",
+          "service": "electricity_1010354",
+          "needType": "basic",
+          "impact": {
+            "influx": 20,
+            "incomePerMin": {
+              "high": 67.5,
+              "medium": 60.75,
+              "low": 54.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [],
+          "category": "service_basic",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": null,
+          "providerBuildings": [
+            "gas_fired_power_plant",
+            "oil_power_plant"
+          ]
+        }
+      ],
+      "coreGoods": [
+        {
+          "good": "bombins",
+          "needType": "basic",
+          "consumptionPer1000": 5.999993999999999,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 11.25,
+              "medium": 10.125,
+              "low": 9.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "canned_food",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 5
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "coffee",
+          "needType": "basic",
+          "consumptionPer1000": 2.6470668,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 22.5,
+              "medium": 20.25,
+              "low": 18.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "fans",
+          "needType": "basic",
+          "consumptionPer1000": 0.702,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 90.0,
+              "medium": 81.0,
+              "low": 72.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "fried_plantains",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 1
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "illuminated_script",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 4
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "jalea",
+          "needType": "basic",
+          "consumptionPer1000": 7.425000000000001,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 33.75,
+              "medium": 30.375,
+              "low": 27.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "mezcal",
+          "needType": "basic",
+          "consumptionPer1000": 12.8571438,
+          "impact": {
+            "influx": 2,
+            "incomePerMin": {
+              "high": 33.75,
+              "medium": 30.375,
+              "low": 27.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "perfumes",
+          "needType": "basic",
+          "consumptionPer1000": 11.249995799999999,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 78.75,
+              "medium": 70.875,
+              "low": 63.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "ponchos",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 1
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "scooter",
+          "needType": "basic",
+          "consumptionPer1000": 0.39122999999999997,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 101.25,
+              "medium": 91.125,
+              "low": 81.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "sewing_machines",
+          "needType": "basic",
+          "consumptionPer1000": 5.6250048,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 45.0,
+              "medium": 40.5,
+              "low": 36.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "soccer_balls",
+          "needType": "basic",
+          "consumptionPer1000": 5.6250048,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 22.5,
+              "medium": 20.25,
+              "low": 18.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "spectacles",
+          "needType": "basic",
+          "consumptionPer1000": 3.999996,
+          "impact": {
+            "influx": 22,
+            "incomePerMin": {
+              "high": 112.5,
+              "medium": 101.25,
+              "low": 90.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "tortillas",
+          "needType": "basic",
+          "consumptionPer1000": 6.428565,
+          "impact": {
+            "influx": 7,
+            "incomePerMin": {
+              "high": 22.5,
+              "medium": 20.25,
+              "low": 18.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        },
+        {
+          "good": "typewriters",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 7
+          },
+          "source": "calculator:params.js",
+          "dlcsRequired": [],
+          "category": "core",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "populationBonusLost": true,
+            "incomeMultiplier": 0.6
+          }
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "good": "beer",
+          "needType": "luxury",
+          "consumptionPer1000": 11.999987999999998,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 67.5,
+              "medium": 60.75,
+              "low": 54.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "cigars",
+          "needType": "luxury",
+          "consumptionPer1000": 2.4999978,
+          "impact": {
+            "happiness": 3,
+            "incomePerMin": {
+              "high": 39.375,
+              "medium": 35.4375,
+              "low": 31.5
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "ice_cream",
+          "needType": "luxury",
+          "consumptionPer1000": 1.21365,
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 67.5,
+              "medium": 60.75,
+              "low": 54.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        }
+      ],
+      "luxuryServices": [
+        {
+          "id": "boxing_arena",
+          "service": "boxing_arena",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 22.5,
+              "medium": 20.25,
+              "low": 18.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "boxing_arena",
+          "providerBuildings": [
+            "boxing_arena"
+          ]
+        },
+        {
+          "id": "cinema",
+          "service": "cinema",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 6,
+            "incomePerMin": {
+              "high": 45.0,
+              "medium": 40.5,
+              "low": 36.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "cinema",
+          "providerBuildings": [
+            "cinema"
+          ]
+        },
+        {
+          "id": "samba_school",
+          "service": "samba_school",
+          "needType": "luxury",
+          "impact": {
+            "happiness": 4,
+            "incomePerMin": {
+              "high": 33.75,
+              "medium": 30.375,
+              "low": 27.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "service_luxury",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": true,
+            "requires": "building_in_range",
+            "incomeMultiplier": 0.0
+          },
+          "requiredBuilding": "samba_school",
+          "providerBuildings": [
+            "samba_school"
+          ]
+        }
+      ],
+      "lifestyleGoods": [
+        {
+          "good": "billiard_tables",
+          "needType": "lifestyle",
+          "consumptionPer1000": 1.6874999999999998,
+          "impact": {
+            "influx": 5,
+            "incomePerMin": {
+              "high": 36.0,
+              "medium": 32.4,
+              "low": 28.8
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "high_life"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "champagne",
+          "needType": "lifestyle",
+          "consumptionPer1000": 4.05,
+          "impact": {
+            "influx": 3,
+            "incomePerMin": {
+              "high": 30.375,
+              "medium": 27.3375,
+              "low": 24.3
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "lanterns",
+          "needType": "lifestyle",
+          "consumptionPer1000": 4.05,
+          "impact": {
+            "influx": 7
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "land_of_lions"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "light_bulbs",
+          "needType": "lifestyle",
+          "consumptionPer1000": 4.4999994,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 13.5,
+              "medium": 12.15,
+              "low": 10.8
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "new_world_rising"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "local_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 16.875,
+          "impact": {
+            "influx": 8,
+            "incomePerMin": {
+              "high": 16.875,
+              "medium": 15.1875,
+              "low": 13.5
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "overseas_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 3.3749999999999996,
+          "impact": {
+            "influx": 20,
+            "incomePerMin": {
+              "high": 61.875,
+              "medium": 55.6875,
+              "low": 49.5
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "regional_mail",
+          "needType": "lifestyle",
+          "consumptionPer1000": 4.2750048,
+          "impact": {
+            "influx": 12,
+            "incomePerMin": {
+              "high": 33.75,
+              "medium": 30.375,
+              "low": 27.0
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "souvenirs",
+          "needType": "lifestyle",
+          "consumptionPer1000": 4.4999994,
+          "impact": {
+            "influx": 6,
+            "incomePerMin": {
+              "high": 27.0,
+              "medium": 24.3,
+              "low": 21.6
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [
+            "tourist_season"
+          ],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        },
+        {
+          "good": "jewelry",
+          "needType": "lifestyle",
+          "consumptionPer1000": 4.4999994,
+          "impact": {
+            "influx": 8,
+            "incomePerMin": {
+              "high": 50.625,
+              "medium": 45.5625,
+              "low": 40.5
+            }
+          },
+          "source": "wiki:Needs",
+          "dlcsRequired": [],
+          "category": "lifestyle",
+          "unsatisfiedEffect": {
+            "blocksUpgrade": false,
+            "incomeBonusLost": true,
+            "happinessBonusLost": true
+          }
+        }
+      ]
+    },
+    "variantOf": "artistas",
+    "residenceBuildingGuid": 6086,
+    "residentMax": 90,
+    "notes": [
+      "v1.4.2: moved lifestyle goods out of coreGoods"
+    ]
+  },
+  {
+    "id": "explorers",
+    "name": "Explorers",
+    "region": "Arctic",
+    "dlcsRequired": [
+      "the_passage"
+    ],
+    "populationPerResidence": 10,
+    "needs": {
+      "services": [
+        {
+          "id": "canteen",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 4
+          },
+          "requiredBuilding": "canteen",
+          "providerBuildings": [
+            "canteen"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "heat",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 0
+          },
+          "requiredBuilding": "heater",
+          "providerBuildings": [
+            "heater",
+            "variety_theatre"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "id": "pemmican",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.2000000000000002,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "oil_lamps",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.6000000000000001,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "sleeping_bags",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.9,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "schnapps",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "bread",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.0000002,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "tallow",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 3.0,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "local_mail",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 1
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "regional_mail",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.49999997999999996,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "overseas_mail",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.49999997999999996,
+          "impact": {
+            "influx": 4
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "hot_sauce",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.9999997999999999,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [],
+      "luxuryServices": [],
+      "lifestyleGoods": []
+    }
+  },
+  {
+    "id": "technicians",
+    "name": "Technicians",
+    "region": "Arctic",
+    "dlcsRequired": [
+      "the_passage"
+    ],
+    "populationPerResidence": 20,
+    "needs": {
+      "services": [
+        {
+          "id": "canteen",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 4
+          },
+          "requiredBuilding": "canteen",
+          "providerBuildings": [
+            "canteen"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "post_office",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 3
+          },
+          "requiredBuilding": "post_office",
+          "providerBuildings": [
+            "post_office",
+            "post_office_3761",
+            "post_office_4260"
+          ],
+          "dlcsRequired": [
+            "empire_of_the_skies"
+          ]
+        },
+        {
+          "id": "heat",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 0
+          },
+          "requiredBuilding": "heater",
+          "providerBuildings": [
+            "heater",
+            "variety_theatre"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "id": "pemmican",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.2000000000000002,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "oil_lamps",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.6000000000000001,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "canned_food",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.6000000000000001,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "husky_sleds",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.9,
+          "impact": {
+            "influx": 4
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "sleeping_bags",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.9,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "schnapps",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "parkas",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.2000000000000002,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "coffee",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.2000000000000002,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "rum",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 1
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "dynamite",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.30000000000000004,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "local_mail",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "regional_mail",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.500001,
+          "impact": {
+            "influx": 6
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "overseas_mail",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.500001,
+          "impact": {
+            "influx": 10
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "mezcal",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.6999999,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "motor",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.75,
+          "impact": {
+            "influx": 5
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [],
+      "luxuryServices": [],
+      "lifestyleGoods": []
+    }
+  },
+  {
+    "id": "shepherds",
+    "name": "Shepherds",
+    "region": "Enbesa",
+    "dlcsRequired": [
+      "land_of_lions"
+    ],
+    "populationPerResidence": 10,
+    "needs": {
+      "services": [
+        {
+          "id": "market",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 3
+          },
+          "requiredBuilding": "market_hall",
+          "providerBuildings": [
+            "market_hall",
+            "marketplace",
+            "marketplace_101257",
+            "marketplace_114518"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "musicians_court",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 0
+          },
+          "requiredBuilding": "musicians_court",
+          "providerBuildings": [
+            "musicians_court"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "id": "goat_milk",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 3.0,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "finery",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "dried_meat",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 2.1,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "hibiscus_tea",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.2000000000000002,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "wanza_timber",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 4.000000200000001,
+          "impact": {
+            "influx": 1
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "grain",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.8749998000000001,
+          "impact": {
+            "influx": 1
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "ponchos",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 3.1999998,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "canned_food",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.0000002,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "hot_sauce",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.49999997999999996,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "jam",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 1
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [],
+      "luxuryServices": [],
+      "lifestyleGoods": []
+    }
+  },
+  {
+    "id": "elders",
+    "name": "Elders",
+    "region": "Enbesa",
+    "dlcsRequired": [
+      "land_of_lions"
+    ],
+    "populationPerResidence": 20,
+    "needs": {
+      "services": [
+        {
+          "id": "market",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 3
+          },
+          "requiredBuilding": "market_hall",
+          "providerBuildings": [
+            "market_hall",
+            "marketplace",
+            "marketplace_101257",
+            "marketplace_114518"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "musicians_court",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 0
+          },
+          "requiredBuilding": "musicians_court",
+          "providerBuildings": [
+            "musicians_court"
+          ],
+          "dlcsRequired": []
+        },
+        {
+          "id": "monastery",
+          "type": "service",
+          "category": "service_basic",
+          "needType": "basic",
+          "consumptionPer1000": null,
+          "impact": {
+            "influx": 0
+          },
+          "requiredBuilding": "monastery",
+          "providerBuildings": [
+            "monastery"
+          ],
+          "dlcsRequired": []
+        }
+      ],
+      "coreGoods": [
+        {
+          "id": "goat_milk",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 3.0,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "finery",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.5,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "dried_meat",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 2.1,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "hibiscus_tea",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.2000000000000002,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "ceramics",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.2000000000000002,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "tapestries",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.05,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "seafood_stew",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 1.11,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "clay_pipe",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.45,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "illuminated_script",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.54,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "spectacles",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.36,
+          "impact": {
+            "influx": 0
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "lanterns",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.9,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "cotton_fabric",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 3.0,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "sewing_machines",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.9,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "goose_feathers",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.24999998999999998,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "soap",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 0.5000001,
+          "impact": {
+            "influx": 2
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "herbs",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 3.249999,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        },
+        {
+          "id": "orchid",
+          "type": "good",
+          "category": "core",
+          "needType": "basic",
+          "consumptionPer1000": 2.5000002,
+          "impact": {
+            "influx": 3
+          },
+          "dlcsRequired": []
+        }
+      ],
+      "luxuryGoods": [],
+      "luxuryServices": [],
+      "lifestyleGoods": []
+    }
+  },
+  {
+    "id": "tourists",
+    "name": "Tourists",
+    "region": "Tourists",
+    "populationGroup": "Population: Tourists",
+    "dlcsRequired": [
+      "tourist_season"
+    ],
+    "residence": {
+      "id": "hotel",
+      "guid": 601445,
+      "name": "Hotel",
+      "residentMax": 500,
+      "residentsPerNeed": {
+        "1010213": 55,
+        "1010247": 0,
+        "1010248": 17,
+        "1010250": 0,
+        "114428": 22,
+        "120037": 15,
+        "132751": 25,
+        "132754": 75,
+        "132755": 55,
+        "132761": 80,
+        "133181": 105,
+        "133183": 35,
+        "133185": 0,
+        "133532": 0,
+        "133535": 0,
+        "133536": 0,
+        "133573": 25,
+        "133891": 45,
+        "134257": 0,
+        "134781": 0,
+        "137757": 0,
+        "355": 0,
+        "5382": 25,
+        "5388": 26,
+        "601485": 0,
+        "6600": 20
+      }
+    },
+    "needs": {
+      "services": [
+        {
+          "guid": 133891,
+          "id": "tourist_mooring",
+          "name": "Tourist Mooring",
+          "influx": 45,
+          "dlcsRequired": [
+            "tourist_season"
+          ]
+        },
+        {
+          "guid": 133573,
+          "id": "variety_theatre_133573",
+          "name": "Variety Theatre",
+          "influx": 25,
+          "unlockCondition": {
+            "amount": 50,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 132751,
+          "id": "restaurant",
+          "name": "Restaurant",
+          "influx": 25,
+          "unlockCondition": {
+            "amount": 250,
+            "populationLevel": 601379
+          },
+          "dlcsRequired": [
+            "tourist_season"
+          ]
+        },
+        {
+          "guid": 132755,
+          "id": "cafe",
+          "name": "Caf\u00e9",
+          "influx": 55,
+          "unlockCondition": {
+            "amount": 550,
+            "populationLevel": 601379
+          },
+          "dlcsRequired": [
+            "tourist_season"
+          ]
+        },
+        {
+          "guid": 132754,
+          "id": "bar",
+          "name": "Bar",
+          "influx": 75,
+          "unlockCondition": {
+            "amount": 1500,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 132761,
+          "id": "the_iron_tower",
+          "name": "The Iron Tower",
+          "influx": 80,
+          "unlockCondition": {
+            "amount": 4000,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 601485,
+          "id": "zoo",
+          "name": "Zoo",
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 325,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 134781,
+          "id": "docklands",
+          "name": "Docklands",
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 601,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 133535,
+          "id": "museum",
+          "name": "Museum",
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 500,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 355,
+          "id": "botanical_garden",
+          "name": "Botanical Garden",
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 500,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 134257,
+          "id": "palace",
+          "name": "Palace",
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 900,
+            "populationLevel": 601379
+          },
+          "dlcsRequired": [
+            "seat_of_power"
+          ]
+        },
+        {
+          "guid": 133536,
+          "id": "worlds_fair",
+          "name": "World's Fair",
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 1000,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 137757,
+          "id": "skyline_tower",
+          "name": "Skyline Tower",
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 1000,
+            "populationLevel": 601379
+          }
+        }
+      ],
+      "coreGoods": [
+        {
+          "guid": 1010213,
+          "id": "bread",
+          "name": "Bread",
+          "consumptionPer1000": 0.9999999599999999,
+          "influx": 55,
+          "unlockCondition": {
+            "amount": 30,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 133183,
+          "id": "jam",
+          "name": "Jam",
+          "consumptionPer1000": 2.0000004000000002,
+          "influx": 35,
+          "unlockCondition": {
+            "amount": 300,
+            "populationLevel": 601379
+          },
+          "dlcsRequired": [
+            "tourist_season"
+          ]
+        },
+        {
+          "guid": 133181,
+          "id": "shampoo",
+          "name": "Shampoo",
+          "consumptionPer1000": 0.9999999599999999,
+          "influx": 105,
+          "unlockCondition": {
+            "amount": 850,
+            "populationLevel": 601379
+          }
+        }
+      ],
+      "luxuryGoods": [
+        {
+          "guid": 1010247,
+          "id": "fur_coats",
+          "name": "Fur Coats",
+          "consumptionPer1000": 2.0000004000000002,
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 50,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 1010250,
+          "id": "jewelry",
+          "name": "Jewelry",
+          "consumptionPer1000": 2.0000004000000002,
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 750,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 133185,
+          "id": "lemonade",
+          "name": "Lemonade",
+          "consumptionPer1000": 2.0000004000000002,
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 1250,
+            "populationLevel": 601379
+          }
+        },
+        {
+          "guid": 133532,
+          "id": "souvenirs",
+          "name": "Souvenirs",
+          "consumptionPer1000": 3.9999995999999998,
+          "influx": 0,
+          "unlockCondition": {
+            "amount": 2000,
+            "populationLevel": 601379
+          },
+          "dlcsRequired": [
+            "tourist_season"
+          ]
+        },
+        {
+          "guid": 1010248,
+          "id": "gramophones",
+          "name": "Gramophones",
+          "consumptionPer1000": 0.12,
+          "influx": 17
+        },
+        {
+          "guid": 120037,
+          "id": "bombins",
+          "name": "Bombins",
+          "consumptionPer1000": 0.38999999999999996,
+          "influx": 15
+        },
+        {
+          "guid": 114428,
+          "id": "leather_boots",
+          "name": "Leather Boots",
+          "consumptionPer1000": 0.084999996,
+          "influx": 22
+        },
+        {
+          "guid": 6600,
+          "id": "mezcal",
+          "name": "Mezcal",
+          "consumptionPer1000": 0.34400003999999995,
+          "influx": 20
+        },
+        {
+          "guid": 5382,
+          "id": "ice_cream",
+          "name": "Ice Cream",
+          "consumptionPer1000": 0.20000004,
+          "influx": 25
+        },
+        {
+          "guid": 5388,
+          "id": "perfumes",
+          "name": "Perfumes",
+          "consumptionPer1000": 0.11499999600000001,
+          "influx": 26
+        }
+      ]
+    },
+    "notes": "Tourist needs + unlock conditions sourced from Anno1800Calculator params.js populationLevels; menu mechanics in tourism.json."
+  }
+]

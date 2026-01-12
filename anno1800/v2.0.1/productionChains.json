@@ -1,0 +1,4735 @@
+[
+  {
+    "product": "sugar_cane",
+    "producer": "hacienda_sugar_cane_farm",
+    "steps": [
+      {
+        "building": "hacienda_sugar_cane_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "sugar_cane",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "corn",
+    "producer": "hacienda_corn_farm",
+    "steps": [
+      {
+        "building": "hacienda_corn_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "corn",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "coffee_beans",
+    "producer": "hacienda_coffee_farm",
+    "steps": [
+      {
+        "building": "hacienda_coffee_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "coffee_beans",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "caoutchouc",
+    "producer": "hacienda_caoutchouc_plantation",
+    "steps": [
+      {
+        "building": "hacienda_caoutchouc_plantation",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "caoutchouc",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cocoa",
+    "producer": "hacienda_cocoa_farm",
+    "steps": [
+      {
+        "building": "hacienda_cocoa_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "cocoa",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "potatoes",
+    "producer": "hacienda_potato_farm",
+    "steps": [
+      {
+        "building": "hacienda_potato_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "potatoes",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "spices",
+    "producer": "hacienda_spice_farm",
+    "steps": [
+      {
+        "building": "hacienda_spice_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "spices",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "grain",
+    "producer": "hacienda_grain_farm",
+    "steps": [
+      {
+        "building": "hacienda_grain_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "grain",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "rum",
+    "producer": "hacienda_rum_distillery",
+    "steps": [
+      {
+        "building": "hacienda_rum_distillery",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "sugar_cane",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "rum",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "beer",
+    "producer": "hacienda_beer_brewery",
+    "steps": [
+      {
+        "building": "hacienda_beer_brewery",
+        "inputs": [
+          {
+            "good": "grain",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "corn",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "beer",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "atole",
+    "producer": "hacienda_atole_maker",
+    "steps": [
+      {
+        "building": "hacienda_atole_maker",
+        "inputs": [
+          {
+            "good": "corn",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "sugar_cane",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "atole",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "schnapps",
+    "producer": "hacienda_schnapps_distillery",
+    "steps": [
+      {
+        "building": "hacienda_schnapps_distillery",
+        "inputs": [
+          {
+            "good": "potatoes",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "schnapps",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "hot_sauce",
+    "producer": "hacienda_hot_sauce_factory",
+    "steps": [
+      {
+        "building": "hacienda_hot_sauce_factory",
+        "inputs": [
+          {
+            "good": "spices",
+            "amountPerMinute": 0.5
+          }
+        ],
+        "outputs": [
+          {
+            "good": "hot_sauce",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fertiliser",
+    "producer": "hacienda_fertiliser_works",
+    "steps": [
+      {
+        "building": "hacienda_fertiliser_works",
+        "inputs": [
+          {
+            "good": "dung",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "fertiliser",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "grain",
+    "producer": "grain_farm_144",
+    "steps": [
+      {
+        "building": "grain_farm_144",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "grain",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "beef",
+    "producer": "cattle_farm_4",
+    "steps": [
+      {
+        "building": "cattle_farm_4",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "beef",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "hops",
+    "producer": "hop_farm_96",
+    "steps": [
+      {
+        "building": "hop_farm_96",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "hops",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "potatoes",
+    "producer": "potato_farm_72",
+    "steps": [
+      {
+        "building": "potato_farm_72",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "potatoes",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "wood",
+    "producer": "lumberjacks_hut",
+    "steps": [
+      {
+        "building": "lumberjacks_hut",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "wool",
+    "producer": "sheep_farm_3",
+    "steps": [
+      {
+        "building": "sheep_farm_3",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "wool",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "pigs",
+    "producer": "pig_farm_5",
+    "steps": [
+      {
+        "building": "pig_farm_5",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "pigs",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "furs",
+    "producer": "hunting_cabin",
+    "steps": [
+      {
+        "building": "hunting_cabin",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "furs",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "red_peppers",
+    "producer": "red_pepper_farm_108",
+    "steps": [
+      {
+        "building": "red_pepper_farm_108",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "red_peppers",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "grapes",
+    "producer": "vineyard_128",
+    "steps": [
+      {
+        "building": "vineyard_128",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "grapes",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fish",
+    "producer": "fishery",
+    "steps": [
+      {
+        "building": "fishery",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "fish",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "saltpeter",
+    "producer": "saltpetre_works",
+    "steps": [
+      {
+        "building": "saltpetre_works",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "saltpeter",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "quartz_sand",
+    "producer": "sand_mine",
+    "steps": [
+      {
+        "building": "sand_mine",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "quartz_sand",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "reinforced_concrete",
+    "producer": "concrete_factory",
+    "steps": [
+      {
+        "building": "concrete_factory",
+        "inputs": [
+          {
+            "good": "cement",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "steel",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "reinforced_concrete",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "soap",
+    "producer": "soap_factory",
+    "steps": [
+      {
+        "building": "soap_factory",
+        "inputs": [
+          {
+            "good": "tallow",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "soap",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "bricks",
+    "producer": "brick_factory",
+    "steps": [
+      {
+        "building": "brick_factory",
+        "inputs": [
+          {
+            "good": "clay",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "bricks",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "timber",
+    "producer": "sawmill",
+    "steps": [
+      {
+        "building": "sawmill",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 4
+          }
+        ],
+        "outputs": [
+          {
+            "good": "timber",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fur_coats",
+    "producer": "fur_dealer",
+    "steps": [
+      {
+        "building": "fur_dealer",
+        "inputs": [
+          {
+            "good": "furs",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "cotton_fabric",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "fur_coats",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "light_bulbs",
+    "producer": "light_bulb_factory",
+    "steps": [
+      {
+        "building": "light_bulb_factory",
+        "inputs": [
+          {
+            "good": "glass",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "filaments",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "light_bulbs",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "windows",
+    "producer": "window_makers",
+    "steps": [
+      {
+        "building": "window_makers",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "glass",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "windows",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sails",
+    "producer": "sailmakers",
+    "steps": [
+      {
+        "building": "sailmakers",
+        "inputs": [
+          {
+            "good": "wool",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sails",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "clay",
+    "producer": "clay_pit",
+    "steps": [
+      {
+        "building": "clay_pit",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "clay",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "chassis",
+    "producer": "coachmakers",
+    "steps": [
+      {
+        "building": "coachmakers",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 0.5
+          },
+          {
+            "good": "caoutchouc",
+            "amountPerMinute": 0.5
+          }
+        ],
+        "outputs": [
+          {
+            "good": "chassis",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "bread",
+    "producer": "bakery",
+    "steps": [
+      {
+        "building": "bakery",
+        "inputs": [
+          {
+            "good": "flour",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "bread",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "beer",
+    "producer": "brewery",
+    "steps": [
+      {
+        "building": "brewery",
+        "inputs": [
+          {
+            "good": "hops",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "malt",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "beer",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "goulash",
+    "producer": "artisanal_kitchen",
+    "steps": [
+      {
+        "building": "artisanal_kitchen",
+        "inputs": [
+          {
+            "good": "beef",
+            "amountPerMinute": 0.5
+          },
+          {
+            "good": "red_peppers",
+            "amountPerMinute": 0.5
+          }
+        ],
+        "outputs": [
+          {
+            "good": "goulash",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "canned_food",
+    "producer": "cannery",
+    "steps": [
+      {
+        "building": "cannery",
+        "inputs": [
+          {
+            "good": "iron",
+            "amountPerMinute": 0.6666666666666667
+          },
+          {
+            "good": "goulash",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "canned_food",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "schnapps",
+    "producer": "schnapps_distillery",
+    "steps": [
+      {
+        "building": "schnapps_distillery",
+        "inputs": [
+          {
+            "good": "potatoes",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "schnapps",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sausages",
+    "producer": "slaughterhouse",
+    "steps": [
+      {
+        "building": "slaughterhouse",
+        "inputs": [
+          {
+            "good": "pigs",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sausages",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "champagne",
+    "producer": "champagne_cellar",
+    "steps": [
+      {
+        "building": "champagne_cellar",
+        "inputs": [
+          {
+            "good": "grapes",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "glass",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "champagne",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "steel_beams",
+    "producer": "steelworks",
+    "steps": [
+      {
+        "building": "steelworks",
+        "inputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 1.3333333333333335
+          }
+        ],
+        "outputs": [
+          {
+            "good": "steel_beams",
+            "amountPerMinute": 1.3333333333333335
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "steel",
+    "producer": "furnace",
+    "steps": [
+      {
+        "building": "furnace",
+        "inputs": [
+          {
+            "good": "iron",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "coal_1010226",
+    "producer": "charcoal_kiln",
+    "steps": [
+      {
+        "building": "charcoal_kiln",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "weapons",
+    "producer": "weapon_factory",
+    "steps": [
+      {
+        "building": "weapon_factory",
+        "inputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "weapons",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "advanced_weapons",
+    "producer": "heavy_weapons_factory",
+    "steps": [
+      {
+        "building": "heavy_weapons_factory",
+        "inputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 0.5
+          },
+          {
+            "good": "dynamite",
+            "amountPerMinute": 0.5
+          }
+        ],
+        "outputs": [
+          {
+            "good": "advanced_weapons",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "steam_motors",
+    "producer": "motor_assembly_line",
+    "steps": [
+      {
+        "building": "motor_assembly_line",
+        "inputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 0.6666666666666667
+          },
+          {
+            "good": "brass",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "steam_motors",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "steam_carriages",
+    "producer": "cab_assembly_line",
+    "steps": [
+      {
+        "building": "cab_assembly_line",
+        "inputs": [
+          {
+            "good": "chassis",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "steam_motors",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "steam_carriages",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "brass",
+    "producer": "brass_smeltery",
+    "steps": [
+      {
+        "building": "brass_smeltery",
+        "inputs": [
+          {
+            "good": "zinc",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "copper",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "brass",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "oil",
+    "producer": "oil_refinery",
+    "steps": [
+      {
+        "building": "oil_refinery",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "oil",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "coal_1010226",
+    "producer": "coal_mine",
+    "steps": [
+      {
+        "building": "coal_mine",
+        "inputs": [
+          {
+            "good": "mineral_resource",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "iron",
+    "producer": "iron_mine",
+    "steps": [
+      {
+        "building": "iron_mine",
+        "inputs": [
+          {
+            "good": "mineral_resource",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "iron",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "zinc",
+    "producer": "zinc_mine",
+    "steps": [
+      {
+        "building": "zinc_mine",
+        "inputs": [
+          {
+            "good": "mineral_resource",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "zinc",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "copper",
+    "producer": "copper_mine",
+    "steps": [
+      {
+        "building": "copper_mine",
+        "inputs": [
+          {
+            "good": "mineral_resource",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "copper",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cement",
+    "producer": "limestone_quarry",
+    "steps": [
+      {
+        "building": "limestone_quarry",
+        "inputs": [
+          {
+            "good": "mineral_resource",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "cement",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "tallow",
+    "producer": "rendering_works",
+    "steps": [
+      {
+        "building": "rendering_works",
+        "inputs": [
+          {
+            "good": "pigs",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "tallow",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "flour",
+    "producer": "flour_mill",
+    "steps": [
+      {
+        "building": "flour_mill",
+        "inputs": [
+          {
+            "good": "grain",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "flour",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "malt",
+    "producer": "malthouse",
+    "steps": [
+      {
+        "building": "malthouse",
+        "inputs": [
+          {
+            "good": "grain",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "malt",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "work_clothes",
+    "producer": "framework_knitters",
+    "steps": [
+      {
+        "building": "framework_knitters",
+        "inputs": [
+          {
+            "good": "wool",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "work_clothes",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "dynamite",
+    "producer": "dynamite_factory",
+    "steps": [
+      {
+        "building": "dynamite_factory",
+        "inputs": [
+          {
+            "good": "tallow",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "saltpeter",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "dynamite",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "glass",
+    "producer": "glassmakers",
+    "steps": [
+      {
+        "building": "glassmakers",
+        "inputs": [
+          {
+            "good": "quartz_sand",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "glass",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "wood_veneers",
+    "producer": "marquetry_workshop",
+    "steps": [
+      {
+        "building": "marquetry_workshop",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "wood_veneers",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "filaments",
+    "producer": "filament_factory",
+    "steps": [
+      {
+        "building": "filament_factory",
+        "inputs": [
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "filaments",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "penny_farthings",
+    "producer": "bicycle_factory",
+    "steps": [
+      {
+        "building": "bicycle_factory",
+        "inputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "caoutchouc",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "penny_farthings",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "pocket_watches",
+    "producer": "clockmakers",
+    "steps": [
+      {
+        "building": "clockmakers",
+        "inputs": [
+          {
+            "good": "glass",
+            "amountPerMinute": 0.6666666666666667
+          },
+          {
+            "good": "gold",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "pocket_watches",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sewing_machines",
+    "producer": "sewing_machine_factory",
+    "steps": [
+      {
+        "building": "sewing_machine_factory",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "steel",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sewing_machines",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "gramophones",
+    "producer": "gramophone_factory",
+    "steps": [
+      {
+        "building": "gramophone_factory",
+        "inputs": [
+          {
+            "good": "wood_veneers",
+            "amountPerMinute": 0.5
+          },
+          {
+            "good": "brass",
+            "amountPerMinute": 0.5
+          }
+        ],
+        "outputs": [
+          {
+            "good": "gramophones",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "gold",
+    "producer": "goldsmiths",
+    "steps": [
+      {
+        "building": "goldsmiths",
+        "inputs": [
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "gold_ore",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "gold",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "jewelry",
+    "producer": "jewellers",
+    "steps": [
+      {
+        "building": "jewellers",
+        "inputs": [
+          {
+            "good": "pearls",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "gold",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "jewelry",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "spectacles",
+    "producer": "spectacle_factory",
+    "steps": [
+      {
+        "building": "spectacle_factory",
+        "inputs": [
+          {
+            "good": "glass",
+            "amountPerMinute": 0.6666666666666667
+          },
+          {
+            "good": "brass",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "spectacles",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sugar_cane",
+    "producer": "sugar_cane_plantation_128",
+    "steps": [
+      {
+        "building": "sugar_cane_plantation_128",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "sugar_cane",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "tobacco",
+    "producer": "tobacco_plantation_192",
+    "steps": [
+      {
+        "building": "tobacco_plantation_192",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "tobacco",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cotton",
+    "producer": "cotton_plantation_144",
+    "steps": [
+      {
+        "building": "cotton_plantation_144",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "cotton",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cocoa",
+    "producer": "cocoa_plantation_128",
+    "steps": [
+      {
+        "building": "cocoa_plantation_128",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "cocoa",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "caoutchouc",
+    "producer": "caoutchouc_plantation_144",
+    "steps": [
+      {
+        "building": "caoutchouc_plantation_144",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "caoutchouc",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "wood",
+    "producer": "lumberjacks_hut_101260",
+    "steps": [
+      {
+        "building": "lumberjacks_hut_101260",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "coffee_beans",
+    "producer": "coffee_plantation_168",
+    "steps": [
+      {
+        "building": "coffee_plantation_168",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "coffee_beans",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "plantains",
+    "producer": "plantain_plantation_128",
+    "steps": [
+      {
+        "building": "plantain_plantation_128",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "plantains",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "beef",
+    "producer": "cattle_farm_6",
+    "steps": [
+      {
+        "building": "cattle_farm_6",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "beef",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "corn",
+    "producer": "corn_farm_168",
+    "steps": [
+      {
+        "building": "corn_farm_168",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "corn",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "alpaca_wool",
+    "producer": "alpaca_farm_4",
+    "steps": [
+      {
+        "building": "alpaca_farm_4",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "alpaca_wool",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "pearls",
+    "producer": "pearl_farm",
+    "steps": [
+      {
+        "building": "pearl_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "pearls",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fish_oil",
+    "producer": "fish_oil_factory",
+    "steps": [
+      {
+        "building": "fish_oil_factory",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "fish_oil",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "timber",
+    "producer": "sawmill_101261",
+    "steps": [
+      {
+        "building": "sawmill_101261",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 4
+          }
+        ],
+        "outputs": [
+          {
+            "good": "timber",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sails",
+    "producer": "sailmakers_101265",
+    "steps": [
+      {
+        "building": "sailmakers_101265",
+        "inputs": [
+          {
+            "good": "cotton_fabric",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sails",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cotton_fabric",
+    "producer": "cotton_mill",
+    "steps": [
+      {
+        "building": "cotton_mill",
+        "inputs": [
+          {
+            "good": "cotton",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "cotton_fabric",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "clay",
+    "producer": "factory_colony01_04_clay_pit",
+    "steps": [
+      {
+        "building": "factory_colony01_04_clay_pit",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "clay",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "bricks",
+    "producer": "brick_factory_101268",
+    "steps": [
+      {
+        "building": "brick_factory_101268",
+        "inputs": [
+          {
+            "good": "clay",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "bricks",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "felt",
+    "producer": "felt_producer",
+    "steps": [
+      {
+        "building": "felt_producer",
+        "inputs": [
+          {
+            "good": "alpaca_wool",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "felt",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "bombins",
+    "producer": "bombin_weaver",
+    "steps": [
+      {
+        "building": "bombin_weaver",
+        "inputs": [
+          {
+            "good": "cotton_fabric",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "felt",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "bombins",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "rum",
+    "producer": "rum_distillery",
+    "steps": [
+      {
+        "building": "rum_distillery",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "sugar_cane",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "rum",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "chocolate",
+    "producer": "chocolate_factory",
+    "steps": [
+      {
+        "building": "chocolate_factory",
+        "inputs": [
+          {
+            "good": "sugar",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "cocoa",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "chocolate",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "coffee",
+    "producer": "coffee_roaster",
+    "steps": [
+      {
+        "building": "coffee_roaster",
+        "inputs": [
+          {
+            "good": "coffee_beans",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "coffee",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fried_plantains",
+    "producer": "fried_plantain_kitchen",
+    "steps": [
+      {
+        "building": "fried_plantain_kitchen",
+        "inputs": [
+          {
+            "good": "fish_oil",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "plantains",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "fried_plantains",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "tortillas",
+    "producer": "tortilla_maker",
+    "steps": [
+      {
+        "building": "tortilla_maker",
+        "inputs": [
+          {
+            "good": "beef",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "corn",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "tortillas",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "oil",
+    "producer": "heavy_colony01_01_oil_heavy_industry",
+    "steps": [
+      {
+        "building": "heavy_colony01_01_oil_heavy_industry",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "oil",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "gold_ore",
+    "producer": "mining_colony01_01_gold_ore_mine",
+    "steps": [
+      {
+        "building": "mining_colony01_01_gold_ore_mine",
+        "inputs": [
+          {
+            "good": "mineral_resource",
+            "amountPerMinute": 0.0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "gold_ore",
+            "amountPerMinute": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sugar",
+    "producer": "sugar_refinery",
+    "steps": [
+      {
+        "building": "sugar_refinery",
+        "inputs": [
+          {
+            "good": "sugar_cane",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sugar",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "ponchos",
+    "producer": "poncho_darner",
+    "steps": [
+      {
+        "building": "poncho_darner",
+        "inputs": [
+          {
+            "good": "alpaca_wool",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "ponchos",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "wood_veneers",
+    "producer": "marquetry_workshop_101296",
+    "steps": [
+      {
+        "building": "marquetry_workshop_101296",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "wood_veneers",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cigars",
+    "producer": "cigar_factory",
+    "steps": [
+      {
+        "building": "cigar_factory",
+        "inputs": [
+          {
+            "good": "wood_veneers",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "tobacco",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "cigars",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "wood",
+    "producer": "lumberjacks_hut_114703",
+    "steps": [
+      {
+        "building": "lumberjacks_hut_114703",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "caribou_meat",
+    "producer": "caribou_hunting_cabin",
+    "steps": [
+      {
+        "building": "caribou_hunting_cabin",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "caribou_meat",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "goose_feathers",
+    "producer": "goose_farm_5",
+    "steps": [
+      {
+        "building": "goose_farm_5",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "goose_feathers",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "bear_fur",
+    "producer": "bear_hunting_cabin",
+    "steps": [
+      {
+        "building": "bear_hunting_cabin",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0.0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "bear_fur",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "huskies",
+    "producer": "husky_farm_4",
+    "steps": [
+      {
+        "building": "husky_farm_4",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "huskies",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "furs",
+    "producer": "prime_hunting_cabin",
+    "steps": [
+      {
+        "building": "prime_hunting_cabin",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "furs",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "coal_1010226",
+    "producer": "charcoal_kiln_114705",
+    "steps": [
+      {
+        "building": "charcoal_kiln_114705",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "whale_oil",
+    "producer": "whaling_station",
+    "steps": [
+      {
+        "building": "whaling_station",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "whale_oil",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "seal_skin",
+    "producer": "seal_hunting_docks",
+    "steps": [
+      {
+        "building": "seal_hunting_docks",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "seal_skin",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "timber",
+    "producer": "sawmill_114704",
+    "steps": [
+      {
+        "building": "sawmill_114704",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 4
+          }
+        ],
+        "outputs": [
+          {
+            "good": "timber",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sleeping_bags",
+    "producer": "sleeping_bag_factory",
+    "steps": [
+      {
+        "building": "sleeping_bag_factory",
+        "inputs": [
+          {
+            "good": "seal_skin",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "goose_feathers",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sleeping_bags",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "oil_lamps",
+    "producer": "oil_lamp_factory",
+    "steps": [
+      {
+        "building": "oil_lamp_factory",
+        "inputs": [
+          {
+            "good": "whale_oil",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "brass",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "oil_lamps",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "parkas",
+    "producer": "parka_factory",
+    "steps": [
+      {
+        "building": "parka_factory",
+        "inputs": [
+          {
+            "good": "bear_fur",
+            "amountPerMinute": 0.6666666666666667
+          },
+          {
+            "good": "seal_skin",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "parkas",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sleds",
+    "producer": "sled_frame_factory",
+    "steps": [
+      {
+        "building": "sled_frame_factory",
+        "inputs": [
+          {
+            "good": "seal_skin",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "wood",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sleds",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "husky_sleds",
+    "producer": "husky_sled_factory",
+    "steps": [
+      {
+        "building": "husky_sled_factory",
+        "inputs": [
+          {
+            "good": "huskies",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "sleds",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "husky_sleds",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "pemmican",
+    "producer": "pemmican_cookhouse",
+    "steps": [
+      {
+        "building": "pemmican_cookhouse",
+        "inputs": [
+          {
+            "good": "whale_oil",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "caribou_meat",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "pemmican",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "arctic_gas",
+    "producer": "arctic_gas_mine",
+    "steps": [
+      {
+        "building": "arctic_gas_mine",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "arctic_gas",
+            "amountPerMinute": 0.22222222222222224
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "gold_ore",
+    "producer": "deep_gold_mine",
+    "steps": [
+      {
+        "building": "deep_gold_mine",
+        "inputs": [
+          {
+            "good": "mineral_resource",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "gold_ore",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fuel_270042",
+    "producer": "fuel_station",
+    "steps": [
+      {
+        "building": "fuel_station",
+        "inputs": [
+          {
+            "good": "oil",
+            "amountPerMinute": 4
+          }
+        ],
+        "outputs": [
+          {
+            "good": "fuel_270042",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fuel_270042",
+    "producer": "fuel_station_269840",
+    "steps": [
+      {
+        "building": "fuel_station_269840",
+        "inputs": [
+          {
+            "good": "oil",
+            "amountPerMinute": 4
+          }
+        ],
+        "outputs": [
+          {
+            "good": "fuel_270042",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fuel_270042",
+    "producer": "fuel_station_119028",
+    "steps": [
+      {
+        "building": "fuel_station_119028",
+        "inputs": [
+          {
+            "good": "oil",
+            "amountPerMinute": 4
+          }
+        ],
+        "outputs": [
+          {
+            "good": "fuel_270042",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "coconut_oil",
+    "producer": "orchard_coconut_oil",
+    "steps": [
+      {
+        "building": "orchard_coconut_oil",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "coconut_oil",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cinnamon",
+    "producer": "orchard_cinnamon",
+    "steps": [
+      {
+        "building": "orchard_cinnamon",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "cinnamon",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "citrus",
+    "producer": "orchard_citrus",
+    "steps": [
+      {
+        "building": "orchard_citrus",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "citrus",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "camphor_wax",
+    "producer": "orchard_camphor_wax",
+    "steps": [
+      {
+        "building": "orchard_camphor_wax",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "camphor_wax",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "bombs",
+    "producer": "bomb_factory",
+    "steps": [
+      {
+        "building": "bomb_factory",
+        "inputs": [
+          {
+            "good": "saltpeter",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "dynamite",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "steel",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "bombs",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sea_mines",
+    "producer": "sea_mine_factory",
+    "steps": [
+      {
+        "building": "sea_mine_factory",
+        "inputs": [
+          {
+            "good": "copper",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "dynamite",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "steel",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sea_mines",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "pamphlets",
+    "producer": "pamphlet_printer",
+    "steps": [
+      {
+        "building": "pamphlet_printer",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "cotton",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "pamphlets",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "care_packages",
+    "producer": "care_package_factory",
+    "steps": [
+      {
+        "building": "care_package_factory",
+        "inputs": [
+          {
+            "good": "canned_food",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "chocolate",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "schnapps",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "care_packages",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "coal_1010226",
+    "producer": "charcoal_kiln_1345",
+    "steps": [
+      {
+        "building": "charcoal_kiln_1345",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "industrial_lubricant",
+    "producer": "industrial_oil_press",
+    "steps": [
+      {
+        "building": "industrial_oil_press",
+        "inputs": [
+          {
+            "good": "fish_oil",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "saltpeter",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "industrial_lubricant",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "aluminium_profiles",
+    "producer": "aluminium_smelter",
+    "steps": [
+      {
+        "building": "aluminium_smelter",
+        "inputs": [
+          {
+            "good": "bauxite",
+            "amountPerMinute": 0.6666666666666667
+          },
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "aluminium_profiles",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "bombs",
+    "producer": "bomb_factory_906",
+    "steps": [
+      {
+        "building": "bomb_factory_906",
+        "inputs": [
+          {
+            "good": "saltpeter",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "dynamite",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "steel",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "bombs",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sea_mines",
+    "producer": "sea_mine_factory_907",
+    "steps": [
+      {
+        "building": "sea_mine_factory_907",
+        "inputs": [
+          {
+            "good": "copper",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "dynamite",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "steel",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sea_mines",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "pamphlets",
+    "producer": "pamphlet_printer_908",
+    "steps": [
+      {
+        "building": "pamphlet_printer_908",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "cotton",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "pamphlets",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "care_packages",
+    "producer": "care_package_factory_916",
+    "steps": [
+      {
+        "building": "care_package_factory_916",
+        "inputs": [
+          {
+            "good": "canned_food",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "chocolate",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "schnapps",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "care_packages",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "water_drop",
+    "producer": "water_drop_factory",
+    "steps": [
+      {
+        "building": "water_drop_factory",
+        "inputs": [
+          {
+            "good": "water",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "water_drop",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "bauxite",
+    "producer": "bauxite_mine",
+    "steps": [
+      {
+        "building": "bauxite_mine",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "bauxite",
+            "amountPerMinute": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "helium",
+    "producer": "helium_extractor",
+    "steps": [
+      {
+        "building": "helium_extractor",
+        "inputs": [
+          {
+            "good": "industrial_lubricant",
+            "amountPerMinute": 4
+          },
+          {
+            "good": "clay",
+            "amountPerMinute": 4
+          }
+        ],
+        "outputs": [
+          {
+            "good": "helium",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "wanza_timber",
+    "producer": "wanza_woodcutter",
+    "steps": [
+      {
+        "building": "wanza_woodcutter",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "wanza_timber",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "linseed",
+    "producer": "linseed_farm_96",
+    "steps": [
+      {
+        "building": "linseed_farm_96",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "linseed",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "hibiscus_petals",
+    "producer": "hibiscus_farm_144",
+    "steps": [
+      {
+        "building": "hibiscus_farm_144",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "hibiscus_petals",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "teff",
+    "producer": "teff_farm_168",
+    "steps": [
+      {
+        "building": "teff_farm_168",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "teff",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "indigo_dye",
+    "producer": "indigo_farm_144",
+    "steps": [
+      {
+        "building": "indigo_farm_144",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "indigo_dye",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "spices",
+    "producer": "spice_farm_128",
+    "steps": [
+      {
+        "building": "spice_farm_128",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "spices",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "beeswax",
+    "producer": "apiary_192",
+    "steps": [
+      {
+        "building": "apiary_192",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "beeswax",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sanga_cow",
+    "producer": "sanga_farm_5",
+    "steps": [
+      {
+        "building": "sanga_farm_5",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "sanga_cow",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "goat_milk",
+    "producer": "goat_farm_4",
+    "steps": [
+      {
+        "building": "goat_farm_4",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "goat_milk",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "salt",
+    "producer": "salt_works",
+    "steps": [
+      {
+        "building": "salt_works",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "salt",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "lobster",
+    "producer": "lobster_fishery",
+    "steps": [
+      {
+        "building": "lobster_fishery",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "lobster",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "clay",
+    "producer": "clay_collector",
+    "steps": [
+      {
+        "building": "clay_collector",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "clay",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "paper",
+    "producer": "paper_mill",
+    "steps": [
+      {
+        "building": "paper_mill",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 4
+          }
+        ],
+        "outputs": [
+          {
+            "good": "paper",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "linen",
+    "producer": "linen_mill",
+    "steps": [
+      {
+        "building": "linen_mill",
+        "inputs": [
+          {
+            "good": "linseed",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "linen",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "spiced_flour",
+    "producer": "teff_mill",
+    "steps": [
+      {
+        "building": "teff_mill",
+        "inputs": [
+          {
+            "good": "teff",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "spices",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "spiced_flour",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "ornate_candles",
+    "producer": "chandler",
+    "steps": [
+      {
+        "building": "chandler",
+        "inputs": [
+          {
+            "good": "beeswax",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "cotton",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "ornate_candles",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "dried_meat",
+    "producer": "dry_house",
+    "steps": [
+      {
+        "building": "dry_house",
+        "inputs": [
+          {
+            "good": "sanga_cow",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "salt",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "dried_meat",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "finery",
+    "producer": "embroiderer",
+    "steps": [
+      {
+        "building": "embroiderer",
+        "inputs": [
+          {
+            "good": "linen",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "finery",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "hibiscus_tea",
+    "producer": "tea_spicer",
+    "steps": [
+      {
+        "building": "tea_spicer",
+        "inputs": [
+          {
+            "good": "hibiscus_petals",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "hibiscus_tea",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "ceramics",
+    "producer": "ceramics_workshop",
+    "steps": [
+      {
+        "building": "ceramics_workshop",
+        "inputs": [
+          {
+            "good": "clay",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "indigo_dye",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "ceramics",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "tapestries",
+    "producer": "tapestry_looms",
+    "steps": [
+      {
+        "building": "tapestry_looms",
+        "inputs": [
+          {
+            "good": "linen",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "indigo_dye",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "tapestries",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "mud_bricks",
+    "producer": "brick_dry_house",
+    "steps": [
+      {
+        "building": "brick_dry_house",
+        "inputs": [
+          {
+            "good": "clay",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "teff",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "mud_bricks",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "seafood_stew",
+    "producer": "wat_kitchen",
+    "steps": [
+      {
+        "building": "wat_kitchen",
+        "inputs": [
+          {
+            "good": "lobster",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "spiced_flour",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "seafood_stew",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "clay_pipe",
+    "producer": "pipe_maker",
+    "steps": [
+      {
+        "building": "pipe_maker",
+        "inputs": [
+          {
+            "good": "clay",
+            "amountPerMinute": 0.6666666666666667
+          },
+          {
+            "good": "tobacco",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "clay_pipe",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "illuminated_script",
+    "producer": "luminer",
+    "steps": [
+      {
+        "building": "luminer",
+        "inputs": [
+          {
+            "good": "indigo_dye",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "paper",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "illuminated_script",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "lanterns",
+    "producer": "lanternsmith",
+    "steps": [
+      {
+        "building": "lanternsmith",
+        "inputs": [
+          {
+            "good": "ornate_candles",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "glass",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "lanterns",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "leather_boots",
+    "producer": "bootmakers",
+    "steps": [
+      {
+        "building": "bootmakers",
+        "inputs": [
+          {
+            "good": "sanga_cow",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "leather_boots",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "tailored_suits",
+    "producer": "tailors_shop",
+    "steps": [
+      {
+        "building": "tailors_shop",
+        "inputs": [
+          {
+            "good": "linen",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "cotton_fabric",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "tailored_suits",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "telephones",
+    "producer": "telephone_manufacturer",
+    "steps": [
+      {
+        "building": "telephone_manufacturer",
+        "inputs": [
+          {
+            "good": "filaments",
+            "amountPerMinute": 0.6666666666666667
+          },
+          {
+            "good": "wood_veneers",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ],
+        "outputs": [
+          {
+            "good": "telephones",
+            "amountPerMinute": 0.6666666666666667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "coffee",
+    "producer": "advanced_coffee_roaster",
+    "steps": [
+      {
+        "building": "advanced_coffee_roaster",
+        "inputs": [
+          {
+            "good": "malt",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "coffee",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "rum",
+    "producer": "advanced_rum_distillery",
+    "steps": [
+      {
+        "building": "advanced_rum_distillery",
+        "inputs": [
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "potatoes",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "rum",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cotton_fabric",
+    "producer": "advanced_cotton_mill",
+    "steps": [
+      {
+        "building": "advanced_cotton_mill",
+        "inputs": [
+          {
+            "good": "wool",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "wood",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "cotton_fabric",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "lemonade",
+    "producer": "chemical_plant_lemonade",
+    "steps": [
+      {
+        "building": "chemical_plant_lemonade",
+        "inputs": [
+          {
+            "good": "saltpeter",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "sugar",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "citrus",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "lemonade",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "shampoo",
+    "producer": "chemical_plant_shampoo",
+    "steps": [
+      {
+        "building": "chemical_plant_shampoo",
+        "inputs": [
+          {
+            "good": "soap",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "coconut_oil",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "cinnamon",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "shampoo",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "souvenirs",
+    "producer": "chemical_plant_souvenirs",
+    "steps": [
+      {
+        "building": "chemical_plant_souvenirs",
+        "inputs": [
+          {
+            "good": "glass",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "cotton",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "camphor_wax",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "souvenirs",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "jam",
+    "producer": "orchard_jam",
+    "steps": [
+      {
+        "building": "orchard_jam",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "jam",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cherry_wood",
+    "producer": "orchard_cherry_wood",
+    "steps": [
+      {
+        "building": "orchard_cherry_wood",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "cherry_wood",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "resin",
+    "producer": "orchard_resin",
+    "steps": [
+      {
+        "building": "orchard_resin",
+        "inputs": [
+          {
+            "good": "cultivation_area",
+            "amountPerMinute": 0
+          }
+        ],
+        "outputs": [
+          {
+            "good": "resin",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "elevators",
+    "producer": "assembly_line_elevators",
+    "steps": [
+      {
+        "building": "assembly_line_elevators",
+        "inputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "wood_veneers",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "steam_motors",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "elevators",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "biscuits",
+    "producer": "assembly_line_biscuits",
+    "steps": [
+      {
+        "building": "assembly_line_biscuits",
+        "inputs": [
+          {
+            "good": "tallow",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "flour",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "citrus",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "biscuits",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "typewriters",
+    "producer": "assembly_line_typewriters",
+    "steps": [
+      {
+        "building": "assembly_line_typewriters",
+        "inputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "brass",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "lacquer",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "typewriters",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "lacquer",
+    "producer": "chemical_plant_lacquer",
+    "steps": [
+      {
+        "building": "chemical_plant_lacquer",
+        "inputs": [
+          {
+            "good": "quartz_sand",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "resin",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "ethanol",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "lacquer",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "cognac",
+    "producer": "artisans_workshop_cognac",
+    "steps": [
+      {
+        "building": "artisans_workshop_cognac",
+        "inputs": [
+          {
+            "good": "grapes",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "cherry_wood",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "sugar",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "cognac",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "violins",
+    "producer": "artisans_workshop_violins",
+    "steps": [
+      {
+        "building": "artisans_workshop_violins",
+        "inputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "cherry_wood",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "lacquer",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "violins",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "billiard_tables",
+    "producer": "artisans_workshop_billiard_tables",
+    "steps": [
+      {
+        "building": "artisans_workshop_billiard_tables",
+        "inputs": [
+          {
+            "good": "cherry_wood",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "felt",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "celluloid",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "billiard_tables",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "toys",
+    "producer": "artisans_workshop_toys",
+    "steps": [
+      {
+        "building": "artisans_workshop_toys",
+        "inputs": [
+          {
+            "good": "felt",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "celluloid",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "lacquer",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "toys",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "chewing_gum_135186",
+    "producer": "chemical_plant_chewing_gum",
+    "steps": [
+      {
+        "building": "chemical_plant_chewing_gum",
+        "inputs": [
+          {
+            "good": "caoutchouc",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "sugar",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "cinnamon",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "chewing_gum_135186",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "ethanol",
+    "producer": "chemical_plant_ethanol",
+    "steps": [
+      {
+        "building": "chemical_plant_ethanol",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "corn",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "ethanol",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "celluloid",
+    "producer": "chemical_plant_celluloid",
+    "steps": [
+      {
+        "building": "chemical_plant_celluloid",
+        "inputs": [
+          {
+            "good": "cotton",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "camphor_wax",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "ethanol",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "celluloid",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "nandu_leather",
+    "producer": "nandu_farm",
+    "steps": [
+      {
+        "building": "nandu_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "nandu_leather",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "herbs",
+    "producer": "herb_garden",
+    "steps": [
+      {
+        "building": "herb_garden",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "herbs",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "orchid",
+    "producer": "orchid_farm",
+    "steps": [
+      {
+        "building": "orchid_farm",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "orchid",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "calamari",
+    "producer": "calamari_fishery",
+    "steps": [
+      {
+        "building": "calamari_fishery",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "calamari",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "steel",
+    "producer": "furnace_6080",
+    "steps": [
+      {
+        "building": "furnace_6080",
+        "inputs": [
+          {
+            "good": "iron",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "coal_1010226",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "sewing_machines",
+    "producer": "sewing_machine_factory_6083",
+    "steps": [
+      {
+        "building": "sewing_machine_factory_6083",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "aluminium_profiles",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "sewing_machines",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "electric_cables",
+    "producer": "cable_factory",
+    "steps": [
+      {
+        "building": "cable_factory",
+        "inputs": [
+          {
+            "good": "copper",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "caoutchouc",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "electric_cables",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "jalea",
+    "producer": "jalea_kitchen",
+    "steps": [
+      {
+        "building": "jalea_kitchen",
+        "inputs": [
+          {
+            "good": "calamari",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "herbs",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "corn",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "jalea",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "ice_cream",
+    "producer": "ice_cream_factory",
+    "steps": [
+      {
+        "building": "ice_cream_factory",
+        "inputs": [
+          {
+            "good": "milk",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "chocolate",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "citrus",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "ice_cream",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "mezcal",
+    "producer": "mezcal_bar",
+    "steps": [
+      {
+        "building": "mezcal_bar",
+        "inputs": [
+          {
+            "good": "citrus",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "sugar",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "herbs",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "mezcal",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "scooter",
+    "producer": "scooter_factory",
+    "steps": [
+      {
+        "building": "scooter_factory",
+        "inputs": [
+          {
+            "good": "motor",
+            "amountPerMinute": 0.5
+          },
+          {
+            "good": "pigments",
+            "amountPerMinute": 0.5
+          },
+          {
+            "good": "caoutchouc",
+            "amountPerMinute": 0.5
+          }
+        ],
+        "outputs": [
+          {
+            "good": "scooter",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "motor",
+    "producer": "motor_assembly_plant",
+    "steps": [
+      {
+        "building": "motor_assembly_plant",
+        "inputs": [
+          {
+            "good": "electric_cables",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "celluloid",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "steel",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "motor",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fans",
+    "producer": "fan_factory",
+    "steps": [
+      {
+        "building": "fan_factory",
+        "inputs": [
+          {
+            "good": "motor",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "aluminium_profiles",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "fans",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "iron",
+    "producer": "mineral_mine",
+    "steps": [
+      {
+        "building": "mineral_mine",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "iron",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "minerals",
+    "producer": "mineral_mine_1390",
+    "steps": [
+      {
+        "building": "mineral_mine_1390",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "minerals",
+            "amountPerMinute": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "perfumes",
+    "producer": "perfume_mixer",
+    "steps": [
+      {
+        "building": "perfume_mixer",
+        "inputs": [
+          {
+            "good": "orchid",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "ethanol",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "coconut_oil",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "perfumes",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "soccer_balls",
+    "producer": "ball_manufactory",
+    "steps": [
+      {
+        "building": "ball_manufactory",
+        "inputs": [
+          {
+            "good": "nandu_leather",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "caoutchouc",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "soccer_balls",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "costumes",
+    "producer": "costume_shop",
+    "steps": [
+      {
+        "building": "costume_shop",
+        "inputs": [
+          {
+            "good": "cotton_fabric",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "pigments",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "nandu_feathers",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "costumes",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "film_reel",
+    "producer": "chemical_plant_film_reels",
+    "steps": [
+      {
+        "building": "chemical_plant_film_reels",
+        "inputs": [
+          {
+            "good": "saltpeter",
+            "amountPerMinute": 2
+          },
+          {
+            "good": "celluloid",
+            "amountPerMinute": 2
+          }
+        ],
+        "outputs": [
+          {
+            "good": "film_reel",
+            "amountPerMinute": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "police_equipment",
+    "producer": "arsenal_police_equipment",
+    "steps": [
+      {
+        "building": "arsenal_police_equipment",
+        "inputs": [
+          {
+            "good": "wood",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "steel",
+            "amountPerMinute": 1
+          },
+          {
+            "good": "cotton_fabric",
+            "amountPerMinute": 1
+          }
+        ],
+        "outputs": [
+          {
+            "good": "police_equipment",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "fire_extinguishers",
+    "producer": "laboratory_fire_extinguisher",
+    "steps": [
+      {
+        "building": "laboratory_fire_extinguisher",
+        "inputs": [
+          {
+            "good": "steel",
+            "amountPerMinute": 1.3333333333333335
+          },
+          {
+            "good": "caoutchouc",
+            "amountPerMinute": 1.3333333333333335
+          }
+        ],
+        "outputs": [
+          {
+            "good": "fire_extinguishers",
+            "amountPerMinute": 1.3333333333333335
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "medicine",
+    "producer": "laboratory_medicine",
+    "steps": [
+      {
+        "building": "laboratory_medicine",
+        "inputs": [
+          {
+            "good": "herbs",
+            "amountPerMinute": 1.3333333333333335
+          },
+          {
+            "good": "orchid",
+            "amountPerMinute": 1.3333333333333335
+          },
+          {
+            "good": "ethanol",
+            "amountPerMinute": 1.3333333333333335
+          }
+        ],
+        "outputs": [
+          {
+            "good": "medicine",
+            "amountPerMinute": 1.3333333333333335
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "pigments",
+    "producer": "laboratory_pigments",
+    "steps": [
+      {
+        "building": "laboratory_pigments",
+        "inputs": [
+          {
+            "good": "minerals",
+            "amountPerMinute": 1.3333333333333335
+          },
+          {
+            "good": "saltpeter",
+            "amountPerMinute": 1.3333333333333335
+          }
+        ],
+        "outputs": [
+          {
+            "good": "pigments",
+            "amountPerMinute": 1.3333333333333335
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "saltpeter",
+    "producer": "powered_pasture",
+    "steps": [
+      {
+        "building": "powered_pasture",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "saltpeter",
+            "amountPerMinute": 0.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "milk",
+    "producer": "powered_pasture_8002",
+    "steps": [
+      {
+        "building": "powered_pasture_8002",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "milk",
+            "amountPerMinute": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "nandu_feathers",
+    "producer": "powered_pasture_8026",
+    "steps": [
+      {
+        "building": "powered_pasture_8026",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "nandu_feathers",
+            "amountPerMinute": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product": "dung",
+    "producer": "all_animal_farms",
+    "steps": [
+      {
+        "building": "all_animal_farms",
+        "inputs": [],
+        "outputs": [
+          {
+            "good": "dung",
+            "amountPerMinute": 0.6666666666666666
+          }
+        ]
+      }
+    ]
+  }
+]

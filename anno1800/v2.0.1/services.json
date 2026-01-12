@@ -1,0 +1,820 @@
+[
+  {
+    "id": "hacienda",
+    "name": "Hacienda",
+    "guid": 25546,
+    "icon": "A7_hacienda_cart.png",
+    "buildingProvides": [
+      "hacienda",
+      "hacienda_artista_quarters",
+      "hacienda_atole_maker",
+      "hacienda_beer_brewery",
+      "hacienda_brewery",
+      "hacienda_caoutchouc_plantation",
+      "hacienda_cart",
+      "hacienda_cocoa_farm",
+      "hacienda_coffee_farm",
+      "hacienda_colonnade",
+      "hacienda_corn_farm",
+      "hacienda_crate_stack",
+      "hacienda_farm",
+      "hacienda_fertiliser_works",
+      "hacienda_flowerbed",
+      "hacienda_grain_farm",
+      "hacienda_haystacks",
+      "hacienda_hot_sauce_factory",
+      "hacienda_jornalero_quarters",
+      "hacienda_obrera_quarters",
+      "hacienda_palm_tree",
+      "hacienda_pathway",
+      "hacienda_paving",
+      "hacienda_pool",
+      "hacienda_potato_farm",
+      "hacienda_rum_distillery",
+      "hacienda_schnapps_distillery",
+      "hacienda_shed",
+      "hacienda_spice_farm",
+      "hacienda_storeroom",
+      "hacienda_sugar_cane_farm",
+      "hacienda_wall",
+      "large_hacienda_gateway",
+      "small_hacienda_gateway"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "seeds_of_change"
+    ]
+  },
+  {
+    "id": "electricity",
+    "name": "Electricity",
+    "guid": 120022,
+    "icon": "A7_electricity.png",
+    "buildingProvides": [
+      "gas_fired_power_plant",
+      "oil_power_plant"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "mineral_resource",
+    "name": "Mineral Resource",
+    "guid": 1591,
+    "icon": "A7_mineral_desposits.png",
+    "buildingProvides": [],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "cultivation_area",
+    "name": "Cultivation Area",
+    "guid": 1955,
+    "icon": "A7_fertile_lands.png",
+    "buildingProvides": [],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "guid": 917,
+    "icon": "A7_dropgood_water.png",
+    "buildingProvides": [
+      "clearwater_pool",
+      "elevated_water_pipes",
+      "water_drop_factory",
+      "water_drop_factory_937",
+      "water_pipe_connector",
+      "water_pipe_network",
+      "water_pipes",
+      "water_pump",
+      "water_pump_114544",
+      "water_purifier",
+      "water_tank",
+      "water_tower",
+      "water_trough",
+      "watering_hole"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "market",
+    "name": "Market",
+    "guid": 120020,
+    "icon": "A7_market.png",
+    "buildingProvides": [
+      "market_hall",
+      "marketplace",
+      "marketplace_101257",
+      "marketplace_114518"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "pub",
+    "name": "Pub",
+    "guid": 1010349,
+    "icon": "A7_Pub.png",
+    "buildingProvides": [
+      "pub",
+      "public_mooring",
+      "public_timepiece"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "church",
+    "name": "Church",
+    "guid": 1010350,
+    "icon": "A7_Church.png",
+    "buildingProvides": [
+      "church"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "school",
+    "name": "School",
+    "guid": 1010351,
+    "icon": "A7_School.png",
+    "buildingProvides": [
+      "samba_school",
+      "school"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "variety_theatre",
+    "name": "Variety Theatre",
+    "guid": 1010352,
+    "icon": "A7_cabaret.png",
+    "buildingProvides": [
+      "variety_theatre"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "university",
+    "name": "University",
+    "guid": 1010353,
+    "icon": "A7_University.png",
+    "buildingProvides": [
+      "university"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "electricity_1010354",
+    "name": "Electricity",
+    "guid": 1010354,
+    "icon": "A7_electricity.png",
+    "buildingProvides": [
+      "gas_fired_power_plant",
+      "oil_power_plant"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "members_club",
+    "name": "Members Club",
+    "guid": 1010355,
+    "icon": "A7_club_house.png",
+    "buildingProvides": [
+      "members_club"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "bank",
+    "name": "Bank",
+    "guid": 1010356,
+    "icon": "A7_Bank.png",
+    "buildingProvides": [
+      "bank",
+      "furniture_store_bankers_lamps"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "chapel",
+    "name": "Chapel",
+    "guid": 120050,
+    "icon": "A7_Church.png",
+    "buildingProvides": [
+      "chapel"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "boxing_arena",
+    "name": "Boxing Arena",
+    "guid": 1010348,
+    "icon": "A7_box_arena.png",
+    "buildingProvides": [
+      "boxing_arena"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "heat",
+    "name": "Heat",
+    "guid": 112708,
+    "icon": "A7_heating_center.png",
+    "buildingProvides": [
+      "heater",
+      "variety_theatre"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "post_office",
+    "name": "Post Office",
+    "guid": 112693,
+    "icon": "A7_post_office.png",
+    "buildingProvides": [
+      "post_office",
+      "post_office_3761",
+      "post_office_4260"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "empire_of_the_skies"
+    ]
+  },
+  {
+    "id": "canteen",
+    "name": "Canteen",
+    "guid": 114890,
+    "icon": "A7_canteen.png",
+    "buildingProvides": [
+      "canteen"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "fuel",
+    "name": "Fuel",
+    "guid": 269751,
+    "icon": "icon_gasoline_3d_outline.png",
+    "buildingProvides": [
+      "fuel_station",
+      "fuel_station_119028",
+      "fuel_station_269840",
+      "fuel_station_3"
+    ],
+    "iconSource": "calculator",
+    "dlcsRequired": []
+  },
+  {
+    "id": "tourist_mooring",
+    "name": "Tourist Mooring",
+    "guid": 133891,
+    "icon": "A7_visitor_harbour.png",
+    "buildingProvides": [
+      "public_mooring"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ]
+  },
+  {
+    "id": "restaurant",
+    "name": "Restaurant",
+    "guid": 132751,
+    "icon": "A7_restaurant.png",
+    "buildingProvides": [
+      "restaurant"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ]
+  },
+  {
+    "id": "bar",
+    "name": "Bar",
+    "guid": 132754,
+    "icon": "A7_bar.png",
+    "buildingProvides": [
+      "bar"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ]
+  },
+  {
+    "id": "cafe",
+    "name": "Caf\u00e9",
+    "guid": 132755,
+    "icon": "A7_caffee.png",
+    "buildingProvides": [
+      "cafe"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ]
+  },
+  {
+    "id": "variety_theatre_133573",
+    "name": "Variety Theatre",
+    "guid": 133573,
+    "icon": "A7_cabaret.png",
+    "buildingProvides": [
+      "variety_theatre"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "zoo",
+    "name": "Zoo",
+    "guid": 601485,
+    "icon": "A7_Zoo.png",
+    "buildingProvides": [
+      "zoo"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "museum",
+    "name": "Museum",
+    "guid": 133535,
+    "icon": "A7_Museum.png",
+    "buildingProvides": [
+      "museum"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "botanical_garden",
+    "name": "Botanical Garden",
+    "guid": 355,
+    "icon": "A7_botanic_garden.png",
+    "buildingProvides": [
+      "botanical_garden"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "palace",
+    "name": "Palace",
+    "guid": 134257,
+    "icon": "A7_palace.png",
+    "buildingProvides": [
+      "palace"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "seat_of_power"
+    ]
+  },
+  {
+    "id": "the_iron_tower",
+    "name": "The Iron Tower",
+    "guid": 132761,
+    "icon": "A7_eiffel_tower.png",
+    "buildingProvides": [
+      "the_iron_tower_foundations"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "tourist_season"
+    ]
+  },
+  {
+    "id": "worlds_fair",
+    "name": "World's Fair",
+    "guid": 133536,
+    "icon": "A7_world_fair_2.png",
+    "buildingProvides": [
+      "worlds_fair_foundations"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "docklands",
+    "name": "Docklands",
+    "guid": 134781,
+    "icon": "A7_docklands_main.png",
+    "buildingProvides": [
+      "docklands_main_wharf"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "skyline_tower",
+    "name": "Skyline Tower",
+    "guid": 137757,
+    "icon": "A7_highlife_skyliner_monument.png",
+    "buildingProvides": [
+      "skyline_tower"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "department_store",
+    "name": "Department Store",
+    "guid": 135108,
+    "icon": "A7_mall.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "high_life"
+    ]
+  },
+  {
+    "id": "furniture_store",
+    "name": "Furniture Store",
+    "guid": 135107,
+    "icon": "A7_furnitures.png",
+    "buildingProvides": [
+      "furniture_store",
+      "furniture_store_bankers_lamps",
+      "furniture_store_four_poster_beds",
+      "furniture_store_lounge_seating",
+      "furniture_store_vanity_screens",
+      "furniture_store_writing_desks"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "high_life"
+    ]
+  },
+  {
+    "id": "drug_store",
+    "name": "Drug Store",
+    "guid": 135109,
+    "icon": "A7_drugstore.png",
+    "buildingProvides": [
+      "drug_store",
+      "drug_store_detergent",
+      "drug_store_face_cream",
+      "drug_store_lipstick",
+      "drug_store_pomade",
+      "drug_store_toothpaste"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "high_life"
+    ]
+  },
+  {
+    "id": "samba_school",
+    "name": "Samba School",
+    "guid": 5831,
+    "icon": "A7_School.png",
+    "buildingProvides": [
+      "samba_school"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "cinema",
+    "name": "Cinema",
+    "guid": 5830,
+    "icon": "icon_cinema.png",
+    "buildingProvides": [
+      "cinema"
+    ],
+    "iconSource": "calculator",
+    "dlcsRequired": []
+  },
+  {
+    "id": "beach",
+    "name": "Beach",
+    "guid": 6265,
+    "icon": "icon_beach.png",
+    "buildingProvides": [],
+    "iconSource": "calculator",
+    "dlcsRequired": []
+  },
+  {
+    "id": "marketplace",
+    "name": "Marketplace",
+    "guid": 114355,
+    "icon": "A7_Marketplace.png",
+    "buildingProvides": [
+      "marketplace",
+      "marketplace_101257",
+      "marketplace_114518"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "musicians_court",
+    "name": "Musicians' Court",
+    "guid": 114361,
+    "icon": "A7_music_plaza.png",
+    "buildingProvides": [
+      "musicians_court"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "monastery",
+    "name": "Monastery",
+    "guid": 114362,
+    "icon": "A7_monastery.png",
+    "buildingProvides": [
+      "monastery"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "radio_tower",
+    "name": "Radio Tower",
+    "guid": 114425,
+    "icon": "A7_radio_station.png",
+    "buildingProvides": [
+      "radio_tower"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "waste_water",
+    "name": "Waste Water",
+    "guid": 25073,
+    "icon": "icon_rich_sea_2.png",
+    "buildingProvides": [],
+    "iconSource": "calculator",
+    "dlcsRequired": []
+  },
+  {
+    "id": "toaster_supply",
+    "name": "Toaster Supply",
+    "guid": 135816,
+    "icon": "A7_toaster.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "crockery_supply",
+    "name": "Crockery Supply",
+    "guid": 135876,
+    "icon": "A7_dishes.png",
+    "buildingProvides": [
+      "furniture_store",
+      "furniture_store_bankers_lamps",
+      "furniture_store_four_poster_beds",
+      "furniture_store_lounge_seating",
+      "furniture_store_vanity_screens",
+      "furniture_store_writing_desks"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "vaccum_cleaner_supply",
+    "name": "Vaccum Cleaner Supply",
+    "guid": 135877,
+    "icon": "A7_vacuumcleaner.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "refrigerator_supply",
+    "name": "Refrigerator Supply",
+    "guid": 135878,
+    "icon": "A7_refrigerator.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "briefcase_supply",
+    "name": "Briefcase Supply",
+    "guid": 135879,
+    "icon": "A7_suitcase.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "bankers_lamp_supply",
+    "name": "Banker's Lamp Supply",
+    "guid": 135880,
+    "icon": "A7_bankerlamp.png",
+    "buildingProvides": [
+      "furniture_store",
+      "furniture_store_bankers_lamps",
+      "furniture_store_four_poster_beds",
+      "furniture_store_lounge_seating",
+      "furniture_store_vanity_screens",
+      "furniture_store_writing_desks"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "vanity_screen_supply",
+    "name": "Vanity Screen Supply",
+    "guid": 135881,
+    "icon": "A7_paravent.png",
+    "buildingProvides": [
+      "furniture_store",
+      "furniture_store_bankers_lamps",
+      "furniture_store_four_poster_beds",
+      "furniture_store_lounge_seating",
+      "furniture_store_vanity_screens",
+      "furniture_store_writing_desks"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "writing_desk_supply",
+    "name": "Writing Desk Supply",
+    "guid": 135882,
+    "icon": "A7_secretary.png",
+    "buildingProvides": [
+      "furniture_store",
+      "furniture_store_bankers_lamps",
+      "furniture_store_four_poster_beds",
+      "furniture_store_lounge_seating",
+      "furniture_store_vanity_screens",
+      "furniture_store_writing_desks"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "four_poster_bed_supply",
+    "name": "Four-Poster Bed Supply",
+    "guid": 135883,
+    "icon": "A7_canopy.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": [
+      "empire_of_the_skies"
+    ]
+  },
+  {
+    "id": "lounge_seating_supply",
+    "name": "Lounge Seating Supply",
+    "guid": 135884,
+    "icon": "A7_chesterfield.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "toothpaste_supply",
+    "name": "Toothpaste Supply",
+    "guid": 135885,
+    "icon": "A7_toothpaste.png",
+    "buildingProvides": [
+      "drug_store",
+      "drug_store_detergent",
+      "drug_store_face_cream",
+      "drug_store_lipstick",
+      "drug_store_pomade",
+      "drug_store_toothpaste"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "detergent_supply",
+    "name": "Detergent Supply",
+    "guid": 135886,
+    "icon": "A7_detergent.png",
+    "buildingProvides": [
+      "drug_store",
+      "drug_store_detergent",
+      "drug_store_face_cream",
+      "drug_store_lipstick",
+      "drug_store_pomade",
+      "drug_store_toothpaste"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "lipstick_supply",
+    "name": "Lipstick Supply",
+    "guid": 135887,
+    "icon": "A7_lipstick.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "face_cream_supply",
+    "name": "Face Cream Supply",
+    "guid": 135888,
+    "icon": "A7_facecreme.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  },
+  {
+    "id": "pomade_supply",
+    "name": "Pomade Supply",
+    "guid": 135889,
+    "icon": "A7_pomade.png",
+    "buildingProvides": [
+      "department_store",
+      "department_store_briefcases",
+      "department_store_crockery",
+      "department_store_refrigerators",
+      "department_store_toasters",
+      "department_store_vacuum_cleaners"
+    ],
+    "iconSource": "annoDesigner",
+    "dlcsRequired": []
+  }
+]

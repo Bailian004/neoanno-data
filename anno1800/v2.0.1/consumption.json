@@ -1,0 +1,1010 @@
+[
+  {
+    "tier": "farmers",
+    "region": "Old World",
+    "needs": [
+      {
+        "good": "fish",
+        "consumptionPer1000": 2.5000002
+      },
+      {
+        "good": "schnapps",
+        "consumptionPer1000": 3.333336
+      },
+      {
+        "good": "work_clothes",
+        "consumptionPer1000": 3.076926
+      },
+      {
+        "good": "flour",
+        "consumptionPer1000": 2.4000000000000004
+      },
+      {
+        "good": "sugar",
+        "consumptionPer1000": 1.2000000000000002
+      },
+      {
+        "good": "jam",
+        "consumptionPer1000": 1.9999997999999999
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.6000020000000001
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.799998
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.30000000000000004
+      },
+      {
+        "good": "soap",
+        "consumptionPer1000": 0.34999998000000004
+      },
+      {
+        "good": "herbs",
+        "consumptionPer1000": 1.6999998000000003
+      },
+      {
+        "good": "hibiscus_petals",
+        "consumptionPer1000": 1.0000002
+      }
+    ]
+  },
+  {
+    "tier": "workers",
+    "region": "Old World",
+    "needs": [
+      {
+        "good": "fish",
+        "consumptionPer1000": 2.5000002
+      },
+      {
+        "good": "schnapps",
+        "consumptionPer1000": 3.333336
+      },
+      {
+        "good": "work_clothes",
+        "consumptionPer1000": 3.076926
+      },
+      {
+        "good": "sausages",
+        "consumptionPer1000": 1.000002
+      },
+      {
+        "good": "bread",
+        "consumptionPer1000": 0.9090899999999998
+      },
+      {
+        "good": "soap",
+        "consumptionPer1000": 0.416667
+      },
+      {
+        "good": "beer",
+        "consumptionPer1000": 0.76923
+      },
+      {
+        "good": "rum",
+        "consumptionPer1000": 0.9999998999999999
+      },
+      {
+        "good": "penny_farthings",
+        "consumptionPer1000": 0.3999999
+      },
+      {
+        "good": "hot_sauce",
+        "consumptionPer1000": 0.5000001
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.6250010000000004
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.399999
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.375
+      },
+      {
+        "good": "beef",
+        "consumptionPer1000": 0.6249998999999999
+      },
+      {
+        "good": "soccer_balls",
+        "consumptionPer1000": 0.5000001
+      },
+      {
+        "good": "clay_pipe",
+        "consumptionPer1000": 0.3333333
+      }
+    ]
+  },
+  {
+    "tier": "artisans",
+    "region": "Old World",
+    "needs": [
+      {
+        "good": "sausages",
+        "consumptionPer1000": 1.333334
+      },
+      {
+        "good": "bread",
+        "consumptionPer1000": 1.212122
+      },
+      {
+        "good": "soap",
+        "consumptionPer1000": 0.555556
+      },
+      {
+        "good": "beer",
+        "consumptionPer1000": 1.025642
+      },
+      {
+        "good": "canned_food",
+        "consumptionPer1000": 0.34188
+      },
+      {
+        "good": "sewing_machines",
+        "consumptionPer1000": 0.95238
+      },
+      {
+        "good": "rum",
+        "consumptionPer1000": 1.9047619999999998
+      },
+      {
+        "good": "fur_coats",
+        "consumptionPer1000": 0.8888879999999999
+      },
+      {
+        "good": "wool",
+        "consumptionPer1000": 2.0
+      },
+      {
+        "good": "clay",
+        "consumptionPer1000": 2.6666659999999998
+      },
+      {
+        "good": "paper",
+        "consumptionPer1000": 1.0
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.533334
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.366666
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.333334
+      },
+      {
+        "good": "soccer_balls",
+        "consumptionPer1000": 0.6666665999999999
+      },
+      {
+        "good": "perfumes",
+        "consumptionPer1000": 0.25
+      },
+      {
+        "good": "scooter",
+        "consumptionPer1000": 0.21666660000000001
+      }
+    ]
+  },
+  {
+    "tier": "engineers",
+    "region": "Old World",
+    "needs": [
+      {
+        "good": "canned_food",
+        "consumptionPer1000": 0.5128199999999999
+      },
+      {
+        "good": "sewing_machines",
+        "consumptionPer1000": 1.4285714999999999
+      },
+      {
+        "good": "rum",
+        "consumptionPer1000": 2.8571429999999998
+      },
+      {
+        "good": "fur_coats",
+        "consumptionPer1000": 1.3333335000000002
+      },
+      {
+        "good": "spectacles",
+        "consumptionPer1000": 0.222222
+      },
+      {
+        "good": "penny_farthings",
+        "consumptionPer1000": 0.6250005000000001
+      },
+      {
+        "good": "coffee",
+        "consumptionPer1000": 1.176471
+      },
+      {
+        "good": "pocket_watches",
+        "consumptionPer1000": 0.19607850000000002
+      },
+      {
+        "good": "light_bulbs",
+        "consumptionPer1000": 0.3124995
+      },
+      {
+        "good": "chewing_gum_135186",
+        "consumptionPer1000": 0.13000004999999998
+      },
+      {
+        "good": "typewriters",
+        "consumptionPer1000": 0.1999995
+      },
+      {
+        "good": "violins",
+        "consumptionPer1000": 0.07500000000000001
+      },
+      {
+        "good": "soap",
+        "consumptionPer1000": 0.7812501
+      },
+      {
+        "good": "chocolate",
+        "consumptionPer1000": 0.375
+      },
+      {
+        "good": "shampoo",
+        "consumptionPer1000": 0.45
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.5625005
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.375
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.30000000000000004
+      },
+      {
+        "good": "mezcal",
+        "consumptionPer1000": 0.375
+      },
+      {
+        "good": "ice_cream",
+        "consumptionPer1000": 0.49999994999999997
+      },
+      {
+        "good": "medicine",
+        "consumptionPer1000": 0.41666669999999995
+      }
+    ]
+  },
+  {
+    "tier": "investors",
+    "region": "Old World",
+    "needs": [
+      {
+        "good": "spectacles",
+        "consumptionPer1000": 0.35555519999999996
+      },
+      {
+        "good": "penny_farthings",
+        "consumptionPer1000": 0.9999995999999999
+      },
+      {
+        "good": "coffee",
+        "consumptionPer1000": 1.8823524
+      },
+      {
+        "good": "pocket_watches",
+        "consumptionPer1000": 0.3137256
+      },
+      {
+        "good": "light_bulbs",
+        "consumptionPer1000": 0.5000004
+      },
+      {
+        "good": "champagne",
+        "consumptionPer1000": 0.4704
+      },
+      {
+        "good": "cigars",
+        "consumptionPer1000": 0.444444
+      },
+      {
+        "good": "chocolate",
+        "consumptionPer1000": 1.0666668
+      },
+      {
+        "good": "jewelry",
+        "consumptionPer1000": 0.4210524
+      },
+      {
+        "good": "gramophones",
+        "consumptionPer1000": 0.10524
+      },
+      {
+        "good": "steam_carriages",
+        "consumptionPer1000": 0.13333319999999999
+      },
+      {
+        "good": "chewing_gum_135186",
+        "consumptionPer1000": 0.11000004
+      },
+      {
+        "good": "biscuits",
+        "consumptionPer1000": 0.5360004
+      },
+      {
+        "good": "cognac",
+        "consumptionPer1000": 0.2199996
+      },
+      {
+        "good": "typewriters",
+        "consumptionPer1000": 0.2799996
+      },
+      {
+        "good": "billiard_tables",
+        "consumptionPer1000": 0.2600004
+      },
+      {
+        "good": "violins",
+        "consumptionPer1000": 0.0636
+      },
+      {
+        "good": "toys",
+        "consumptionPer1000": 0.11199996000000001
+      },
+      {
+        "good": "furs",
+        "consumptionPer1000": 0.32000004
+      },
+      {
+        "good": "bear_fur",
+        "consumptionPer1000": 0.12999996
+      },
+      {
+        "good": "tapestries",
+        "consumptionPer1000": 0.32000004
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.5500004
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.38000040000000007
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.3
+      },
+      {
+        "good": "perfumes",
+        "consumptionPer1000": 0.24999996
+      },
+      {
+        "good": "fans",
+        "consumptionPer1000": 0.3
+      },
+      {
+        "good": "film_reel",
+        "consumptionPer1000": 0.225
+      }
+    ]
+  },
+  {
+    "tier": "jornaleros",
+    "region": "New World",
+    "needs": [
+      {
+        "good": "fried_plantains",
+        "consumptionPer1000": 2.8571400000000002
+      },
+      {
+        "good": "rum",
+        "consumptionPer1000": 1.4285700000000001
+      },
+      {
+        "good": "ponchos",
+        "consumptionPer1000": 2.5000020000000003
+      },
+      {
+        "good": "schnapps",
+        "consumptionPer1000": 3.333336
+      },
+      {
+        "good": "hot_sauce",
+        "consumptionPer1000": 2.50002
+      },
+      {
+        "good": "work_clothes",
+        "consumptionPer1000": 1.5
+      },
+      {
+        "good": "felt",
+        "consumptionPer1000": 2.25
+      },
+      {
+        "good": "teff",
+        "consumptionPer1000": 1.6999998000000003
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.6000020000000001
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.34999998000000004
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.30000000000000004
+      },
+      {
+        "good": "soccer_balls",
+        "consumptionPer1000": 1.9999997999999999
+      }
+    ]
+  },
+  {
+    "tier": "obreros",
+    "region": "New World",
+    "needs": [
+      {
+        "good": "fried_plantains",
+        "consumptionPer1000": 2.8571429999999998
+      },
+      {
+        "good": "rum",
+        "consumptionPer1000": 1.428573
+      },
+      {
+        "good": "ponchos",
+        "consumptionPer1000": 2.4999990000000003
+      },
+      {
+        "good": "tortillas",
+        "consumptionPer1000": 1.4285700000000001
+      },
+      {
+        "good": "hot_sauce",
+        "consumptionPer1000": 1.428573
+      },
+      {
+        "good": "atole",
+        "consumptionPer1000": 2.8571429999999998
+      },
+      {
+        "good": "coffee",
+        "consumptionPer1000": 0.5882369999999999
+      },
+      {
+        "good": "bombins",
+        "consumptionPer1000": 1.333332
+      },
+      {
+        "good": "beer",
+        "consumptionPer1000": 1.333332
+      },
+      {
+        "good": "cigars",
+        "consumptionPer1000": 0.555555
+      },
+      {
+        "good": "sewing_machines",
+        "consumptionPer1000": 1.2500010000000001
+      },
+      {
+        "good": "spectacles",
+        "consumptionPer1000": 0.3999999
+      },
+      {
+        "good": "typewriters",
+        "consumptionPer1000": 0.3999999
+      },
+      {
+        "good": "illuminated_script",
+        "consumptionPer1000": 0.375
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 2.300001
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.549999
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.500001
+      },
+      {
+        "good": "scooter",
+        "consumptionPer1000": 0.24999998999999998
+      }
+    ]
+  },
+  {
+    "tier": "artista",
+    "region": "New World",
+    "needs": [
+      {
+        "good": "tortillas",
+        "consumptionPer1000": 0.7142850000000001
+      },
+      {
+        "good": "sewing_machines",
+        "consumptionPer1000": 0.6250005000000001
+      },
+      {
+        "good": "coffee",
+        "consumptionPer1000": 0.29411849999999995
+      },
+      {
+        "good": "bombins",
+        "consumptionPer1000": 0.666666
+      },
+      {
+        "good": "beer",
+        "consumptionPer1000": 1.333332
+      },
+      {
+        "good": "cigars",
+        "consumptionPer1000": 0.2777775
+      },
+      {
+        "good": "soccer_balls",
+        "consumptionPer1000": 0.6250005000000001
+      },
+      {
+        "good": "mezcal",
+        "consumptionPer1000": 1.4285714999999999
+      },
+      {
+        "good": "jalea",
+        "consumptionPer1000": 0.825
+      },
+      {
+        "good": "ice_cream",
+        "consumptionPer1000": 0.13485
+      },
+      {
+        "good": "perfumes",
+        "consumptionPer1000": 1.2499995000000002
+      },
+      {
+        "good": "fans",
+        "consumptionPer1000": 0.078
+      },
+      {
+        "good": "scooter",
+        "consumptionPer1000": 0.04347
+      },
+      {
+        "good": "light_bulbs",
+        "consumptionPer1000": 0.49999994999999997
+      },
+      {
+        "good": "champagne",
+        "consumptionPer1000": 0.45
+      },
+      {
+        "good": "billiard_tables",
+        "consumptionPer1000": 0.1875
+      },
+      {
+        "good": "lanterns",
+        "consumptionPer1000": 0.45
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.875
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.47500050000000005
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.375
+      },
+      {
+        "good": "spectacles",
+        "consumptionPer1000": 0.444444
+      },
+      {
+        "good": "jewelry",
+        "consumptionPer1000": 0.49999994999999997
+      },
+      {
+        "good": "souvenirs",
+        "consumptionPer1000": 0.49999994999999997
+      }
+    ]
+  },
+  {
+    "tier": "tourists",
+    "region": "Old World",
+    "needs": [
+      {
+        "good": "bread",
+        "consumptionPer1000": 0.9999999599999999
+      },
+      {
+        "good": "jam",
+        "consumptionPer1000": 2.0000004000000002
+      },
+      {
+        "good": "shampoo",
+        "consumptionPer1000": 0.9999999599999999
+      },
+      {
+        "good": "fur_coats",
+        "consumptionPer1000": 2.0000004000000002
+      },
+      {
+        "good": "jewelry",
+        "consumptionPer1000": 2.0000004000000002
+      },
+      {
+        "good": "lemonade",
+        "consumptionPer1000": 2.0000004000000002
+      },
+      {
+        "good": "souvenirs",
+        "consumptionPer1000": 3.9999995999999998
+      },
+      {
+        "good": "gramophones",
+        "consumptionPer1000": 0.12
+      },
+      {
+        "good": "bombins",
+        "consumptionPer1000": 0.38999999999999996
+      },
+      {
+        "good": "leather_boots",
+        "consumptionPer1000": 0.084999996
+      },
+      {
+        "good": "mezcal",
+        "consumptionPer1000": 0.34400003999999995
+      },
+      {
+        "good": "ice_cream",
+        "consumptionPer1000": 0.20000004
+      },
+      {
+        "good": "perfumes",
+        "consumptionPer1000": 0.11499999600000001
+      }
+    ]
+  },
+  {
+    "tier": "explorers",
+    "region": "Arctic",
+    "needs": [
+      {
+        "good": "pemmican",
+        "consumptionPer1000": 1.2000000000000002
+      },
+      {
+        "good": "oil_lamps",
+        "consumptionPer1000": 0.6000000000000001
+      },
+      {
+        "good": "sleeping_bags",
+        "consumptionPer1000": 0.9
+      },
+      {
+        "good": "schnapps",
+        "consumptionPer1000": 1.5
+      },
+      {
+        "good": "bread",
+        "consumptionPer1000": 1.0000002
+      },
+      {
+        "good": "tallow",
+        "consumptionPer1000": 3.0
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.5
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.49999997999999996
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.49999997999999996
+      },
+      {
+        "good": "hot_sauce",
+        "consumptionPer1000": 1.9999997999999999
+      }
+    ]
+  },
+  {
+    "tier": "technicians",
+    "region": "Arctic",
+    "needs": [
+      {
+        "good": "pemmican",
+        "consumptionPer1000": 1.2000000000000002
+      },
+      {
+        "good": "oil_lamps",
+        "consumptionPer1000": 0.6000000000000001
+      },
+      {
+        "good": "canned_food",
+        "consumptionPer1000": 0.6000000000000001
+      },
+      {
+        "good": "husky_sleds",
+        "consumptionPer1000": 0.9
+      },
+      {
+        "good": "sleeping_bags",
+        "consumptionPer1000": 0.9
+      },
+      {
+        "good": "schnapps",
+        "consumptionPer1000": 1.5
+      },
+      {
+        "good": "parkas",
+        "consumptionPer1000": 1.2000000000000002
+      },
+      {
+        "good": "coffee",
+        "consumptionPer1000": 1.2000000000000002
+      },
+      {
+        "good": "rum",
+        "consumptionPer1000": 1.5
+      },
+      {
+        "good": "dynamite",
+        "consumptionPer1000": 0.30000000000000004
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.5
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.500001
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.500001
+      },
+      {
+        "good": "mezcal",
+        "consumptionPer1000": 0.6999999
+      },
+      {
+        "good": "motor",
+        "consumptionPer1000": 0.75
+      }
+    ]
+  },
+  {
+    "tier": "shepherds",
+    "region": "Enbesa",
+    "needs": [
+      {
+        "good": "goat_milk",
+        "consumptionPer1000": 3.0
+      },
+      {
+        "good": "finery",
+        "consumptionPer1000": 1.5
+      },
+      {
+        "good": "dried_meat",
+        "consumptionPer1000": 2.1
+      },
+      {
+        "good": "hibiscus_tea",
+        "consumptionPer1000": 1.2000000000000002
+      },
+      {
+        "good": "wanza_timber",
+        "consumptionPer1000": 4.000000200000001
+      },
+      {
+        "good": "grain",
+        "consumptionPer1000": 0.8749998000000001
+      },
+      {
+        "good": "ponchos",
+        "consumptionPer1000": 3.1999998
+      },
+      {
+        "good": "canned_food",
+        "consumptionPer1000": 1.0000002
+      },
+      {
+        "good": "hot_sauce",
+        "consumptionPer1000": 0.49999997999999996
+      },
+      {
+        "good": "jam",
+        "consumptionPer1000": 1.5
+      }
+    ]
+  },
+  {
+    "tier": "elders",
+    "region": "Enbesa",
+    "needs": [
+      {
+        "good": "goat_milk",
+        "consumptionPer1000": 3.0
+      },
+      {
+        "good": "finery",
+        "consumptionPer1000": 1.5
+      },
+      {
+        "good": "dried_meat",
+        "consumptionPer1000": 2.1
+      },
+      {
+        "good": "hibiscus_tea",
+        "consumptionPer1000": 1.2000000000000002
+      },
+      {
+        "good": "ceramics",
+        "consumptionPer1000": 1.2000000000000002
+      },
+      {
+        "good": "tapestries",
+        "consumptionPer1000": 1.05
+      },
+      {
+        "good": "seafood_stew",
+        "consumptionPer1000": 1.11
+      },
+      {
+        "good": "clay_pipe",
+        "consumptionPer1000": 0.45
+      },
+      {
+        "good": "illuminated_script",
+        "consumptionPer1000": 0.54
+      },
+      {
+        "good": "spectacles",
+        "consumptionPer1000": 0.36
+      },
+      {
+        "good": "lanterns",
+        "consumptionPer1000": 0.9
+      },
+      {
+        "good": "cotton_fabric",
+        "consumptionPer1000": 3.0
+      },
+      {
+        "good": "sewing_machines",
+        "consumptionPer1000": 0.9
+      },
+      {
+        "good": "goose_feathers",
+        "consumptionPer1000": 0.24999998999999998
+      },
+      {
+        "good": "soap",
+        "consumptionPer1000": 0.5000001
+      },
+      {
+        "good": "herbs",
+        "consumptionPer1000": 3.249999
+      },
+      {
+        "good": "orchid",
+        "consumptionPer1000": 2.5000002
+      }
+    ]
+  },
+  {
+    "tier": "scholars",
+    "region": "Old World",
+    "needs": [
+      {
+        "good": "canned_food",
+        "consumptionPer1000": 0.5
+      },
+      {
+        "good": "leather_boots",
+        "consumptionPer1000": 1.0
+      },
+      {
+        "good": "rum",
+        "consumptionPer1000": 0.4
+      },
+      {
+        "good": "tailored_suits",
+        "consumptionPer1000": 1.375
+      },
+      {
+        "good": "bombins",
+        "consumptionPer1000": 0.4
+      },
+      {
+        "good": "hibiscus_tea",
+        "consumptionPer1000": 0.875
+      },
+      {
+        "good": "seafood_stew",
+        "consumptionPer1000": 0.75
+      },
+      {
+        "good": "tapestries",
+        "consumptionPer1000": 0.625
+      },
+      {
+        "good": "clay_pipe",
+        "consumptionPer1000": 0.375
+      },
+      {
+        "good": "telephones",
+        "consumptionPer1000": 0.75
+      },
+      {
+        "good": "gramophones",
+        "consumptionPer1000": 0.35
+      },
+      {
+        "good": "local_mail",
+        "consumptionPer1000": 1.5
+      },
+      {
+        "good": "regional_mail",
+        "consumptionPer1000": 0.75
+      },
+      {
+        "good": "overseas_mail",
+        "consumptionPer1000": 0.75
+      },
+      {
+        "good": "saltpeter",
+        "consumptionPer1000": 0.09166665
+      },
+      {
+        "good": "new_world_reports",
+        "consumptionPer1000": 0.3333335
+      },
+      {
+        "good": "arctic_reports",
+        "consumptionPer1000": 0.3333335
+      },
+      {
+        "good": "film_reel",
+        "consumptionPer1000": 0.10416665
+      },
+      {
+        "good": "fans",
+        "consumptionPer1000": 0.08333335
+      },
+      {
+        "good": "scooter",
+        "consumptionPer1000": 0.10416665
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "dlcsRequired": [
+    "docklands"
+  ],
+  "pierUpgrades": [
+    {
+      "rarity": "Common",
+      "factor": 1,
+      "maximumAllowedGoods": -1
+    },
+    {
+      "rarity": "Uncommon",
+      "factor": 1.2,
+      "maximumAllowedGoods": 4
+    },
+    {
+      "rarity": "Rare",
+      "factor": 1.4,
+      "maximumAllowedGoods": 3
+    },
+    {
+      "rarity": "Epic",
+      "factor": 1.6,
+      "maximumAllowedGoods": 2
+    },
+    {
+      "rarity": "Legendary",
+      "factor": 2,
+      "maximumAllowedGoods": 1
+    }
+  ],
+  "interpretation": {
+    "factor": "Multiplier applied to exchangeWeight for export value (calculator model).",
+    "maximumAllowedGoods": "Maximum different goods allowed on a pier at that upgrade rarity. -1 means no limit."
+  },
+  "recommendedUnlockOrder": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Legendary"
+  ]
+}
