@@ -55,4 +55,5 @@ jobs:
           git config user.email "neoanno-bot@users.noreply.github.com"
           git add versions/latest.json
           git commit -m "chore(data): set latest anno1800 to ${{ github.event.release.tag_name }}" || exit 0
-          git push
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push origin HEAD:main
