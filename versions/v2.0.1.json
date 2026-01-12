@@ -1,0 +1,19 @@
+{
+  "id": "v2.0.1",
+  "game": "anno1800",
+  "files": [
+    "meta.json",
+    "buildings.json",
+    "goods.json",
+    "productionChains.json",
+    "consumption.json",
+    "services.json",
+    "residents.json",
+    "items.json",
+    "itemEffects.json",
+    "docklands.json",
+    "docklands-progression.json",
+    "docklands-ui.json",
+    "build-report.json"
+  ]
+}
